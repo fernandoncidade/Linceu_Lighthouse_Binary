@@ -1,0 +1,70 @@
+CONTRATO DE LICENCIAMENTO COMERCIAL - Linceu Lighthouse
+Versão 0.0.2.0, 17 de Agosto de 2025
+
+Este Contrato de Licenciamento ("Contrato") é celebrado entre:
+
+LICENCIADOR: Fernando Nillsson Cidade, doravante designado apenas como "LICENCIADOR".
+e
+LICENCIADO: A pessoa física ou jurídica que adquire a licença comercial do Software, doravante designada apenas como "LICENCIADO".
+
+Este Contrato complementa os termos da Licença de Uso de Usuário Final (EULA) do Linceu Lighthouse e estabelece os termos específicos para uso comercial do software.
+
+1. OBJETO DO CONTRATO
+1.1 O presente Contrato tem por objeto a concessão, pelo LICENCIADOR ao LICENCIADO, de licença de uso do software denominado "Linceu Lighthouse" ("Software"), conforme modalidade de licenciamento adquirida.
+1.2 O Software consiste em um sistema para monitoramento e gerenciamento de arquivos e pastas, desenvolvido para uso em ambiente Windows.
+
+2. MODALIDADES DE LICENCIAMENTO
+2.1 Licença Individual
+   a) Permite a instalação do Software em até 2 (dois) dispositivos pertencentes ao mesmo LICENCIADO.
+   b) Inclui atualizações por 1 (um) ano a partir da data de aquisição.
+   c) Inclui suporte técnico básico por e-mail por 1 (um) ano.
+2.2 Licença Empresarial
+   a) Permite a instalação do Software em até [NÚMERO_ESTAÇÕES] estações de trabalho dentro da mesma organização.
+   b) Inclui atualizações por 1 (um) ano a partir da data de aquisição.
+   c) Inclui suporte técnico prioritário por e-mail e telefone por 1 (um) ano.
+   d) Permite personalização básica da interface conforme necessidades do cliente.
+2.3 Licença Corporativa
+   a) Permite a instalação do Software em número ilimitado de estações de trabalho dentro da mesma organização.
+   b) Inclui atualizações por 2 (dois) anos a partir da data de aquisição.
+   c) Inclui suporte técnico premium 24/7 por e-mail, telefone e acesso remoto.
+   d) Inclui personalização avançada e integração com sistemas existentes.
+   e) Inclui treinamento para equipe.
+
+3. PAGAMENTO
+3.1 O LICENCIADO pagará ao LICENCIADOR o valor correspondente à modalidade de licenciamento escolhida, conforme tabela de preços vigente.
+3.2 Os pagamentos poderão ser efetuados através de boleto bancário, cartão de crédito, transferência bancária ou PIX.
+3.3 Em caso de atraso no pagamento, incidirão juros de mora de 1% ao mês, acrescidos de multa de 2% sobre o valor total da licença.
+
+4. PRAZO E RENOVAÇÃO
+4.1 Este Contrato vigorará pelo prazo especificado na modalidade de licenciamento adquirida.
+4.2 A renovação poderá ser realizada mediante pagamento do valor vigente à época.
+
+5. SUPORTE TÉCNICO
+5.1 O suporte técnico será prestado conforme a modalidade de licenciamento adquirida.
+5.2 O suporte limita-se a questões relacionadas à instalação, configuração e funcionalidades do Software.
+
+6. CONFIDENCIALIDADE
+6.1 As partes se comprometem a manter sigilo sobre todas as informações confidenciais a que tiverem acesso em razão deste Contrato.
+6.2 A obrigação de confidencialidade permanecerá em vigor por 5 (cinco) anos após o término deste Contrato.
+
+7. PROTEÇÃO DE DADOS
+7.1 O LICENCIADOR se compromete a tratar os dados pessoais do LICENCIADO em conformidade com a Lei Geral de Proteção de Dados (Lei 13.709/2018).
+7.2 Os dados coletados serão utilizados exclusivamente para execução deste Contrato, suporte técnico e comunicações relacionadas ao Software.
+
+8. RESCISÃO
+8.1 Este Contrato poderá ser rescindido por violação de qualquer cláusula contratual ou nas hipóteses previstas no EULA.
+8.2 Em caso de rescisão por violação contratual pelo LICENCIADO, não haverá devolução de valores pagos.
+
+9. FORO
+9.1 Para dirimir quaisquer dúvidas ou litígios oriundos deste Contrato comercial, as partes elegem o foro da Comarca de São José dos Pinhais, Estado do Paraná, Brasil, com renúncia a qualquer outro.
+
+E por estarem justas e contratadas, as partes celebram o presente Contrato.
+
+Brasil, Paraná, São José dos Pinhais, 2 de Agosto de 2025
+
+Fernando Nillsson Cidade
+______________________________
+LICENCIADOR
+
+______________________________
+LICENCIADO

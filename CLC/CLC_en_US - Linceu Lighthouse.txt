@@ -1,0 +1,70 @@
+COMMERCIAL LICENSING AGREEMENT - Linceu Lighthouse
+Version 0.0.2.0, August 17, 2025
+
+This Licensing Agreement ("Agreement") is entered into between:
+
+LICENSOR: Fernando Nillsson Cidade, hereinafter referred to as "LICENSOR".
+and
+LICENSEE: The individual or legal entity acquiring the commercial license for the Software, hereinafter referred to as "LICENSEE".
+
+This Agreement supplements the terms of the Linceu Lighthouse End-User License Agreement (EULA) and establishes the specific terms for the commercial use of the software.
+
+1. SUBJECT OF THE AGREEMENT
+1.1 The purpose of this Agreement is the granting, by the LICENSOR to the LICENSEE, of a license to use the software named "Linceu Lighthouse" ("Software"), according to the acquired licensing model.
+1.2 The Software consists of a system for monitoring and managing files and folders, developed for use in a Windows environment.
+
+2. LICENSING MODELS
+2.1 Individual License
+   a) Allows the installation of the Software on up to 2 (two) devices belonging to the same LICENSEE.
+   b) Includes updates for 1 (one) year from the date of acquisition.
+   c) Includes basic technical support via email for 1 (one) year.
+2.2 Business License
+   a) Allows the installation of the Software on up to [NUMBER_OF_WORKSTATIONS] workstations within the same organization.
+   b) Includes updates for 1 (one) year from the date of acquisition.
+   c) Includes priority technical support via email and phone for 1 (one) year.
+   d) Allows for basic interface customization according to the client's needs.
+2.3 Corporate License
+   a) Allows the installation of the Software on an unlimited number of workstations within the same organization.
+   b) Includes updates for 2 (two) years from the date of acquisition.
+   c) Includes premium 24/7 technical support via email, phone, and remote access.
+   d) Includes advanced customization and integration with existing systems.
+   e) Includes team training.
+
+3. PAYMENT
+3.1 The LICENSEE will pay the LICENSOR the amount corresponding to the chosen licensing model, according to the current price list.
+3.2 Payments can be made via bank slip, credit card, bank transfer, or PIX.
+3.3 In case of late payment, interest of 1% per month will apply, plus a 2% fine on the total license value.
+
+4. TERM AND RENEWAL
+4.1 This Agreement will be in effect for the period specified in the acquired licensing model.
+4.2 Renewal can be made by paying the current value at the time.
+
+5. TECHNICAL SUPPORT
+5.1 Technical support will be provided according to the acquired licensing model.
+5.2 Support is limited to issues related to the installation, configuration, and functionalities of the Software.
+
+6. CONFIDENTIALITY
+6.1 The parties undertake to maintain the confidentiality of all confidential information to which they have access by reason of this Agreement.
+6.2 The confidentiality obligation will remain in force for 5 (five) years after the termination of this Agreement.
+
+7. DATA PROTECTION
+7.1 The LICENSOR undertakes to process the LICENSEE's personal data in accordance with the General Data Protection Law (Law 13.709/2018).
+7.2 The collected data will be used exclusively for the execution of this Agreement, technical support, and communications related to the Software.
+
+8. TERMINATION
+8.1 This Agreement may be terminated for breach of any contractual clause or under the hypotheses provided in the EULA.
+8.2 In case of termination due to a contractual breach by the LICENSEE, there will be no refund of amounts paid.
+
+9. JURISDICTION
+9.1 To resolve any doubts or disputes arising from this commercial Agreement, the parties elect the jurisdiction of the District of São José dos Pinhais, State of Paraná, Brazil, waiving any other.
+
+And being in agreement, the parties execute this Agreement.
+
+Brazil, Paraná, São José dos Pinhais, August 2, 2025
+
+Fernando Nillsson Cidade
+______________________________
+LICENSOR
+
+______________________________
+LICENSEE

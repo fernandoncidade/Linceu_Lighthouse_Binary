@@ -1,0 +1,2 @@
+# Linceu_Lighthouse_Binary
+Linceu Lighthouse is a monitoring tool that applies the principles of File Integrity Monitoring (FIM) to provide a detailed and transparent log of all activities in your most important directories. Instead of interpreting the intent behind a change, its focus is to factually record every operation—creation, modification, deletion, and renaming—giving you total control and knowledge of what happens to your data. It is the ideal tool for anyone who needs a clear and auditable history of activities in project folders, servers, or personal files.

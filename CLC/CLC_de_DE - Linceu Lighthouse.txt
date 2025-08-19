@@ -1,0 +1,70 @@
+KOMMERZIELLER LIZENZVERTRAG - Linceu Lighthouse
+Version 0.0.2.0, 17. August 2025
+
+Dieser Lizenzvertrag ("Vertrag") wird geschlossen zwischen:
+
+LIZENZGEBER: Fernando Nillsson Cidade, nachfolgend "LIZENZGEBER" genannt.
+und
+LIZENZNEHMER: Die natürliche oder juristische Person, die die kommerzielle Lizenz für die Software erwirbt, nachfolgend "LIZENZNEHMER" genannt.
+
+Dieser Vertrag ergänzt die Bestimmungen des Endbenutzer-Lizenzvertrags (EULA) von Linceu Lighthouse und legt die spezifischen Bedingungen für die kommerzielle Nutzung der Software fest.
+
+1. VERTRAGSGEGENSTAND
+1.1 Gegenstand dieses Vertrages ist die Gewährung einer Nutzungslizenz für die Software namens "Linceu Lighthouse" ("Software") durch den LIZENZGEBER an den LIZENZNEHMER gemäß dem erworbenen Lizenzmodell.
+1.2 Die Software besteht aus einem System zur Überwachung und Verwaltung von Dateien und Ordnern, das für die Verwendung in einer Windows-Umgebung entwickelt wurde.
+
+2. LIZENZMODELLE
+2.1 Einzellizenz
+   a) Erlaubt die Installation der Software auf bis zu 2 (zwei) Geräten, die demselben LIZENZNEHMER gehören.
+   b) Beinhaltet Updates für 1 (ein) Jahr ab dem Erwerbsdatum.
+   c) Beinhaltet grundlegenden technischen Support per E-Mail für 1 (ein) Jahr.
+2.2 Geschäftslizenz
+   a) Erlaubt die Installation der Software auf bis zu [ANZAHL_DER_ARBEITSPLÄTZE] Arbeitsplätzen innerhalb derselben Organisation.
+   b) Beinhaltet Updates für 1 (ein) Jahr ab dem Erwerbsdatum.
+   c) Beinhaltet priorisierten technischen Support per E-Mail und Telefon für 1 (ein) Jahr.
+   d) Erlaubt eine grundlegende Anpassung der Benutzeroberfläche nach Kundenwunsch.
+2.3 Unternehmenslizenz
+   a) Erlaubt die Installation der Software auf einer unbegrenzten Anzahl von Arbeitsplätzen innerhalb derselben Organisation.
+   b) Beinhaltet Updates für 2 (zwei) Jahre ab dem Erwerbsdatum.
+   c) Beinhaltet Premium-Support rund um die Uhr per E-Mail, Telefon und Fernzugriff.
+   d) Beinhaltet erweiterte Anpassungen und Integration in bestehende Systeme.
+   e) Beinhaltet Schulungen für das Team.
+
+3. ZAHLUNG
+3.1 Der LIZENZNEHMER zahlt dem LIZENZGEBER den Betrag, der dem gewählten Lizenzmodell entspricht, gemäß der aktuellen Preisliste.
+3.2 Zahlungen können per Bankbeleg, Kreditkarte, Banküberweisung oder PIX erfolgen.
+3.3 Bei Zahlungsverzug werden Zinsen in Höhe von 1 % pro Monat sowie eine Strafgebühr von 2 % auf den Gesamtlizenzwert fällig.
+
+4. LAUFZEIT UND VERLÄNGERUNG
+4.1 Dieser Vertrag gilt für den im erworbenen Lizenzmodell angegebenen Zeitraum.
+4.2 Eine Verlängerung kann durch Zahlung des jeweils gültigen Betrags erfolgen.
+
+5. TECHNISCHER SUPPORT
+5.1 Technischer Support wird gemäß dem erworbenen Lizenzmodell bereitgestellt.
+5.2 Der Support beschränkt sich auf Fragen zur Installation, Konfiguration und Funktionalität der Software.
+
+6. VERTRAULICHKEIT
+6.1 Die Parteien verpflichten sich, die Vertraulichkeit aller vertraulichen Informationen zu wahren, zu denen sie aufgrund dieses Vertrags Zugang haben.
+6.2 Die Vertraulichkeitspflicht bleibt für 5 (fünf) Jahre nach Beendigung dieses Vertrags in Kraft.
+
+7. DATENSCHUTZ
+7.1 Der LIZENZGEBER verpflichtet sich, die personenbezogenen Daten des LIZENZNEHMERS gemäß dem Allgemeinen Datenschutzgesetz (Gesetz 13.709/2018) zu verarbeiten.
+7.2 Die erhobenen Daten werden ausschließlich zur Durchführung dieses Vertrags, für den technischen Support und für Mitteilungen im Zusammenhang mit der Software verwendet.
+
+8. KÜNDIGUNG
+8.1 Dieser Vertrag kann bei Verletzung einer Vertragsklausel oder unter den im EULA vorgesehenen Annahmen gekündigt werden.
+8.2 Bei Kündigung aufgrund einer Vertragsverletzung durch den LIZENZNEHMER erfolgt keine Rückerstattung gezahlter Beträge.
+
+9. GERICHTSSTAND
+9.1 Zur Beilegung von Zweifeln oder Streitigkeiten aus diesem kommerziellen Vertrag wählen die Parteien den Gerichtsstand des Bezirks São José dos Pinhais, Bundesstaat Paraná, Brasilien, unter Verzicht auf jeden anderen.
+
+Und in gegenseitigem Einvernehmen führen die Parteien diesen Vertrag aus.
+
+Brasilien, Paraná, São José dos Pinhais, 2. August 2025
+
+Fernando Nillsson Cidade
+______________________________
+LIZENZGEBER
+
+______________________________
+LIZENZNEHMER

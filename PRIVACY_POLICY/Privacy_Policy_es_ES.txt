@@ -1,0 +1,68 @@
+Política de Privacidad de Linceu Lighthouse
+Última actualización: 17 de agosto de 2025
+Versión 0.0.2.0
+
+Su privacidad es fundamental para nosotros. Esta Política de Privacidad explica qué información utiliza Linceu Lighthouse ("Software") y, lo que es más importante, cómo permanece bajo su control.
+
+Al usar Linceu Lighthouse, usted acepta las prácticas aquí descritas.
+
+1. Principio Fundamental: Privacidad Local
+
+Linceu Lighthouse fue diseñado con la privacidad como pilar central. Toda la información y los datos generados por el monitoreo son procesados y almacenados exclusivamente en su computadora local. Ninguna información se transmite a nuestros servidores ni a terceros.
+
+2. Información Procesada por el Software
+
+Para ejecutar sus funciones, el Software accede y procesa los siguientes tipos de datos:
+
+ - Datos de Monitoreo de Archivos: El Software lee metadatos de los archivos y carpetas en los directorios que usted elige monitorear. Esto incluye nombres de archivos, rutas de directorio, fechas de creación/modificación, tamaño y tipo. Esta información es necesaria para detectar y registrar las operaciones de creación, modificación, eliminación y renombrado.
+ - Datos de Diagnóstico y Sistema: Para garantizar el funcionamiento correcto y optimizar la experiencia, el Software puede verificar información básica de su sistema, como la versión del sistema operativo y la configuración de idioma. También puede generar registros de errores locales para ayudar a diagnosticar problemas técnicos.
+
+Aunque el Software accede a rutas de archivos que pueden contener información personal (ej: "C:\Usuarios\SuNombre\Documentos"), no recopila ni transmite esta información fuera de su dispositivo.
+
+3. Uso de la Información
+
+La información procesada por Linceu Lighthouse se utiliza exclusivamente para:
+
+ - Proporcionar la funcionalidad principal de monitoreo de archivos y carpetas.
+ - Mostrar el registro de actividades en la interfaz gráfica del programa.
+ - Permitirle filtrar, buscar y analizar los eventos monitoreados.
+ - Generar gráficos y estadísticas para visualización local.
+ - Permitirle exportar los datos a formatos de archivo de su elección.
+
+4. Almacenamiento, Seguridad e Intercambio de Datos
+
+ - Almacenamiento: Todos los datos de monitoreo se almacenan en una base de datos local en su computadora. Usted tiene control total sobre este archivo.
+ - Seguridad: La seguridad de sus datos depende de la seguridad de su propia computadora. Como el Software no transmite datos por internet, el riesgo de acceso externo se minimiza.
+ - Intercambio: Linceu Lighthouse no recopila, transmite ni comparte ninguna de su información de monitoreo con el desarrollador o con terceros. Cualquier intercambio de datos, como la exportación de un informe, es una acción realizada y controlada exclusivamente por usted.
+
+5. Sus Derechos y Control Total
+
+Usted tiene control absoluto sobre sus datos. En cualquier momento, puede:
+
+ - Elegir exactamente qué directorios monitorear.
+ - Iniciar y detener el monitoreo cuando lo desee.
+ - Visualizar, filtrar y buscar todos los datos registrados.
+ - Exportar los datos a una ubicación de su elección en su computadora.
+ - Limpiar todo el historial de monitoreo directamente desde la interfaz del Software.
+- Desinstalar el Software, lo que eliminará la aplicación y sus componentes de su sistema. Los archivos de base de datos y registros pueden ser eliminados manualmente por usted para garantizar la eliminación completa.
+
+6. Datos de Informes de Errores de Microsoft
+
+Para mejorar la estabilidad y calidad de Linceu Lighthouse, podemos usar el servicio de Informes de Errores de Microsoft. Si la aplicación encuentra un error crítico, se puede enviar información de diagnóstico anónima a Microsoft y, posteriormente, compartirla con nosotros.
+
+Esta práctica se rige por el Acuerdo de Desarrollador de Aplicaciones de Microsoft. Los datos de error que recibimos se utilizan exclusivamente para corregir errores y mejorar el software. Estos informes no incluyen sus archivos personales ni ninguna información que lo identifique directamente.
+
+7. Privacidad de los Niños
+
+Linceu Lighthouse no está destinado a niños menores de 13 años y no recopilamos intencionadamente ninguna información personal.
+
+8. Cambios en esta Política
+
+Esta Política de Privacidad puede actualizarse ocasionalmente. Le notificaremos cualquier cambio actualizando la fecha en la parte superior de este documento y, cuando corresponda, a través de una notificación dentro del Software.
+
+9. Contacto
+
+Si tiene alguna pregunta sobre esta Política de Privacidad, póngase en contacto con:
+
+Fernando Nillsson Cidade
+Correo electrónico: linceu_lighthouse@outlook.com

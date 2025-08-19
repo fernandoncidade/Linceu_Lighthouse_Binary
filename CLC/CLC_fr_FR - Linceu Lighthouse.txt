@@ -1,0 +1,70 @@
+CONTRAT DE LICENCE COMMERCIALE - Linceu Lighthouse
+Version 0.0.2.0, 17 août 2025
+
+Ce Contrat de Licence (« Contrat ») est conclu entre :
+
+LE CONCÉDANT : Fernando Nillsson Cidade, ci-après dénommé « CONCÉDANT ».
+et
+LE LICENCIÉ : La personne physique ou morale qui acquiert la licence commerciale du Logiciel, ci-après dénommée « LICENCIÉ ».
+
+Ce Contrat complète les termes du Contrat de Licence Utilisateur Final (CLUF) de Linceu Lighthouse et établit les conditions spécifiques pour l'utilisation commerciale du logiciel.
+
+1. OBJET DU CONTRAT
+1.1 Le présent Contrat a pour objet l'octroi, par le CONCÉDANT au LICENCIÉ, d'une licence d'utilisation du logiciel dénommé « Linceu Lighthouse » (« Logiciel »), selon le modèle de licence acquis.
+1.2 Le Logiciel consiste en un système de surveillance et de gestion de fichiers et de dossiers, développé pour une utilisation dans un environnement Windows.
+
+2. MODÈLES DE LICENCE
+2.1 Licence Individuelle
+   a) Permet l'installation du Logiciel sur un maximum de 2 (deux) appareils appartenant au même LICENCIÉ.
+   b) Comprend les mises à jour pendant 1 (un) an à compter de la date d'acquisition.
+   c) Comprend un support technique de base par e-mail pendant 1 (un) an.
+2.2 Licence Professionnelle
+   a) Permet l'installation du Logiciel sur un maximum de [NOMBRE_DE_POSTES] postes de travail au sein de la même organisation.
+   b) Comprend les mises à jour pendant 1 (un) an à compter de la date d'acquisition.
+   c) Comprend un support technique prioritaire par e-mail et par téléphone pendant 1 (un) an.
+   d) Permet une personnalisation de base de l'interface selon les besoins du client.
+2.3 Licence d'Entreprise
+   a) Permet l'installation du Logiciel sur un nombre illimité de postes de travail au sein de la même organisation.
+   b) Comprend les mises à jour pendant 2 (deux) ans à compter de la date d'acquisition.
+   c) Comprend un support technique premium 24/7 par e-mail, par téléphone et par accès à distance.
+   d) Comprend une personnalisation avancée et une intégration avec les systèmes existants.
+   e) Comprend la formation de l'équipe.
+
+3. PAIEMENT
+3.1 Le LICENCIÉ paiera au CONCÉDANT le montant correspondant au modèle de licence choisi, selon la liste de prix en vigueur.
+3.2 Les paiements peuvent être effectués par bulletin bancaire, carte de crédit, virement bancaire ou PIX.
+3.3 En cas de retard de paiement, des intérêts de 1 % par mois seront appliqués, ainsi qu'une amende de 2 % sur la valeur totale de la licence.
+
+4. DURÉE ET RENOUVELLEMENT
+4.1 Ce Contrat sera en vigueur pour la période spécifiée dans le modèle de licence acquis.
+4.2 Le renouvellement peut être effectué en payant la valeur en vigueur à ce moment-là.
+
+5. SUPPORT TECHNIQUE
+5.1 Le support technique sera fourni selon le modèle de licence acquis.
+5.2 Le support est limité aux questions relatives à l'installation, à la configuration et aux fonctionnalités du Logiciel.
+
+6. CONFIDENTIALITÉ
+6.1 Les parties s'engagent à préserver la confidentialité de toutes les informations confidentielles auxquelles elles ont accès en vertu de ce Contrat.
+6.2 L'obligation de confidentialité restera en vigueur pendant 5 (cinq) ans après la résiliation de ce Contrat.
+
+7. PROTECTION DES DONNÉES
+7.1 Le CONCÉDANT s'engage à traiter les données personnelles du LICENCIÉ conformément à la Loi Générale sur la Protection des Données (Loi 13.709/2018).
+7.2 Les données collectées seront utilisées exclusivement pour l'exécution de ce Contrat, le support technique et les communications relatives au Logiciel.
+
+8. RÉSILIATION
+8.1 Ce Contrat peut être résilié pour violation de toute clause contractuelle ou dans les hypothèses prévues dans le CLUF.
+8.2 En cas de résiliation pour violation contractuelle par le LICENCIÉ, aucun remboursement des montants payés ne sera effectué.
+
+9. JURIDICTION
+9.1 Pour résoudre tout doute ou litige découlant de ce Contrat commercial, les parties élisent la juridiction du district de São José dos Pinhais, État de Paraná, Brésil, en renonçant à toute autre.
+
+Et étant d'accord, les parties exécutent ce Contrat.
+
+Brésil, Paraná, São José dos Pinhais, 2 août 2025
+
+Fernando Nillsson Cidade
+______________________________
+CONCÉDANT
+
+______________________________
+LICENCIÉ

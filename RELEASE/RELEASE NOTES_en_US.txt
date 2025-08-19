@@ -1,0 +1,50 @@
+RELEASE NOTES: Version 0.0.2.0
+
+In this new version, the following improvements and features have been implemented:
+
+Complete refactoring of the internationalization system:
+- The language and translation system has been entirely rewritten, now using the native resources of the PySide6 framework and the Qt library. This change has resulted in a significant increase in responsiveness and performance.
+- In preliminary tests, a substantial performance gain was observed when translating tables with up to 2,000 events. Above this volume, the interface repaint process impacts performance, which may cause temporary GUI freezes until the workload is completed.
+- Important recommendation: To avoid data loss or unexpected application closure, the language should be set BEFORE starting monitoring, especially in high data volume scenarios. Language switching should only be performed with monitoring paused. NEVER change the language during an active monitoring session.
+
+Warning window for language switching:
+- A bilingual dialog window has been implemented to notify the user whenever there is a switch between the supported languages.
+
+Expansion and granularity of data columns:
+- The columns "Size", "Uncompressed", and "Binary" have been split. Each has given rise to 5 new columns (totaling 15), allowing for more granular and precise filtering and analysis of file and directory sizes.
+
+Redesign of the statistical analysis module:
+- The statistical data analysis has been restructured to become compatible with the new metadata columns. This has resulted in higher quality analyses, with better-defined scales and more robust data handling.
+
+Improvement in file monitoring:
+- Monitoring accuracy has been enhanced, with greater detail in identifying file types based on their extensions.
+
+Menu interface redesign:
+- The menu system design has been improved to organize and display all monitored metadata more clearly and intuitively.
+
+Non-modal secondary windows:
+- Secondary interfaces (interactive dialogs) no longer block interaction with the application's main window, allowing for a smoother workflow.
+
+Internationalization of the date filter:
+- The period filtering system has been improved. The calendar component for date selection is now compatible with the translation system, displaying month and day names in the selected language.
+
+
+Summary:
+
+What's New in Version 0.0.2.0:
+
+- Native Translation System (Qt/PySide6): The language system has been completely rewritten to use Qt's native resources, resulting in greater performance and responsiveness.
+    - Warning: It is recommended to set the language before starting monitoring to avoid freezes or data loss in high-volume scenarios.
+
+- Interface Improvements (UI/UX):
+    - Added a confirmation dialog when switching languages.
+    - Secondary windows no longer block the main interface.
+    - Redesigned menus for better metadata organization.
+    - The date filter calendar is now translated to the selected language.
+
+- More Powerful Data Analysis:
+    - The file size columns ("Size", "Uncompressed", "Binary") have been expanded to 15 new columns, allowing for much more precise filters.
+    - The statistical analysis module has been updated to support the new columns, generating more detailed and accurate reports.
+
+- Enhanced Monitoring:
+    - Improved detection of file types by extension.

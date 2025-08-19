@@ -1,0 +1,70 @@
+CONTRATTO DI LICENZA COMMERCIALE - Linceu Lighthouse
+Versione 0.0.2.0, 17 agosto 2025
+
+Questo Contratto di Licenza ("Contratto") è stipulato tra:
+
+LICENZIANTE: Fernando Nillsson Cidade, di seguito denominato "LICENZIANTE".
+e
+LICENZIATARIO: La persona fisica o giuridica che acquisisce la licenza commerciale del Software, di seguito denominata "LICENZIATARIO".
+
+Questo Contratto integra i termini del Contratto di Licenza per l'Utente Finale (EULA) di Linceu Lighthouse e stabilisce i termini specifici per l'uso commerciale del software.
+
+1. OGGETTO DEL CONTRATTO
+1.1 Lo scopo di questo Contratto è la concessione, da parte del LICENZIANTE al LICENZIATARIO, di una licenza d'uso del software denominato "Linceu Lighthouse" ("Software"), secondo il modello di licenza acquisito.
+1.2 Il Software consiste in un sistema per il monitoraggio e la gestione di file e cartelle, sviluppato per l'uso in ambiente Windows.
+
+2. MODELLI DI LICENZA
+2.1 Licenza Individuale
+   a) Consente l'installazione del Software su un massimo di 2 (due) dispositivi appartenenti allo stesso LICENZIATARIO.
+   b) Include aggiornamenti per 1 (un) anno dalla data di acquisizione.
+   c) Include supporto tecnico di base via email per 1 (un) anno.
+2.2 Licenza Aziendale
+   a) Consente l'installazione del Software su un massimo di [NUMERO_DI_POSTAZIONI] postazioni di lavoro all'interno della stessa organizzazione.
+   b) Include aggiornamenti per 1 (un) anno dalla data di acquisizione.
+   c) Include supporto tecnico prioritario via email e telefono per 1 (un) anno.
+   d) Consente la personalizzazione di base dell'interfaccia in base alle esigenze del cliente.
+2.3 Licenza Corporativa
+   a) Consente l'installazione del Software su un numero illimitato di postazioni di lavoro all'interno della stessa organizzazione.
+   b) Include aggiornamenti per 2 (due) anni dalla data di acquisizione.
+   c) Include supporto tecnico premium 24/7 via email, telefono e accesso remoto.
+   d) Include personalizzazione avanzata e integrazione con sistemi esistenti.
+   e) Include formazione per il team.
+
+3. PAGAMENTO
+3.1 Il LICENZIATARIO pagherà al LICENZIANTE l'importo corrispondente al modello di licenza scelto, secondo il listino prezzi vigente.
+3.2 I pagamenti possono essere effettuati tramite bollettino bancario, carta di credito, bonifico bancario o PIX.
+3.3 In caso di ritardo nel pagamento, verranno applicati interessi di mora dell'1% al mese, più una penale del 2% sul valore totale della licenza.
+
+4. DURATA E RINNOVO
+4.1 Il presente Contratto sarà in vigore per il periodo specificato nel modello di licenza acquisito.
+4.2 Il rinnovo può essere effettuato pagando il valore corrente al momento.
+
+5. SUPPORTO TECNICO
+5.1 Il supporto tecnico sarà fornito secondo il modello di licenza acquisito.
+5.2 Il supporto è limitato a questioni relative all'installazione, alla configurazione e alle funzionalità del Software.
+
+6. RISERVATEZZA
+6.1 Le parti si impegnano a mantenere la riservatezza di tutte le informazioni confidenziali a cui hanno accesso in virtù di questo Contratto.
+6.2 L'obbligo di riservatezza rimarrà in vigore per 5 (cinque) anni dopo la risoluzione di questo Contratto.
+
+7. PROTEZIONE DEI DATI
+7.1 Il LICENZIANTE si impegna a trattare i dati personali del LICENZIATARIO in conformità con la Legge Generale sulla Protezione dei Dati (Legge 13.709/2018).
+7.2 I dati raccolti saranno utilizzati esclusivamente per l'esecuzione di questo Contratto, il supporto tecnico e le comunicazioni relative al Software.
+
+8. RISOLUZIONE
+8.1 Il presente Contratto può essere risolto per violazione di qualsiasi clausola contrattuale o nelle ipotesi previste nell'EULA.
+8.2 In caso di risoluzione a causa di una violazione contrattuale da parte del LICENZIATARIO, non ci sarà alcun rimborso degli importi pagati.
+
+9. FORO COMPETENTE
+9.1 Per risolvere qualsiasi dubbio o controversia derivante da questo Contratto commerciale, le parti eleggono come foro competente il Distretto di São José dos Pinhais, Stato di Paraná, Brasile, rinunciando a qualsiasi altro.
+
+E essendo d'accordo, le parti sottoscrivono il presente Contratto.
+
+Brasile, Paraná, São José dos Pinhais, 2 agosto 2025
+
+Fernando Nillsson Cidade
+______________________________
+LICENZIANTE
+
+______________________________
+LICENZIATARIO

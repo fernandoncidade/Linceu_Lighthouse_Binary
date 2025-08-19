@@ -1,0 +1,153 @@
+Project: LINCEU LIGHTHOUSE
+Version: 0.0.2.0
+Authors: Fernando Nillsson Cidade
+
+Description: Visibility and Control Over Your Files
+
+Linceu Lighthouse is a monitoring tool that applies the principles of File Integrity Monitoring (FIM) to provide a detailed and transparent log of all activities in your most important directories.
+
+Instead of interpreting the intent behind a change, its focus is to factually record every operation—creation, modification, deletion, and renaming—giving you total control and knowledge of what happens to your data. It is the ideal tool for anyone who needs a clear and auditable history of activities in project folders, servers, or personal files.
+
+Main Use Cases
+
+Linceu Lighthouse provides the necessary visibility for various practical scenarios:
+
+- Auditing Folder Activities: Ideal for environments where multiple users or processes access the same directories. Know exactly when a file was modified, who renamed it, or why a document was deleted.
+- Version and Project Control: Monitor project folders to understand the workflow. View the history of changes in source code, design documents, or other materials, helping to prevent accidental loss and understand the work's evolution.
+- File Organization and Cleanup: Identify temporary, duplicate, or long-unmodified files. Use the reports to make informed decisions about what to archive, move, or delete, keeping your directories organized.
+- Investigating Specific Events: If an important file disappears or a project stops working, Linceu Lighthouse provides a chronological history of events to help you trace the root cause of the problem.
+
+How Linceu Lighthouse Works
+
+The process is straightforward and focused on providing clear data for your analysis:
+
+1.  Establishing the Baseline: When starting to monitor a directory, Linceu Lighthouse performs a full scan to create an initial "snapshot," or baseline, of the state of all files and folders.
+2.  Continuous Monitoring: From the baseline, the tool monitors in real-time and records every creation, modification, deletion, move, or renaming event that occurs in the directory.
+3.  Analysis and Reporting: Any deviation from the baseline is immediately listed in the graphical interface. From there, you have full power to analyze what happened, using the tools the software offers.
+
+Analysis Tools at Your Disposal
+
+To transform the large volume of monitoring data into useful information, Linceu Lighthouse offers:
+
+- Advanced Filters: Don't get lost among thousands of events. Quickly isolate what matters by filtering by operation type (e.g., view only deleted files), by date, by extension (.docx, .jpg), or by searching for a specific file name.
+- Statistics Visualization: Turn raw data into visual insights. With intuitive charts, you can understand activity patterns, such as peak modification times, the most frequently changed file types, and the frequency of each operation, helping to optimize your workflow.
+- Flexible Data Export: Create a permanent and auditable record. Export monitoring logs to various formats (Excel, CSV, JSON, XML), whether for archiving, sharing with your team, or importing into other analysis tools.
+
+---
+
+QUICK USE MANUAL:
+
+How to use:
+1. Run the application to start the graphical interface.
+2. Select a directory to monitor.
+3. Use the buttons and menus to start/stop monitoring, apply filters, export data, and view statistics.
+
+DETAILED USER MANUAL:
+
+System Requirements:
+    - Operating System: Windows 10 or higher.
+
+Installation:
+    - Install the program's executable file, follow the installer's instructions, and run the program.
+
+Initial Setup:
+    - The interface will be displayed with an empty monitoring table.
+    - The default language will be selected according to the system settings.
+    - Note the left sidebar to access the main functions.
+
+Directory Monitoring:
+    1. Select a Directory:
+       - Click the "Select Directory" button or select "File → Select Directory"
+       - The path of the selected directory will be displayed above the table
+
+    2. Start/Stop Monitoring:
+       - Click the "Start/Stop" button or select "File → Start/Stop"
+       - An initial scan of the directory will be performed with a progress bar
+       - To stop monitoring, click the same button again
+
+Main Interface:
+    - Menu Bar: Access to all program functions
+    - Sidebar: Quick action buttons
+    - Directory Label: Displays the monitored directory
+    - Result Label: Shows the current status of the operation
+    - Data Table: Displays all monitoring events
+    - Progress Bar: Visible during long-running operations
+
+    Default table fields:
+    - Operation Type: Added, Deleted, Modified, Renamed, or Moved
+    - Name: File name
+    - Previous Directory: Original location of the file (when applicable)
+    - Current Directory: Current location of the file
+    - Creation Date: Date the file was created
+    - Modification Date: Date of the last modification
+    - Type: File type/extension
+
+Filters and Search:
+    1. Quick Filters:
+       - In the "Settings → Filters" menu, check/uncheck operation types
+         (Moved, Renamed, Added, Deleted, Modified)
+
+    2. Advanced Filters:
+       - Access "Settings → Filters → Advanced Filters"
+       - Operation Filter: Select operation types to view
+       - Search: Search for text in names and directories
+       - Extension Filter: Filter by specific file types
+       - Date Filter: Define the period for events
+       - Use the calendar button for date selection
+       - "Clear Filters" resets all settings
+
+Statistics Visualization:
+    - Access via the "Statistics" button or "File → Statistics"
+    - Available charts:
+      * Operation Distribution: Proportion of each operation type
+      * Top 10 File Types: Most common file types
+      * Operation Timeline: Timeline of events
+      * Tree Map: Size visualization by types
+      * Distribution by Hour: Times with the most operations
+      * Pareto Analysis: Frequency and cumulative percentage
+      * Operations by Day: Operations grouped by date
+    - Save charts: Click "Save All" and select a destination
+
+Data Export:
+    - Click "Save As" or "File → Save As"
+    - Available formats:
+      * Excel (.xlsx)
+      * CSV (.csv)
+      * Text (.txt)
+      * JSON (.json)
+      * XML (.xml)
+      * Database (.db)
+    - For future exports of the same set, use "File → Save"
+
+Column Configuration:
+    - Access "Settings → Configure Columns"
+    - Check/uncheck desired columns in the table:
+      (Operation Type, Name, Previous Directory, Current Directory, etc.)
+    - Changes are applied immediately
+    - Default restoration: "Settings → Configure Columns → Reset Columns"
+
+Language Change:
+    - Access "Options → Language" and select the desired language
+    - The program will restart with the new language after confirmation
+
+Troubleshooting:
+    1. Monitoring does not start:
+       - Check directory access permissions
+       - Make sure no other program is monitoring the same directory
+       - Restart the application
+
+    2. Events do not appear:
+       - Check if monitoring is active
+       - Check if filters are not hiding events
+       - Test by manually modifying a file
+
+    3. High resource consumption:
+       - Avoid monitoring system directories or those with thousands of files
+       - Monitor specific subdirectories instead of root directories
+
+    4. Errors in statistics:
+       - Ensure there are enough events to generate charts
+       - Check if all libraries are correctly installed
+
+Authors:
+- Fernando Nillsson Cidade

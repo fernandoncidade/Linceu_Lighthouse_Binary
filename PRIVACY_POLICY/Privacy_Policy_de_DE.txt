@@ -1,0 +1,68 @@
+Datenschutzrichtlinie für Linceu Lighthouse
+Letzte Aktualisierung: 17. August 2025
+Version 0.0.2.0
+
+Ihre Privatsphäre ist für uns von grundlegender Bedeutung. Diese Datenschutzrichtlinie erklärt, welche Informationen Linceu Lighthouse ("Software") verwendet und, was noch wichtiger ist, wie diese unter Ihrer Kontrolle bleiben.
+
+Durch die Nutzung von Linceu Lighthouse stimmen Sie den hier beschriebenen Praktiken zu.
+
+1. Grundprinzip: Lokale Privatsphäre
+
+Linceu Lighthouse wurde mit dem Datenschutz als zentralem Pfeiler konzipiert. Alle durch die Überwachung generierten Informationen und Daten werden ausschließlich auf Ihrem lokalen Computer verarbeitet und gespeichert. Es werden keine Informationen an unsere Server oder an Dritte übermittelt.
+
+2. Von der Software verarbeitete Informationen
+
+Um ihre Funktionen auszuführen, greift die Software auf die folgenden Arten von Daten zu und verarbeitet sie:
+
+ - Dateiüberwachungsdaten: Die Software liest Metadaten von den Dateien und Ordnern in den von Ihnen zur Überwachung ausgewählten Verzeichnissen. Dies umfasst Dateinamen, Verzeichnispfade, Erstellungs-/Änderungsdaten, Größe und Typ. Diese Informationen sind notwendig, um Erstellungs-, Änderungs-, Lösch- und Umbenennungsvorgänge zu erkennen und zu protokollieren.
+ - Diagnose- und Systemdaten: Um eine korrekte Funktionsweise zu gewährleisten und die Benutzererfahrung zu optimieren, kann die Software grundlegende Systeminformationen wie die Betriebssystemversion und die Spracheinstellungen überprüfen. Sie kann auch lokale Fehlerprotokolle erstellen, um bei der Diagnose technischer Probleme zu helfen.
+
+Obwohl die Software auf Dateipfade zugreift, die persönliche Informationen enthalten können (z. B. "C:\Benutzer\IhrName\Dokumente"), sammelt oder übermittelt sie diese Informationen nicht außerhalb Ihres Geräts.
+
+3. Verwendung der Informationen
+
+Die von Linceu Lighthouse verarbeiteten Informationen werden ausschließlich verwendet, um:
+
+ - die Kernfunktionalität der Datei- und Ordnerüberwachung bereitzustellen.
+ - das Aktivitätsprotokoll in der grafischen Benutzeroberfläche des Programms anzuzeigen.
+ - es Ihnen zu ermöglichen, die überwachten Ereignisse zu filtern, zu durchsuchen und zu analysieren.
+ - Diagramme und Statistiken zur lokalen Anzeige zu erstellen.
+ - es Ihnen zu ermöglichen, die Daten in Dateiformate Ihrer Wahl zu exportieren.
+
+4. Datenspeicherung, -sicherheit und -weitergabe
+
+ - Speicherung: Alle Überwachungsdaten werden in einer lokalen Datenbank auf Ihrem Computer gespeichert. Sie haben die volle Kontrolle über diese Datei.
+ - Sicherheit: Die Sicherheit Ihrer Daten hängt von der Sicherheit Ihres eigenen Computers ab. Da die Software keine Daten über das Internet überträgt, wird das Risiko eines externen Zugriffs minimiert.
+ - Weitergabe: Linceu Lighthouse sammelt, übermittelt oder teilt keine Ihrer Überwachungsinformationen mit dem Entwickler oder Dritten. Jede Datenweitergabe, wie der Export eines Berichts, ist eine ausschließlich von Ihnen durchgeführte und kontrollierte Aktion.
+
+5. Ihre Rechte und volle Kontrolle
+
+Sie haben die absolute Kontrolle über Ihre Daten. Sie können jederzeit:
+
+ - genau auswählen, welche Verzeichnisse überwacht werden sollen.
+ - die Überwachung starten und stoppen, wann immer Sie möchten.
+ - alle aufgezeichneten Daten anzeigen, filtern und durchsuchen.
+ - die Daten an einen Ort Ihrer Wahl auf Ihrem Computer exportieren.
+ - den gesamten Überwachungsverlauf direkt in der Benutzeroberfläche der Software löschen.
+ - die Software deinstallieren, wodurch die Anwendung und ihre Komponenten von Ihrem System entfernt werden. Die Datenbank- und Protokolldateien können von Ihnen manuell gelöscht werden, um eine vollständige Entfernung zu gewährleisten.
+
+6. Daten aus Microsoft-Fehlerberichten
+
+Um die Stabilität und Qualität von Linceu Lighthouse zu verbessern, können wir den Fehlerberichterstattungsdienst von Microsoft nutzen. Wenn die Anwendung einen kritischen Fehler feststellt, können anonyme Diagnoseinformationen an Microsoft gesendet und anschließend mit uns geteilt werden.
+
+Diese Praxis wird durch die App-Entwicklervereinbarung von Microsoft geregelt. Die Fehlerdaten, die wir erhalten, werden ausschließlich zur Behebung von Fehlern und zur Verbesserung der Software verwendet. Diese Berichte enthalten keine Ihrer persönlichen Dateien oder Informationen, die Sie direkt identifizieren.
+
+7. Datenschutz von Kindern
+
+Linceu Lighthouse ist nicht für Kinder unter 13 Jahren bestimmt, und wir sammeln wissentlich keine persönlichen Informationen.
+
+8. Änderungen dieser Richtlinie
+
+Diese Datenschutzrichtlinie kann gelegentlich aktualisiert werden. Wir werden Sie über alle Änderungen informieren, indem wir das Datum oben in diesem Dokument aktualisieren und gegebenenfalls durch eine Benachrichtigung innerhalb der Software.
+
+9. Kontakt
+
+Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, wenden Sie sich bitte an:
+
+Fernando Nillsson Cidade
+E-Mail: linceu_lighthouse@outlook.com

@@ -1,0 +1,49 @@
+CONTRAT DE LICENCE UTILISATEUR FINAL - Linceu Lighthouse
+Version 0.0.2.0, 17 août 2025
+
+Copyright (c) 2025 Fernando Nillsson Cidade. Tous droits réservés.
+
+En installant, copiant ou utilisant d'une autre manière le Logiciel, vous acceptez d'être lié par les termes de cette Licence. Si vous n'acceptez pas les termes de cette Licence, n'installez pas et n'utilisez pas le Logiciel.
+
+TERMES ET CONDITIONS D'UTILISATION, DE REPRODUCTION ET DE DISTRIBUTION :
+
+1. DÉFINITIONS
+   Le « Concédant » désigne Fernando Nillsson Cidade, le titulaire des droits d'auteur du Logiciel.
+   Le « Logiciel » désigne le programme Linceu Lighthouse et toute sa documentation associée.
+   Le « Licencié » ou « vous » désigne la personne physique ou morale qui utilise le Logiciel.
+
+2. OCTROI DE LICENCE
+   Sous réserve des termes et conditions de cette Licence, le Concédant accorde au Licencié une licence non exclusive, non transférable et révocable d'utilisation du Logiciel.
+
+3. RESTRICTIONS
+   Le Licencié ne peut pas :
+   a) Copier, modifier, adapter ou créer des œuvres dérivées du Logiciel, sauf autorisation expresse ;
+   b) Procéder à l'ingénierie inverse, décompiler ou désassembler le Logiciel, sauf et uniquement dans la mesure où la loi applicable le permet expressément, nonobstant cette limitation ;
+   c) Supprimer ou modifier les mentions de droits d'auteur ou les marques commerciales ;
+   d) Louer, prêter, sous-licencier ou transférer le Logiciel ;
+   e) Utiliser le Logiciel d'une manière qui viole les lois ou réglementations applicables.
+
+4. PROPRIÉTÉ INTELLECTUELLE
+   Le Logiciel est concédé sous licence, il n'est pas vendu. Il est protégé par les lois sur les droits d'auteur et les traités internationaux. Tous les titres, droits d'auteur et autres droits de propriété intellectuelle relatifs au Logiciel appartiennent exclusivement au Concédant.
+
+5. MISES À JOUR ET SUPPORT
+   Le Concédant peut, à sa discrétion, fournir des mises à jour ou des mises à niveau du Logiciel. Le support technique, s'il est disponible, est fourni selon le modèle de licence acquis (qu'il soit gratuit ou commercial). Pour plus de détails sur le support commercial, consultez le Contrat de Licence Commerciale.
+
+6. DURÉE ET RÉSILIATION
+   Cette Licence reste en vigueur jusqu'à sa résiliation. Le Concédant peut résilier cette Licence si le Licencié enfreint l'une de ses conditions. À la résiliation, le Licencié doit cesser toute utilisation du Logiciel et détruire toutes les copies en sa possession.
+
+7. GARANTIE LIMITÉE
+   Le Logiciel est fourni « TEL QUEL », « AVEC TOUS SES DÉFAUTS » et « SELON LA DISPONIBILITÉ ». Vous assumez l'intégralité des risques quant à sa qualité, sa sécurité et ses performances. S'il s'avère défectueux, vous assumez l'intégralité des coûts de tout entretien ou réparation nécessaire.
+
+8. LIMITATION ET EXCLUSION DE RECOURS ET DE DOMMAGES
+   Dans la mesure où la loi ne l'interdit pas, si vous avez un fondement pour obtenir des dommages-intérêts, vous ne pouvez recouvrer auprès du Concédant que les dommages directs jusqu'à concurrence du montant que vous avez payé pour l'application ou 5,00 BRL (cinq réaux brésiliens), le montant le plus élevé étant retenu. Vous ne chercherez pas, et renoncez à tout droit de, recouvrer tout autre dommage, y compris les pertes de profits et les dommages consécutifs, spéciaux, directs, indirects ou accessoires auprès du Concédant.
+
+9. RESTRICTIONS TECHNOLOGIQUES ET À L'EXPORTATION
+   Le Logiciel peut être soumis aux lois et réglementations américaines ou internationales sur le contrôle des technologies ou l'exportation. Vous devez vous conformer à toutes les lois et réglementations nationales et internationales sur l'exportation qui s'appliquent à la technologie utilisée ou prise en charge par le Logiciel.
+
+10. DROIT APPLICABLE
+    a. Si vous avez acquis l'application aux États-Unis ou au Canada, les lois de l'État ou de la province où vous résidez (ou, si vous êtes une entreprise, où se trouve votre principal lieu d'affaires) régissent l'interprétation de ces termes.
+    b. Si vous avez acquis l'application dans un autre pays, les lois de ce pays s'appliquent.
+
+11. INTÉGRALITÉ DE L'ACCORD
+    Cette Licence, ainsi que la Politique de Confidentialité, constitue l'intégralité de l'accord entre les parties concernant l'objet des présentes et remplace tous les accords, ententes ou représentations antérieurs.

@@ -1,0 +1,30 @@
+
+Justificación del Nombre: Linceu Lighthouse
+
+El nombre Linceu Lighthouse (Faro de Linceo) no fue elegido al azar. Encapsula la fusión de dos potentes conceptos de vigilancia y orientación, reflejando con precisión la esencia y la funcionalidad de nuestro software de monitorización de integridad de archivos.
+
+La Visión de Linceo: Ver lo Imperceptible
+
+En la mitología griega, Linceo era el vigía de los Argonautas, un héroe bendecido con una visión sobrehumana. Su legendaria capacidad no se limitaba a ver a grandes distancias; podía ver a través de barreras como murallas, árboles e incluso el suelo. Nada escapaba a su mirada. Era la primera línea de defensa, detectando peligros y movimientos ocultos para garantizar la seguridad de su tripulación.
+
+Al igual que el héroe mitológico, Linceu Lighthouse posee una "visión" digital incomparable. Opera en el corazón de su sistema, monitorizando un directorio y sus subdirectorios con una agudeza que percibe cada cambio, por sutil que sea. Las operaciones que para un usuario común serían invisibles o fugaces —adiciones, eliminaciones, renombramientos, modificaciones e incluso el simple acto de escanear— son detectadas y registradas al instante. Nuestro software es el Linceo de su sistema de archivos: ve lo que está oculto y garantiza que ninguna acción pase desapercibida.
+
+La Luz del Faro (Lighthouse): Transformando Datos en Claridad
+
+Ver no es suficiente; es preciso comprender y navegar con seguridad. Aquí es donde entra en juego el "Lighthouse" (Faro). Un faro no solo ve la oscuridad; proyecta un potente haz de luz con una firma única, sirviendo como una guía fiable para los navegantes. Transforma la incertidumbre de la noche en un camino claro, alertando sobre peligros y confirmando la ruta segura hacia el puerto.
+
+Linceu Lighthouse hace exactamente eso con los datos que recopila. No se limita a reportar una avalancha de información en bruto. La ilumina:
+
+* Señalización Clara: Cada tipo de operación se identifica con colores distintos, actuando como la firma lumínica de un faro, permitiendo la identificación inmediata de lo que ha sucedido.
+
+* Enfoque y Orientación: El avanzado sistema de filtrado por tipo de evento, fecha o extensión de archivo permite al usuario enfocar el "haz de luz" exactamente donde lo necesita, ignorando el ruido y concentrándose en lo importante.
+
+* Visión Panorámica y Análisis: La capacidad de generar gráficos y diagramas estadísticos y analizar más de treinta tipos de metadatos transforma los datos brutos en inteligencia procesable, ofreciendo una visión clara del "terreno" digital.
+
+* Accesibilidad Universal: Así como la luz de un faro es una guía universal, nuestro sistema de traducción a seis idiomas garantiza que esta claridad y seguridad sean accesibles para usuarios de todo el mundo.
+
+En resumen:
+
+Linceu Lighthouse es la fusión perfecta de estos dos conceptos. Combina la penetrante visión de Linceo para detectar cada cambio en sus archivos con la luz orientadora de un Faro para interpretar, analizar y actuar en base a esa información.
+
+Es su guardián digital, que todo lo ve y todo lo ilumina, proporcionando vigilancia continua, inteligencia de datos y la claridad necesaria para mantener la integridad y la seguridad de su entorno digital.

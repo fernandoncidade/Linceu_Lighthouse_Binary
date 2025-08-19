@@ -1,0 +1,49 @@
+END-USER LICENSE AGREEMENT - Linceu Lighthouse
+Version 0.0.2.0, August 17, 2025
+
+Copyright (c) 2025 Fernando Nillsson Cidade. All rights reserved.
+
+By installing, copying, or otherwise using the Software, you agree to be bound by the terms of this License. If you do not agree to the terms of this License, do not install or use the Software.
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION:
+
+1. DEFINITIONS
+   "Licensor" refers to Fernando Nillsson Cidade, the copyright owner of the Software.
+   "Software" refers to the Linceu Lighthouse program and all its associated documentation.
+   "Licensee" or "you" refers to the individual or legal entity using the Software.
+
+2. LICENSE GRANT
+   Subject to the terms and conditions of this License, the Licensor grants the Licensee a non-exclusive, non-transferable, and revocable license to use the Software.
+
+3. RESTRICTIONS
+   The Licensee may not:
+   a) Copy, modify, adapt, or create derivative works from the Software, except as expressly permitted;
+   b) Reverse engineer, decompile, or disassemble the Software, except and only to the extent that applicable law expressly permits, despite this limitation;
+   c) Remove or alter any copyright notices or trademarks;
+   d) Rent, lease, lend, sublicense, or transfer the Software;
+   e) Use the Software in a manner that violates applicable laws or regulations.
+
+4. INTELLECTUAL PROPERTY
+   The Software is licensed, not sold. It is protected by copyright laws and international treaties. All titles, copyrights, and other intellectual property rights in and to the Software belong exclusively to the Licensor.
+
+5. UPDATES AND SUPPORT
+   The Licensor may, at its discretion, provide updates or upgrades to the Software. Technical support, if available, is provided according to the acquired license model (whether free or commercial). For more details on commercial support, refer to the Commercial Licensing Agreement.
+
+6. TERM AND TERMINATION
+   This License remains in effect until terminated. The Licensor may terminate this License if the Licensee violates any of its terms. Upon termination, the Licensee must cease all use of the Software and destroy all copies in their possession.
+
+7. LIMITED WARRANTY
+   The Software is provided "AS IS," "WITH ALL FAULTS," and "AS AVAILABLE." You bear the entire risk as to its quality, safety, and performance. Should it prove defective, you assume the entire cost of any necessary servicing or repair.
+
+8. LIMITATION AND EXCLUSION OF REMEDIES AND DAMAGES
+   To the extent not prohibited by law, if you have any basis for recovering damages, you can recover from the Licensor only direct damages up to the amount you paid for the application or R$ 5.00 (five Brazilian Reais), whichever is greater. You will not, and waive any right to, seek to recover any other damages, including lost profits and consequential, special, direct, indirect, or incidental damages from the Licensor.
+
+9. TECHNOLOGY AND EXPORT RESTRICTIONS
+   The Software may be subject to United States or international technology control or export laws and regulations. You must comply with all domestic and international export laws and regulations that apply to the technology used or supported by the Software.
+
+10. APPLICABLE LAW
+    a. If you acquired the application in the United States or Canada, the laws of the state or province where you live (or, if a business, where your principal place of business is located) govern the interpretation of these terms.
+    b. If you acquired the application in any other country, the laws of that country apply.
+
+11. ENTIRE AGREEMENT
+    This License, along with the Privacy Policy, constitutes the entire agreement between the parties regarding the subject matter hereof and supersedes all prior understandings, agreements, or representations.

@@ -1,0 +1,50 @@
+RELEASE NOTES: Versión 0.0.2.0
+
+En esta nueva versión, se han implementado las siguientes mejoras y funcionalidades:
+
+Refactorización completa del sistema de internacionalización:
+- El sistema de idiomas y traducción ha sido completamente reescrito, utilizando ahora los recursos nativos del framework PySide6 y la biblioteca Qt. Este cambio ha resultado en un aumento significativo de la capacidad de respuesta y el rendimiento.
+- En pruebas preliminares, se observó una mejora significativa en el rendimiento al traducir tablas con hasta 2.000 eventos. Por encima de ese volumen, el proceso de redibujado de la interfaz (repaint) impacta el rendimiento, pudiendo causar bloqueos temporales en la GUI hasta que se complete la carga de trabajo.
+- Recomendación importante: Para evitar la pérdida de datos o el cierre inesperado de la aplicación, el idioma debe definirse ANTES de iniciar el monitoreo, especialmente en escenarios de alto volumen de datos. El cambio de idioma solo debe realizarse con el monitoreo pausado. NUNCA cambie el idioma durante una sesión de monitoreo activa.
+
+Ventana de aviso para cambio de idioma:
+- Se ha implementado una ventana de diálogo bilingüe que se muestra para notificar al usuario siempre que haya un cambio entre los idiomas soportados.
+
+Expansión y granularidad de las columnas de datos:
+- Las columnas "Tamaño", "Descomprimido" y "Binario" se han desglosado. Cada una ha dado lugar a 5 nuevas columnas (totalizando 15), permitiendo un filtrado y análisis más granular y preciso de los tamaños de archivos y directorios.
+
+Reformulación del módulo de análisis estadístico:
+- El análisis estadístico de los datos ha sido reestructurado para ser compatible con las nuevas columnas de metadatos. Esto ha resultado en análisis de mayor calidad, con escalas mejor definidas y un tratamiento de datos más robusto.
+
+Mejora en el monitoreo de archivos:
+- Se ha mejorado la precisión del monitoreo, con mayor detalle en la identificación de tipos de archivo según sus extensiones.
+
+Rediseño de la interfaz de menús:
+- El diseño del sistema de menús se ha perfeccionado para organizar y mostrar de forma más clara e intuitiva todos los metadatos monitoreados.
+
+Ventanas secundarias no modales:
+- Las interfaces secundarias (diálogos interactivos) ya no bloquean la interacción con la ventana principal de la aplicación, permitiendo un flujo de trabajo más fluido.
+
+Internacionalización del filtro de fecha:
+- El sistema de filtrado por período ha sido mejorado. El componente de calendario para la selección de fechas ahora es compatible con el sistema de traducción, mostrando los nombres de los meses y días en el idioma seleccionado.
+
+
+Resumen:
+
+Novedades de la Versión 0.0.2.0:
+
+- Sistema de Traducción Nativo (Qt/PySide6): El sistema de idiomas ha sido completamente reescrito para usar los recursos nativos de Qt, resultando en mayor rendimiento y capacidad de respuesta.
+    - Aviso: Se recomienda definir el idioma antes de iniciar el monitoreo para evitar bloqueos o pérdida de datos en alto volumen.
+
+- Mejoras en la Interfaz (UI/UX):
+    - Se ha añadido un diálogo de confirmación al cambiar de idioma.
+    - Las ventanas secundarias ya no bloquean la interfaz principal.
+    - Menús rediseñados para una mejor organización de los metadatos.
+    - El calendario del filtro de fechas ahora se traduce al idioma seleccionado.
+
+- Análisis de Datos Más Potente:
+    - Las columnas de tamaño de archivo ("Tamaño", "Descomprimido", "Binario") se han expandido a 15 nuevas columnas, permitiendo filtros mucho más precisos.
+    - El módulo de análisis estadístico ha sido actualizado para soportar las nuevas columnas, generando informes más detallados y precisos.
+
+- Monitoreo Mejorado:
+    - Mejorada la detección de tipos de archivo por extensión.

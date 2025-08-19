@@ -1,0 +1,70 @@
+CONTRATO DE LICENCIA COMERCIAL - Linceu Lighthouse
+Versión 0.0.2.0, 17 de agosto de 2025
+
+Este Contrato de Licencia ("Contrato") se celebra entre:
+
+LICENCIANTE: Fernando Nillsson Cidade, en adelante denominado "LICENCIANTE".
+y
+LICENCIATARIO: La persona física o jurídica que adquiere la licencia comercial del Software, en adelante denominada "LICENCIATARIO".
+
+Este Contrato complementa los términos del Contrato de Licencia de Usuario Final (EULA) de Linceu Lighthouse y establece los términos específicos para el uso comercial del software.
+
+1. OBJETO DEL CONTRATO
+1.1 El objeto del presente Contrato es la concesión, por parte del LICENCIANTE al LICENCIATARIO, de una licencia de uso del software denominado "Linceu Lighthouse" ("Software"), según la modalidad de licencia adquirida.
+1.2 El Software consiste en un sistema para monitorear y gestionar archivos y carpetas, desarrollado para su uso en un entorno Windows.
+
+2. MODALIDADES DE LICENCIA
+2.1 Licencia Individual
+   a) Permite la instalación del Software en hasta 2 (dos) dispositivos pertenecientes al mismo LICENCIATARIO.
+   b) Incluye actualizaciones durante 1 (un) año a partir de la fecha de adquisición.
+   c) Incluye soporte técnico básico por correo electrónico durante 1 (un) año.
+2.2 Licencia Empresarial
+   a) Permite la instalación del Software en hasta [NÚMERO_DE_ESTACIONES] estaciones de trabajo dentro de la misma organización.
+   b) Incluye actualizaciones durante 1 (un) año a partir de la fecha de adquisición.
+   c) Incluye soporte técnico prioritario por correo electrónico y teléfono durante 1 (un) año.
+   d) Permite la personalización básica de la interfaz según las necesidades del cliente.
+2.3 Licencia Corporativa
+   a) Permite la instalación del Software en un número ilimitado de estaciones de trabajo dentro de la misma organización.
+   b) Incluye actualizaciones durante 2 (dos) años a partir de la fecha de adquisición.
+   c) Incluye soporte técnico premium 24/7 por correo electrónico, teléfono y acceso remoto.
+   d) Incluye personalización avanzada e integración con sistemas existentes.
+   e) Incluye formación para el equipo.
+
+3. PAGO
+3.1 El LICENCIATARIO pagará al LICENCIANTE el importe correspondiente a la modalidad de licencia elegida, según la lista de precios vigente.
+3.2 Los pagos podrán realizarse mediante boleto bancario, tarjeta de crédito, transferencia bancaria o PIX.
+3.3 En caso de retraso en el pago, se aplicarán intereses de demora del 1% mensual, más una multa del 2% sobre el valor total de la licencia.
+
+4. VIGENCIA Y RENOVACIÓN
+4.1 Este Contrato estará en vigor durante el período especificado en la modalidad de licencia adquirida.
+4.2 La renovación podrá realizarse mediante el pago del valor vigente en ese momento.
+
+5. SOPORTE TÉCNICO
+5.1 El soporte técnico se prestará según la modalidad de licencia adquirida.
+5.2 El soporte se limita a cuestiones relacionadas con la instalación, configuración y funcionalidades del Software.
+
+6. CONFIDENCIALIDAD
+6.1 Las partes se comprometen a mantener la confidencialidad de toda la información confidencial a la que tengan acceso en virtud de este Contrato.
+6.2 La obligación de confidencialidad permanecerá en vigor durante 5 (cinco) años después de la terminación de este Contrato.
+
+7. PROTECCIÓN DE DATOS
+7.1 El LICENCIANTE se compromete a tratar los datos personales del LICENCIATARIO de conformidad con la Ley General de Protección de Datos (Ley 13.709/2018).
+7.2 Los datos recopilados se utilizarán exclusivamente para la ejecución de este Contrato, el soporte técnico y las comunicaciones relacionadas con el Software.
+
+8. RESCISIÓN
+8.1 Este Contrato podrá ser rescindido por incumplimiento de cualquier cláusula contractual o en las hipótesis previstas en el EULA.
+8.2 En caso de rescisión por incumplimiento contractual por parte del LICENCIATARIO, no habrá devolución de los importes pagados.
+
+9. FUERO
+9.1 Para resolver cualquier duda o litigio derivado de este Contrato comercial, las partes eligen el fuero del Distrito de São José dos Pinhais, Estado de Paraná, Brasil, con renuncia a cualquier otro.
+
+Y de común acuerdo, las partes firman el presente Contrato.
+
+Brasil, Paraná, São José dos Pinhais, 2 de agosto de 2025
+
+Fernando Nillsson Cidade
+______________________________
+LICENCIANTE
+
+______________________________
+LICENCIATARIO

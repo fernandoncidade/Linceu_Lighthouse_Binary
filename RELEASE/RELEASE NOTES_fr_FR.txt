@@ -1,0 +1,50 @@
+RELEASE NOTES : Version 0.0.2.0
+
+Dans cette nouvelle version, les améliorations et fonctionnalités suivantes ont été mises en œuvre :
+
+Refonte complète du système d'internationalisation :
+- Le système de langue et de traduction a été entièrement réécrit, utilisant désormais les ressources natives du framework PySide6 et de la bibliothèque Qt. Ce changement a entraîné une augmentation significative de la réactivité et des performances.
+- Lors de tests préliminaires, un gain de performance notable a été observé lors de la traduction de tableaux contenant jusqu'à 2 000 événements. Au-delà de ce volume, le processus de redessin de l'interface (repaint) impacte les performances, pouvant provoquer des blocages temporaires de l'interface graphique jusqu'à la fin de la charge de travail.
+- Recommandation importante : Pour éviter la perte de données ou la fermeture inattendue de l'application, la langue doit être définie AVANT de démarrer la surveillance, en particulier dans des scénarios de gros volumes de données. Le changement de langue ne doit être effectué qu'avec la surveillance en pause. NE JAMAIS changer la langue pendant une session de surveillance active.
+
+Fenêtre d'avertissement pour le changement de langue :
+- Une fenêtre de dialogue bilingue a été mise en place pour notifier l'utilisateur à chaque alternance entre les langues prises en charge.
+
+Expansion et granularité des colonnes de données :
+- Les colonnes « Taille », « Décompressé » et « Binaire » ont été subdivisées. Chacune a donné naissance à 5 nouvelles colonnes (soit 15 au total), permettant un filtrage et une analyse plus précis et plus granulaires des tailles de fichiers et de dossiers.
+
+Refonte du module d'analyse statistique :
+- L'analyse statistique des données a été restructurée pour être compatible avec les nouvelles colonnes de métadonnées. Cela a permis d'obtenir des analyses de meilleure qualité, avec des échelles mieux définies et un traitement des données plus robuste.
+
+Amélioration de la surveillance des fichiers :
+- La précision de la surveillance a été améliorée, avec un meilleur niveau de détail dans l'identification des types de fichiers selon leurs extensions.
+
+Refonte de l'interface des menus :
+- Le design du système de menus a été amélioré pour organiser et afficher de manière plus claire et intuitive tous les métadonnées surveillés.
+
+Fenêtres secondaires non modales :
+- Les interfaces secondaires (dialogues interactifs) ne bloquent plus l'interaction avec la fenêtre principale de l'application, permettant un flux de travail plus fluide.
+
+Internationalisation du filtre de date :
+- Le système de filtrage par période a été amélioré. Le composant calendrier pour la sélection des dates est désormais compatible avec le système de traduction, affichant les noms des mois et des jours dans la langue sélectionnée.
+
+
+Résumé :
+
+Nouveautés de la Version 0.0.2.0 :
+
+- Système de traduction natif (Qt/PySide6) : Le système de langue a été entièrement réécrit pour utiliser les ressources natives de Qt, offrant de meilleures performances et une plus grande réactivité.
+    - Avertissement : Il est recommandé de définir la langue avant de démarrer la surveillance pour éviter les blocages ou la perte de données en cas de gros volume.
+
+- Améliorations de l'interface (UI/UX) :
+    - Ajout d'une boîte de dialogue de confirmation lors du changement de langue.
+    - Les fenêtres secondaires ne bloquent plus l'interface principale.
+    - Menus repensés pour une meilleure organisation des métadonnées.
+    - Le calendrier du filtre de date est désormais traduit dans la langue sélectionnée.
+
+- Analyse de données plus puissante :
+    - Les colonnes de taille de fichier (« Taille », « Décompressé », « Binaire ») ont été étendues à 15 nouvelles colonnes, permettant des filtres beaucoup plus précis.
+    - Le module d'analyse statistique a été mis à jour pour prendre en charge les nouvelles colonnes, générant des rapports plus détaillés et précis.
+
+- Surveillance améliorée :
+    - Amélioration de la détection des types de fichiers par extension.

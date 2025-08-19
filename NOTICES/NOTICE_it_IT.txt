@@ -1,0 +1,261 @@
+Avviso di Licenze e Attribuzioni di Software di Terze Parti
+
+Questo documento contiene informazioni sulle licenze dei componenti di terze parti utilizzati nel progetto Linceu Lighthouse.
+
+PySide6 (Qt per Python) - Licenza LGPL v3
+
+PySide6 è distribuito sotto la GNU Lesser General Public License (LGPL) versione 3.
+
+Conformità alla LGPL
+
+Per soddisfare i requisiti della licenza LGPL, forniamo le seguenti informazioni:
+
+1. Codice sorgente: Il codice sorgente completo di PySide6 è disponibile gratuitamente a:
+   - Repository ufficiale: https://github.com/qt/pyside
+   - Sito ufficiale: https://www.qt.io/qt-for-python
+
+2. Sostituzione della libreria:
+   Questa applicazione è stata compilata in modo che le librerie LGPL (incluso PySide6) siano mantenute come DLL separate.
+   Per sostituire queste librerie:
+   - Individua i file DLL di PySide6 nella directory di installazione (cartella `PySide6`)
+   - Sostituisci i file DLL con le tue versioni alternative o modificate
+   - Assicurati che le nuove DLL siano compatibili con la versione di PySide6 utilizzata (6.6.0+)
+
+3. Offerta scritta:
+   Se non riesci ad accedere al codice sorgente tramite il link sopra, su richiesta, possiamo fornire una copia completa del codice sorgente corrispondente alla versione utilizzata in questa applicazione. Per richiederlo, contattaci all'indirizzo email: [linceu_lighthouse@outlook.com]
+
+Versione di PySide6
+Questa applicazione utilizza PySide6 versione 6.6.0 o superiore.
+
+Altre Librerie
+
+Librerie di Analisi Dati e Visualizzazione:
+- Pandas, NumPy, Matplotlib, Seaborn (Licenza BSD 3-Clause)
+- Squarify (Licenza MIT) - Per visualizzazioni treemap
+
+Elaborazione di Documenti e File:
+- OpenPyXL, XlsxWriter, python-docx, python-pptx (Licenza MIT) - Per la manipolazione di documenti Office
+- PyPDF2/PyPDF4 (Licenza BSD 3-Clause) - Per l'elaborazione di PDF
+- Pillow (Licenza PIL) - Per l'elaborazione di immagini
+- psd_tools (Licenza MIT) - Per file Photoshop
+- rawpy (Licenza MIT) - Per file RAW di fotocamere
+- imageio (Licenza BSD 2-Clause) - Per formati HEIF/HEIC
+
+Metadati e Media:
+- pymediainfo (Licenza MIT) - Per metadati di file multimediali
+- TinyTag (Licenza MIT) - Per metadati di file audio
+- olefile (Licenza BSD 3-Clause) - Per file Microsoft OLE
+
+Compressione e Archiviazione:
+- rarfile (Licenza ISC) - Per la manipolazione di file RAR
+- py7zr, zipfile (Licenza standard Python) - Per altri formati compressi
+
+Utilità e Sistema:
+- psutil (Licenza BSD 3-Clause) - Per informazioni di sistema
+- pywin32 (Licenza PSF) - Per API di Windows
+- python-magic (Licenza MIT) - Per il rilevamento dei tipi di file
+- chardet (Licenza LGPLv2.1) - Per il rilevamento della codifica dei caratteri
+
+Sicurezza:
+- pyOpenSSL (Licenza Apache 2.0) - Per funzionalità SSL/TLS
+
+Tutte le librerie menzionate sono utilizzate secondo i termini delle rispettive licenze, come dettagliato nel file LICENSE.txt incluso con questo software. La maggior parte di queste librerie è distribuita sotto licenze permissive (MIT, BSD, Apache, PSF) che permettono l'uso commerciale e la redistribuzione.
+
+
+
+
+
+
+LICENZE E ATTRIBUZIONI
+
+1. PySide6
+Licenza: GNU Lesser General Public License (LGPL)
+Questo software utilizza la libreria PySide6, concessa in licenza secondo la GNU Lesser General Public License (LGPL). Copyright (c) 2024 [Qt for Python Team]. È possibile ridistribuirla e/o modificarla secondo i termini della LGPL, come pubblicata dalla Free Software Foundation. Per maggiori dettagli, consultare - https://www.gnu.org/licenses/lgpl-3.0.html.en.
+
+2. sqlite3
+Licenza: Dominio Pubblico
+Questo software utilizza SQLite, che è di dominio pubblico. È possibile utilizzarlo, modificarlo e distribuirlo liberamente per qualsiasi scopo, incluso quello commerciale. Per maggiori informazioni, visitare - https://www.sqlite.org/copyright.html.
+
+3. pandas
+Licenza: Licenza BSD 3-Clausole
+Questo software incorpora la libreria pandas, concessa in licenza secondo la Licenza BSD 3-Clausole. Copyright (c) 2024 [pandas development team]. Tutti i diritti riservati. Per maggiori dettagli sui termini della licenza, visitare - https://opensource.org/licenses/BSD-3-Clause.
+
+4. matplotlib
+Licenza: Licenza BSD 3-Clausole
+Questo software utilizza la libreria matplotlib, concessa in licenza secondo la Licenza BSD 3-Clausole. Copyright (c) 2024 [Contributori di Matplotlib]. Tutti i diritti riservati. Per maggiori informazioni, consultare - https://opensource.org/licenses/BSD-3-Clause.
+
+5. seaborn
+Licenza: Licenza BSD 3-Clausole
+Questo software incorpora la libreria seaborn, concessa in licenza secondo la Licenza BSD 3-Clausole. Copyright (c) 2024 [Michael Waskom]. Tutti i diritti riservati. Ulteriori dettagli possono essere trovati su - https://opensource.org/licenses/BSD-3-Clause.
+
+6. Pillow (continuazione di PIL)
+Licenza: Licenza PIL
+Questo software utilizza la libreria Pillow, concessa in licenza secondo la Licenza PIL. Copyright (c) 2024 [Contributori di Pillow]. Tutti i diritti riservati. Per maggiori informazioni, visitare - https://python-pillow.org/.
+
+7. psd_tools
+Licenza: Licenza MIT
+Questo software incorpora la libreria psd_tools, concessa in licenza secondo la Licenza MIT. Copyright (c) 2024 [Mikhail Korobov, Kota Yamaguchi]. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori dettagli, visitare - https://opensource.org/licenses/MIT.
+
+8. pymediainfo
+Licenza: Licenza MIT
+Questo software utilizza la libreria pymediainfo, concessa in licenza secondo la Licenza MIT. Copyright (c) 2024 [Louis Sautier]. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Maggiori informazioni sono disponibili su - https://opensource.org/licenses/MIT.
+
+9. TinyTag
+Licenza: Licenza MIT
+Questo software incorpora la libreria TinyTag, concessa in licenza secondo la Licenza MIT. Copyright (c) 2024 [Tom Wallroth, Mat (mathiascode)]. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per ulteriori dettagli, visitare - https://opensource.org/licenses/MIT.
+
+10. backports.tarfile
+Licenza: Licenza MIT
+Questo software incorpora la libreria backports.tarfile, concessa in licenza secondo la Licenza MIT. Copyright (c) 2019 Anthony Sottile. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+11. chardet
+Licenza: Licenza LGPLv2.1
+Questo software utilizza la libreria chardet, concessa in licenza secondo la GNU Lesser General Public License (LGPL). Copyright (c) 2005-2019, Mark Pilgrim, Dan Blanchard, Ian Cordasco e altri collaboratori. È possibile ridistribuirla e/o modificarla secondo i termini della LGPLv2.1, come pubblicata dalla Free Software Foundation. Per maggiori dettagli, consultare - https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.en.
+
+12. extract-msg
+Licenza: Licenza BSD 3-Clausole
+Questo software utilizza la libreria extract-msg, concessa in licenza secondo la Licenza BSD 3-Clausole. Copyright (c) 2014 Dean Malmgren. Tutti i diritti riservati. Per maggiori dettagli sui termini della licenza, visitare - https://opensource.org/licenses/BSD-3-Clause.
+
+13. futures
+Licenza: Licenza PSF
+Questo software incorpora la libreria futures, concessa in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 2009, Brian Quinlan. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+14. importlib-metadata
+Licenza: Licenza Apache 2.0
+Questo software utilizza la libreria importlib-metadata, concessa in licenza secondo la Licenza Apache 2.0. Copyright (c) Jason R. Coombs, Python Software Foundation e altri collaboratori. È possibile ottenere maggiori dettagli sulla licenza su - https://www.apache.org/licenses/LICENSE-2.0.
+
+15. inflect
+Licenza: Licenza MIT
+Questo software incorpora la libreria inflect, concessa in licenza secondo la Licenza MIT. Copyright (c) 2005-2023, Brian Beck e altri collaboratori. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+16. jaraco.collections
+Licenza: Licenza MIT
+Questo software incorpora la libreria jaraco.collections, concessa in licenza secondo la Licenza MIT. Copyright (c) 2014-2023, Jason R. Coombs. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+17. openpyxl
+Licenza: Licenza MIT
+Questo software incorpora la libreria openpyxl, concessa in licenza secondo la Licenza MIT. Copyright (c) 2010-2023, See AUTHORS. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+18. imageio
+Licenza: Licenza BSD 2-Clausole
+Questo software incorpora la libreria imageio, concessa in licenza secondo la Licenza BSD 2-Clausole. Copyright (c) 2014-2023, contributori di imageio. Tutti i diritti riservati. La ridistribuzione e l'uso in forma di codice sorgente e binario, con o senza modifiche, sono consentiti a condizione che vengano soddisfatte determinate condizioni. Per maggiori dettagli sui termini della licenza, visitare - https://opensource.org/licenses/BSD-2-Clause.
+
+19. platformdirs
+Licenza: Licenza MIT
+Questo software incorpora la libreria platformdirs, concessa in licenza secondo la Licenza MIT. Copyright (c) 2024 Bernát Gábor. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+20. python-docx
+Licenza: Licenza MIT
+Questo software incorpora la libreria python-docx, concessa in licenza secondo la Licenza MIT. Copyright (c) 2013 Steve Canny. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+21. python-magic
+Licenza: Licenza MIT
+Questo software incorpora la libreria python-magic, concessa in licenza secondo la Licenza MIT. Copyright (c) 2014 Adam Hupp. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+22. python-magic-bin
+Licenza: Licenza MIT
+Questo software incorpora la libreria python-magic-bin, concessa in licenza secondo la Licenza MIT. Copyright (c) 2014 Chris Gonnerman. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+23. python-pptx
+Licenza: Licenza MIT
+Questo software incorpora la libreria python-pptx, concessa in licenza secondo la Licenza MIT. Copyright (c) 2013 Steve Canny. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+24. rawpy
+Licenza: Licenza MIT
+Questo software incorpora la libreria rawpy, concessa in licenza secondo la Licenza MIT. Copyright (c) 2017 Markus Hofmann. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+25. squarify
+Licenza: Licenza MIT
+Questo software incorpora la libreria squarify, concessa in licenza secondo la Licenza MIT. Copyright (c) 2014 Uri Laserson. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+26. tomli
+Licenza: Licenza MIT
+Questo software incorpora la libreria tomli, concessa in licenza secondo la Licenza MIT. Copyright (c) 2021 William Ting. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+27. psutil
+Licenza: Licenza BSD 3-Clausole
+Questo software utilizza la libreria psutil, concessa in licenza secondo la Licenza BSD 3-Clausole. Copyright (c) 2009-2023 Giampaolo Rodola'. Tutti i diritti riservati. Per maggiori dettagli sui termini della licenza, visitare - https://opensource.org/licenses/BSD-3-Clause.
+
+28. pypdf2
+Licenza: Licenza BSD 3-Clausole
+Questo software utilizza la libreria PyPDF2, concessa in licenza secondo la Licenza BSD 3-Clausole. Copyright (c) 2016-2023 PyPDF2 Team. Tutti i diritti riservati. Per maggiori dettagli sui termini della licenza, visitare - https://opensource.org/licenses/BSD-3-Clause.
+
+29. pycryptodome
+Licenza: Licenza BSD 2-Clausole
+Questo software incorpora la libreria pycryptodome, concessa in licenza secondo la Licenza BSD 2-Clausole. Copyright (c) 2013-2023 PyCryptodome Authors. Tutti i diritti riservati. Per maggiori dettagli sui termini della licenza, visitare - https://opensource.org/licenses/BSD-2-Clause.
+
+30. pyopenssl
+Licenza: Licenza Apache 2.0
+Questo software utilizza la libreria pyOpenSSL, concessa in licenza secondo la Licenza Apache 2.0. Copyright (c) 2001-2023 Python Software Foundation; potrebbero essere applicabili ulteriori copyright. È possibile ottenere maggiori dettagli sulla licenza su - https://www.apache.org/licenses/LICENSE-2.0.
+
+31. pywin32
+Licenza: Licenza PSF
+Questo software incorpora la libreria pywin32, concessa in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 1994-2024 Mark Hammond. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+32. olefile
+Licenza: Licenza BSD 3-Clausole
+Questo software utilizza la libreria olefile, concessa in licenza secondo la Licenza BSD 3-Clausole. Copyright (c) 2005-2024 Philippe Lagadec. Tutti i diritti riservati. Per maggiori dettagli sui termini della licenza, visitare - https://opensource.org/licenses/BSD-3-Clause.
+
+33. xml.etree.ElementTree
+Licenza: Python Software Foundation License
+Questo software utilizza il modulo xml.etree.ElementTree della libreria standard Python, concesso in licenza secondo la Python Software Foundation License. Copyright (c) 2001-2024 Python Software Foundation. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+34. rarfile
+Licenza: ISC License (ISCL)
+Questo software utilizza la libreria rarfile, concessa in licenza secondo la ISC License (ISCL). Copyright (c) 2024 Marko Kreen. È possibile utilizzare, copiare, modificare e/o distribuire questo software per qualsiasi scopo, con o senza commissione, a condizione che l'avviso di copyright sopra riportato e questa autorizzazione siano inclusi in tutte le copie. Il software è fornito "così com'è", senza garanzia di alcun tipo. Per maggiori dettagli, consultare - https://opensource.org/license/isc-license-txt.
+
+35. datetime
+Licenza: Python Software Foundation License
+Questo software utilizza il modulo datetime della libreria standard Python, concesso in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 2001-2024 Python Software Foundation. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+36. json
+Licenza: Python Software Foundation License
+Questo software utilizza il modulo json della libreria standard Python, concesso in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 2001-2024 Python Software Foundation. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+37. logging
+Licenza: Python Software Foundation License
+Questo software utilizza il modulo logging della libreria standard Python, concesso in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 2001-2024 Python Software Foundation. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+38. os
+Licenza: Python Software Foundation License
+Questo software utilizza il modulo os della libreria standard Python, concesso in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 2001-2024 Python Software Foundation. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+39. queue
+Licenza: Python Software Foundation License
+Questo software utilizza il modulo queue della libreria standard Python, concesso in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 2001-2024 Python Software Foundation. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+40. sys
+Licenza: Python Software Foundation License
+Questo software utilizza il modulo sys della libreria standard Python, concesso in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 2001-2024 Python Software Foundation. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+41. threading
+Licenza: Python Software Foundation License
+Questo software utilizza il modulo threading della libreria standard Python, concesso in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 2001-2024 Python Software Foundation. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+42. time
+Licenza: Python Software Foundation License
+Questo software utilizza il modulo time della libreria standard Python, concesso in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 2001-2024 Python Software Foundation. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+43. traceback
+Licenza: Python Software Foundation License
+Questo software utilizza il modulo traceback della libreria standard Python, concesso in licenza secondo la Python Software Foundation License (PSF). Copyright (c) 2001-2024 Python Software Foundation. Per maggiori informazioni sui termini della licenza, consultare - https://docs.python.org/3/license.html.
+
+44. docx
+Licenza: Licenza MIT
+Questo software utilizza la libreria docx, concessa in licenza secondo la Licenza MIT. Copyright (c) Steve Canny. L'autorizzazione è concessa, gratuitamente, a chiunque ottenga una copia di questo software e dei file di documentazione associati, di trattare il Software senza restrizioni, inclusi, senza limitazione, i diritti di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del Software, e di permettere alle persone a cui il Software è fornito di farlo, soggetto alle seguenti condizioni: L'avviso di copyright sopra riportato e questo avviso di autorizzazione devono essere inclusi in tutte le copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT.
+
+45. xlrd
+Licenza: Licenza BSD 3-Clausole
+Questo software utilizza la libreria xlrd, concessa in licenza secondo la Licenza BSD 3-Clausole. Copyright (c) 2005-2023 Stephen John Machin, Lingfo Pty Ltd. Tutti i diritti riservati. Questa libreria è utilizzata per la lettura di vecchi file Excel (.xls). Per maggiori dettagli sui termini della licenza, visitare - https://opensource.org/licenses/BSD-3-Clause.
+
+46. pyodbc
+Licenza: MIT No Attribution License (MIT-0)
+Questo software utilizza la libreria pyodbc, concessa in licenza secondo la Licenza MIT No Attribution (MIT-0). Copyright (c) Michael Kleehammer e altri collaboratori. Questa licenza permette a chiunque di utilizzare, copiare, modificare, unire, pubblicare, distribuire, sublicenziare e/o vendere copie del software senza restrizioni, inclusi scopi commerciali, e senza l'obbligo di includere avvisi di copyright nelle copie o parti sostanziali del Software. Per maggiori informazioni, visitare - https://opensource.org/licenses/MIT-0.
+
+47. py7zr
+Licenza: GNU Lesser General Public License v2 o successiva (LGPLv2+)
+Questo software utilizza la libreria py7zr, concessa in licenza secondo la GNU Lesser General Public License v2 o successiva (LGPLv2+). Copyright (c) 2019-2023 Hiroshi Miura e collaboratori. Questa libreria è utilizzata per la manipolazione di file in formato 7z. È possibile ridistribuirla e/o modificarla secondo i termini della LGPLv2.1 o versioni successive, come pubblicato dalla Free Software Foundation. Per maggiori dettagli, consultare - https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html.en.
+
+48. squarify
+Licenza: Licenza Apache 2.0
+Questo software incorpora la libreria squarify, concessa in licenza secondo la Licenza Apache 2.0. Copyright (c) 2014-2023 Uri Laserson. È possibile ridistribuirla e/o modificarla secondo i termini della Licenza Apache 2.0, come pubblicata dall'Apache Software Foundation. Questa libreria è utilizzata per creare visualizzazioni di mappe ad albero (treemap). Per maggiori dettagli, consultare - https://www.apache.org/licenses/LICENSE-2.0.

@@ -1,0 +1,49 @@
+CONTRATTO DI LICENZA PER L'UTENTE FINALE - Linceu Lighthouse
+Versione 0.0.2.0, 17 agosto 2025
+
+Copyright (c) 2025 Fernando Nillsson Cidade. Tutti i diritti riservati.
+
+Installando, copiando o utilizzando in altro modo il Software, l'utente accetta di essere vincolato dai termini di questa Licenza. Se non si accettano i termini di questa Licenza, non installare o utilizzare il Software.
+
+TERMINI E CONDIZIONI PER L'USO, LA RIPRODUZIONE E LA DISTRIBUZIONE:
+
+1. DEFINIZIONI
+   "Licenziante" si riferisce a Fernando Nillsson Cidade, il proprietario del copyright del Software.
+   "Software" si riferisce al programma Linceu Lighthouse e a tutta la sua documentazione associata.
+   "Licenziatario" o "utente" si riferisce alla persona fisica o giuridica che utilizza il Software.
+
+2. CONCESSIONE DELLA LICENZA
+   Soggetto ai termini e alle condizioni di questa Licenza, il Licenziante concede al Licenziatario una licenza non esclusiva, non trasferibile e revocabile per l'uso del Software.
+
+3. RESTRIZIONI
+   Il Licenziatario non può:
+   a) Copiare, modificare, adattare o creare opere derivate dal Software, salvo quanto espressamente consentito;
+   b) Decodificare, decompilare o disassemblare il Software, salvo e solo nella misura in cui la legge applicabile lo consenta espressamente, nonostante questa limitazione;
+   c) Rimuovere o alterare qualsiasi avviso di copyright o marchio di fabbrica;
+   d) Noleggiare, affittare, prestare, sublicenziare o trasferire il Software;
+   e) Utilizzare il Software in un modo che violi le leggi o i regolamenti applicabili.
+
+4. PROPRIETÀ INTELLETTUALE
+   Il Software è concesso in licenza, non venduto. È protetto dalle leggi sul copyright e dai trattati internazionali. Tutti i titoli, i diritti d'autore e altri diritti di proprietà intellettuale relativi al Software appartengono esclusivamente al Licenziante.
+
+5. AGGIORNAMENTI E SUPPORTO
+   Il Licenziante può, a sua discrezione, fornire aggiornamenti o upgrade per il Software. Il supporto tecnico, se disponibile, è fornito in base al modello di licenza acquisito (gratuito o commerciale). Per maggiori dettagli sul supporto commerciale, fare riferimento al Contratto di Licenza Commerciale.
+
+6. DURATA E RISOLUZIONE
+   Questa Licenza rimane in vigore fino alla sua risoluzione. Il Licenziante può risolvere questa Licenza se il Licenziatario viola uno qualsiasi dei suoi termini. In caso di risoluzione, il Licenziatario deve cessare ogni uso del Software e distruggere tutte le copie in suo possesso.
+
+7. GARANZIA LIMITATA
+   Il Software è fornito "COSÌ COM'È", "CON TUTTI I DIFETTI" e "SECONDO DISPONIBILITÀ". L'utente si assume l'intero rischio per quanto riguarda la sua qualità, sicurezza e prestazioni. Qualora si rivelasse difettoso, l'utente si assume l'intero costo di qualsiasi manutenzione o riparazione necessaria.
+
+8. LIMITAZIONE ED ESCLUSIONE DI RIMEDI E DANNI
+   Nella misura non proibita dalla legge, se l'utente ha una base per recuperare i danni, può recuperare dal Licenziante solo i danni diretti fino all'importo pagato per l'applicazione o R$ 5,00 (cinque real brasiliani), a seconda di quale sia maggiore. L'utente non cercherà, e rinuncia a qualsiasi diritto di, recuperare qualsiasi altro danno, inclusi i profitti persi e i danni consequenziali, speciali, diretti, indiretti o incidentali dal Licenziante.
+
+9. RESTRIZIONI SULLA TECNOLOGIA E SULL'ESPORTAZIONE
+   Il Software può essere soggetto alle leggi e ai regolamenti statunitensi o internazionali sul controllo della tecnologia o sull'esportazione. L'utente deve rispettare tutte le leggi e i regolamenti nazionali e internazionali sull'esportazione che si applicano alla tecnologia utilizzata o supportata dal Software.
+
+10. LEGGE APPLICABILE
+    a. Se l'applicazione è stata acquistata negli Stati Uniti o in Canada, le leggi dello stato o della provincia in cui l'utente risiede (o, se un'azienda, dove si trova la sua sede principale) regolano l'interpretazione di questi termini.
+    b. Se l'applicazione è stata acquistata in qualsiasi altro paese, si applicano le leggi di quel paese.
+
+11. ACCORDO COMPLETO
+    Questa Licenza, insieme all'Informativa sulla Privacy, costituisce l'intero accordo tra le parti riguardo all'oggetto del presente e sostituisce tutte le intese, gli accordi o le rappresentazioni precedenti.

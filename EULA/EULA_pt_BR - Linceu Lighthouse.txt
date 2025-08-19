@@ -1,0 +1,49 @@
+LICENÇA DE USO DE USUÁRIO FINAL - Linceu Lighthouse
+Versão 0.0.2.0, 17 de Agosto de 2025
+
+Copyright (c) 2025 Fernando Nillsson Cidade. Todos os direitos reservados.
+
+Ao instalar, copiar ou utilizar de outra forma o Software, você concorda em estar vinculado pelos termos desta Licença. Se você não concordar com os termos desta Licença, não instale nem use o Software.
+
+TERMOS E CONDIÇÕES PARA USO, REPRODUÇÃO E DISTRIBUIÇÃO:
+
+1. DEFINIÇÕES
+   "Licenciador" refere-se a Fernando Nillsson Cidade, o proprietário dos direitos autorais do Software.
+   "Software" refere-se ao programa Linceu Lighthouse e toda sua documentação associada.
+   "Licenciado" ou "você" refere-se à pessoa física ou jurídica que está utilizando o Software.
+
+2. CONCESSÃO DE LICENÇA
+   Sujeito aos termos e condições desta Licença, o Licenciador concede ao Licenciado uma licença não exclusiva, não transferível e revogável para usar o Software.
+
+3. RESTRIÇÕES
+   O Licenciado não poderá:
+   a) Copiar, modificar, adaptar ou criar trabalhos derivados do Software, exceto quando expressamente permitido;
+   b) Realizar engenharia reversa, descompilar ou desmontar o Software, exceto e somente na medida em que a lei aplicável o permita expressamente, apesar desta limitação;
+   c) Remover ou alterar quaisquer avisos de direitos autorais ou marcas registradas;
+   d) Alugar, arrendar, emprestar, sublicenciar ou transferir o Software;
+   e) Usar o Software de maneira que viole leis ou regulamentos aplicáveis.
+
+4. PROPRIEDADE INTELECTUAL
+   O Software é licenciado, não vendido. Ele é protegido por leis de direitos autorais e tratados internacionais. Todos os títulos, direitos autorais e outros direitos de propriedade intelectual relativos ao Software pertencem exclusivamente ao Licenciador.
+
+5. ATUALIZAÇÕES E SUPORTE
+   O Licenciador pode, a seu critério, fornecer atualizações ou upgrades para o Software. O suporte técnico, se disponível, é fornecido de acordo com a modalidade de licença adquirida (seja ela gratuita ou comercial). Para mais detalhes sobre o suporte comercial, consulte o Contrato de Licenciamento Comercial.
+
+6. PRAZO E RESCISÃO
+   Esta Licença permanecerá em vigor até ser rescindida. O Licenciador pode rescindir esta Licença se o Licenciado violar qualquer um de seus termos. Após a rescisão, o Licenciado deve cessar todo o uso do Software e destruir todas as cópias em sua posse.
+
+7. GARANTIA LIMITADA
+   O Software é fornecido "NO ESTADO EM QUE SE ENCONTRA", "COM TODAS AS FALHAS" e "CONFORME DISPONÍVEL". Você assume todo o risco quanto à sua qualidade, segurança e desempenho. Caso se mostre defeituoso, você assume o custo total de qualquer serviço ou reparo necessário.
+
+8. LIMITAÇÃO E EXCLUSÃO DE RECURSOS E DANOS
+   Na medida em que não for proibido por lei, caso você tenha alguma base para a recuperação de danos, você poderá recuperar do Licenciador apenas danos diretos até o valor que você pagou pelo aplicativo ou R$ 5,00 (cinco reais), o que for maior. Você não tentará, e renuncia a qualquer direito de, buscar a recuperação de quaisquer outros danos, incluindo lucros cessantes e danos consequenciais, especiais, diretos, indiretos ou incidentais do Licenciador.
+
+9. RESTRIÇÕES DE TECNOLOGIA E EXPORTAÇÃO
+   O Software pode estar sujeito a leis e regulamentos de controle de tecnologia ou de exportação dos Estados Unidos ou internacionais. Você deve cumprir todas as leis e regulamentos de exportação nacionais e internacionais que se aplicam à tecnologia usada ou suportada pelo Software.
+
+10. LEI APLICÁVEL
+    a. Se você adquiriu o aplicativo nos Estados Unidos ou Canadá, as leis do estado ou província onde você mora (ou, se for uma empresa, onde sua sede principal está localizada) regem a interpretação destes termos.
+    b. Se você adquiriu o aplicativo em qualquer outro país, as leis desse país se aplicam.
+
+11. ACORDO COMPLETO
+    Esta Licença, juntamente com a Política de Privacidade, constitui o acordo completo entre as partes em relação ao objeto aqui tratado e substitui todos os entendimentos, acordos ou representações anteriores.

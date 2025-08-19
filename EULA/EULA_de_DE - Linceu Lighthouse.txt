@@ -1,0 +1,49 @@
+ENDBENUTZER-LIZENZVERTRAG - Linceu Lighthouse
+Version 0.0.2.0, 17. August 2025
+
+Copyright (c) 2025 Fernando Nillsson Cidade. Alle Rechte vorbehalten.
+
+Durch die Installation, das Kopieren oder die anderweitige Nutzung der Software erklären Sie sich mit den Bestimmungen dieser Lizenz einverstanden. Wenn Sie den Bestimmungen dieser Lizenz nicht zustimmen, installieren oder verwenden Sie die Software nicht.
+
+NUTZUNGS-, VERVIELFÄLTIGUNGS- UND VERTRIEBSBEDINGUNGEN:
+
+1. DEFINITIONEN
+   "Lizenzgeber" bezieht sich auf Fernando Nillsson Cidade, den Urheberrechtsinhaber der Software.
+   "Software" bezieht sich auf das Programm Linceu Lighthouse und die gesamte zugehörige Dokumentation.
+   "Lizenznehmer" oder "Sie" bezieht sich auf die natürliche oder juristische Person, die die Software nutzt.
+
+2. LIZENZERTEILUNG
+   Vorbehaltlich der Bestimmungen und Bedingungen dieser Lizenz gewährt der Lizenzgeber dem Lizenznehmer eine nicht-exklusive, nicht übertragbare und widerrufliche Lizenz zur Nutzung der Software.
+
+3. EINSCHRÄNKUNGEN
+   Der Lizenznehmer darf nicht:
+   a) die Software kopieren, modifizieren, anpassen oder davon abgeleitete Werke erstellen, es sei denn, dies ist ausdrücklich gestattet;
+   b) die Software zurückentwickeln, dekompilieren oder disassemblieren, außer und nur in dem Umfang, in dem das anwendbare Recht dies trotz dieser Einschränkung ausdrücklich erlaubt;
+   c) Urheberrechtsvermerke oder Markenzeichen entfernen oder ändern;
+   d) die Software vermieten, verleasen, verleihen, unterlizenzieren oder übertragen;
+   e) die Software in einer Weise nutzen, die gegen geltende Gesetze oder Vorschriften verstößt.
+
+4. GEISTIGES EIGENTUM
+   Die Software wird lizenziert, nicht verkauft. Sie ist durch Urheberrechtsgesetze und internationale Verträge geschützt. Alle Titel, Urheberrechte und sonstigen geistigen Eigentumsrechte an der Software gehören ausschließlich dem Lizenzgeber.
+
+5. UPDATES UND SUPPORT
+   Der Lizenzgeber kann nach eigenem Ermessen Updates oder Upgrades für die Software bereitstellen. Technischer Support, falls verfügbar, wird gemäß dem erworbenen Lizenzmodell (ob kostenlos oder kommerziell) geleistet. Weitere Einzelheiten zum kommerziellen Support finden Sie im kommerziellen Lizenzvertrag.
+
+6. LAUFZEIT UND KÜNDIGUNG
+   Diese Lizenz bleibt bis zu ihrer Kündigung in Kraft. Der Lizenzgeber kann diese Lizenz kündigen, wenn der Lizenznehmer eine ihrer Bestimmungen verletzt. Bei Kündigung muss der Lizenznehmer jegliche Nutzung der Software einstellen und alle in seinem Besitz befindlichen Kopien vernichten.
+
+7. BESCHRÄNKTE GEWÄHRLEISTUNG
+   Die Software wird "WIE BESEHEN", "MIT ALLEN FEHLERN" und "NACH VERFÜGBARKEIT" bereitgestellt. Sie tragen das gesamte Risiko hinsichtlich ihrer Qualität, Sicherheit und Leistung. Sollte sie sich als fehlerhaft erweisen, tragen Sie die gesamten Kosten für alle erforderlichen Wartungs- oder Reparaturarbeiten.
+
+8. HAFTUNGSBESCHRÄNKUNG UND AUSSCHLUSS VON RECHTSMITTELN UND SCHÄDEN
+   Soweit gesetzlich nicht verboten, können Sie, falls Sie einen Anspruch auf Schadensersatz haben, vom Lizenzgeber nur direkte Schäden in Höhe des von Ihnen für die Anwendung gezahlten Betrags oder 5,00 R$ (fünf brasilianische Real), je nachdem, welcher Betrag höher ist, ersetzt verlangen. Sie werden keine anderen Schäden, einschließlich entgangenen Gewinns und Folgeschäden, besondere, direkte, indirekte oder zufällige Schäden, vom Lizenzgeber verlangen und verzichten auf jegliches Recht dazu.
+
+9. TECHNOLOGIE- UND EXPORTBESCHRÄNKUNGEN
+   Die Software kann US-amerikanischen oder internationalen Technologiekontroll- oder Exportgesetzen und -vorschriften unterliegen. Sie müssen alle nationalen und internationalen Exportgesetze und -vorschriften einhalten, die für die von der Software verwendete oder unterstützte Technologie gelten.
+
+10. ANWENDBARES RECHT
+    a. Wenn Sie die Anwendung in den Vereinigten Staaten oder Kanada erworben haben, gelten die Gesetze des Bundesstaates oder der Provinz, in dem/der Sie leben (oder, falls es sich um ein Unternehmen handelt, in dem/der sich Ihr Hauptgeschäftssitz befindet) für die Auslegung dieser Bedingungen.
+    b. Wenn Sie die Anwendung in einem anderen Land erworben haben, gelten die Gesetze dieses Landes.
+
+11. GESAMTE VEREINBARUNG
+    Diese Lizenz stellt zusammen mit der Datenschutzrichtlinie die gesamte Vereinbarung zwischen den Parteien in Bezug auf den Vertragsgegenstand dar und ersetzt alle früheren Absprachen, Vereinbarungen oder Zusicherungen.

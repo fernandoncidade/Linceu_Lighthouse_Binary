@@ -1,0 +1,153 @@
+Projekt: LINCEU LIGHTHOUSE
+Version: 0.0.2.0
+Autoren: Fernando Nillsson Cidade
+
+Beschreibung: Sichtbarkeit und Kontrolle über Ihre Dateien
+
+Linceu Lighthouse ist ein Überwachungstool, das die Prinzipien der Dateiintegritätsüberwachung (File Integrity Monitoring - FIM) anwendet, um ein detailliertes und transparentes Protokoll aller Aktivitäten in Ihren wichtigsten Verzeichnissen bereitzustellen.
+
+Anstatt die Absicht hinter einer Änderung zu interpretieren, liegt der Fokus darauf, jeden Vorgang—Erstellung, Änderung, Löschung und Umbenennung—faktisch zu protokollieren, was Ihnen die volle Kontrolle und Kenntnis darüber gibt, was mit Ihren Daten geschieht. Es ist das ideale Werkzeug für jeden, der eine klare und prüfbare Historie von Aktivitäten in Projektordnern, auf Servern oder in persönlichen Dateien benötigt.
+
+Hauptanwendungsfälle
+
+Linceu Lighthouse bietet die notwendige Sichtbarkeit für verschiedene praktische Szenarien:
+
+- Überprüfung von Ordneraktivitäten: Ideal für Umgebungen, in denen mehrere Benutzer oder Prozesse auf dieselben Verzeichnisse zugreifen. Wissen Sie genau, wann eine Datei geändert wurde, wer sie umbenannt hat oder warum ein Dokument gelöscht wurde.
+- Versions- und Projektkontrolle: Überwachen Sie Projektordner, um den Arbeitsablauf zu verstehen. Sehen Sie die Änderungshistorie von Quellcodes, Designdokumenten oder anderen Materialien ein, um versehentliche Verluste zu vermeiden und die Entwicklung der Arbeit nachzuvollziehen.
+- Dateiorganisation und -bereinigung: Identifizieren Sie temporäre, doppelte oder lange nicht geänderte Dateien. Nutzen Sie die Berichte, um fundierte Entscheidungen darüber zu treffen, was archiviert, verschoben oder gelöscht werden soll, und halten Sie Ihre Verzeichnisse organisiert.
+- Untersuchung spezifischer Ereignisse: Wenn eine wichtige Datei verschwindet oder ein Projekt nicht mehr funktioniert, bietet Linceu Lighthouse eine chronologische Ereignishistorie, um Ihnen bei der Ermittlung der Ursache des Problems zu helfen.
+
+Wie Linceu Lighthouse funktioniert
+
+Der Prozess ist unkompliziert und darauf ausgerichtet, klare Daten für Ihre Analyse bereitzustellen:
+
+1.  Festlegung der Basislinie (Baseline): Beim Start der Überwachung eines Verzeichnisses führt Linceu Lighthouse einen vollständigen Scan durch, um einen anfänglichen „Schnappschuss“ oder eine Basislinie des Zustands aller Dateien und Ordner zu erstellen.
+2.  Kontinuierliche Überwachung: Ausgehend von der Basislinie überwacht das Tool in Echtzeit und protokolliert jedes Erstellungs-, Änderungs-, Lösch-, Verschiebungs- oder Umbenennungsereignis, das im Verzeichnis auftritt.
+3.  Analyse und Berichterstattung: Jede Abweichung von der Basislinie wird sofort in der grafischen Benutzeroberfläche aufgelistet. Von dort aus haben Sie die volle Macht zu analysieren, was passiert ist, indem Sie die vom Software angebotenen Werkzeuge nutzen.
+
+Analysewerkzeuge zu Ihrer Verfügung
+
+Um die große Menge an Überwachungsdaten in nützliche Informationen umzuwandeln, bietet Linceu Lighthouse:
+
+- Erweiterte Filter: Verlieren Sie sich nicht in Tausenden von Ereignissen. Isolieren Sie schnell das Wesentliche, indem Sie nach Vorgangstyp (z. B. nur gelöschte Dateien anzeigen), nach Datum, nach Erweiterung (.docx, .jpg) oder nach einem bestimmten Dateinamen suchen.
+- Visualisierung von Statistiken: Verwandeln Sie Rohdaten in visuelle Einblicke. Mit intuitiven Diagrammen können Sie Aktivitätsmuster verstehen, wie z. B. Spitzenzeiten für Änderungen, die am häufigsten geänderten Dateitypen und die Häufigkeit jedes Vorgangs, was zur Optimierung Ihres Arbeitsablaufs beiträgt.
+- Flexibler Datenexport: Erstellen Sie ein dauerhaftes und prüfbares Protokoll. Exportieren Sie Überwachungsprotokolle in verschiedene Formate (Excel, CSV, JSON, XML), sei es zur Archivierung, zum Teilen mit Ihrem Team oder zum Import in andere Analysetools.
+
+---
+
+SCHNELLSTART-ANLEITUNG:
+
+Wie zu verwenden:
+1. Führen Sie die Anwendung aus, um die grafische Benutzeroberfläche zu starten.
+2. Wählen Sie ein Verzeichnis zur Überwachung aus.
+3. Verwenden Sie die Schaltflächen und Menüs, um die Überwachung zu starten/stoppen, Filter anzuwenden, Daten zu exportieren und Statistiken anzuzeigen.
+
+DETAILLIERTE BEDIENUNGSANLEITUNG:
+
+Systemanforderungen:
+    - Betriebssystem: Windows 10 oder höher.
+
+Installation:
+    - Installieren Sie die ausführbare Datei des Programms, folgen Sie den Anweisungen des Installationsprogramms und führen Sie das Programm aus.
+
+Ersteinrichtung:
+    - Die Benutzeroberfläche wird mit einer leeren Überwachungstabelle angezeigt.
+    - Die Standardsprache wird entsprechend den Systemeinstellungen ausgewählt.
+    - Beachten Sie die linke Seitenleiste, um auf die Hauptfunktionen zuzugreifen.
+
+Verzeichnisüberwachung:
+    1. Verzeichnis auswählen:
+       - Klicken Sie auf die Schaltfläche "Verzeichnis auswählen" oder wählen Sie "Datei → Verzeichnis auswählen"
+       - Der Pfad des ausgewählten Verzeichnisses wird über der Tabelle angezeigt
+
+    2. Überwachung starten/stoppen:
+       - Klicken Sie auf die Schaltfläche "Start/Stopp" oder wählen Sie "Datei → Start/Stopp"
+       - Ein anfänglicher Scan des Verzeichnisses wird mit einem Fortschrittsbalken durchgeführt
+       - Um die Überwachung zu stoppen, klicken Sie erneut auf dieselbe Schaltfläche
+
+Hauptoberfläche:
+    - Menüleiste: Zugriff auf alle Programmfunktionen
+    - Seitenleiste: Schnellzugriffsschaltflächen
+    - Verzeichnisbezeichnung: Zeigt das überwachte Verzeichnis an
+    - Ergebnisbezeichnung: Zeigt den aktuellen Status des Vorgangs an
+    - Datentabelle: Zeigt alle Überwachungsereignisse an
+    - Fortschrittsbalken: Sichtbar bei lang andauernden Vorgängen
+
+    Standard-Tabellenfelder:
+    - Vorgangstyp: Hinzugefügt, Gelöscht, Geändert, Umbenannt oder Verschoben
+    - Name: Dateiname
+    - Vorheriges Verzeichnis: Ursprünglicher Speicherort der Datei (falls zutreffend)
+    - Aktuelles Verzeichnis: Aktueller Speicherort der Datei
+    - Erstellungsdatum: Datum der Dateierstellung
+    - Änderungsdatum: Datum der letzten Änderung
+    - Typ: Dateityp/Erweiterung
+
+Filter und Suche:
+    1. Schnellfilter:
+       - Im Menü "Einstellungen → Filter", aktivieren/deaktivieren Sie Vorgangstypen
+         (Verschoben, Umbenannt, Hinzugefügt, Gelöscht, Geändert)
+
+    2. Erweiterte Filter:
+       - Greifen Sie auf "Einstellungen → Filter → Erweiterte Filter" zu
+       - Vorgangsfilter: Wählen Sie anzuzeigende Vorgangstypen aus
+       - Suche: Suchen Sie nach Text in Namen und Verzeichnissen
+       - Erweiterungsfilter: Filtern Sie nach bestimmten Dateitypen
+       - Datumsfilter: Definieren Sie den Zeitraum für Ereignisse
+       - Verwenden Sie die Kalenderschaltfläche zur Datumsauswahl
+       - "Filter löschen" setzt alle Einstellungen zurück
+
+Visualisierung von Statistiken:
+    - Greifen Sie über die Schaltfläche "Statistiken" oder "Datei → Statistiken" zu
+    - Verfügbare Diagramme:
+      * Vorgangsverteilung: Anteil jedes Vorgangstyps
+      * Top 10 Dateitypen: Häufigste Dateitypen
+      * Vorgangszeitachse: Zeitachse der Ereignisse
+      * Baumkarte: Größenvisualisierung nach Typen
+      * Verteilung nach Stunde: Stunden mit den meisten Vorgängen
+      * Pareto-Analyse: Häufigkeit und kumulierter Prozentsatz
+      * Vorgänge pro Tag: Nach Datum gruppierte Vorgänge
+    - Diagramme speichern: Klicken Sie auf "Alle speichern" und wählen Sie ein Ziel aus
+
+Datenexport:
+    - Klicken Sie auf "Speichern unter" oder "Datei → Speichern unter"
+    - Verfügbare Formate:
+      * Excel (.xlsx)
+      * CSV (.csv)
+      * Text (.txt)
+      * JSON (.json)
+      * XML (.xml)
+      * Datenbank (.db)
+    - Für zukünftige Exporte desselben Satzes verwenden Sie "Datei → Speichern"
+
+Spaltenkonfiguration:
+    - Greifen Sie auf "Einstellungen → Spalten konfigurieren" zu
+    - Aktivieren/deaktivieren Sie die gewünschten Spalten in der Tabelle:
+      (Vorgangstyp, Name, Vorheriges Verzeichnis, Aktuelles Verzeichnis, etc.)
+    - Änderungen werden sofort angewendet
+    - Standardwiederherstellung: "Einstellungen → Spalten konfigurieren → Spalten zurücksetzen"
+
+Sprachwechsel:
+    - Greifen Sie auf "Optionen → Sprache" zu und wählen Sie die gewünschte Sprache aus
+    - Das Programm wird nach Bestätigung mit der neuen Sprache neu gestartet
+
+Fehlerbehebung:
+    1. Überwachung startet nicht:
+       - Überprüfen Sie die Zugriffsberechtigungen für das Verzeichnis
+       - Stellen Sie sicher, dass kein anderes Programm dasselbe Verzeichnis überwacht
+       - Starten Sie die Anwendung neu
+
+    2. Ereignisse werden nicht angezeigt:
+       - Überprüfen Sie, ob die Überwachung aktiv ist
+       - Überprüfen Sie, ob die Filter keine Ereignisse ausblenden
+       - Testen Sie, indem Sie eine Datei manuell ändern
+
+    3. Hoher Ressourcenverbrauch:
+       - Vermeiden Sie die Überwachung von Systemverzeichnissen oder solchen mit Tausenden von Dateien
+       - Überwachen Sie spezifische Unterverzeichnisse anstelle von Stammverzeichnissen
+
+    4. Fehler in den Statistiken:
+       - Stellen Sie sicher, dass genügend Ereignisse vorhanden sind, um Diagramme zu erstellen
+       - Überprüfen Sie, ob alle Bibliotheken korrekt installiert sind
+
+Autoren:
+- Fernando Nillsson Cidade

@@ -1,0 +1,8 @@
+HINWEIS ZU URHEBERRECHT UND MARKENZEICHEN
+============================================
+
+Copyright (C) 2025 Fernando Nillsson Cidade. Alle Rechte vorbehalten.
+
+Die Software Linceu Lighthouse und alle zugehörigen Dokumentationen, einschließlich des gesamten Inhalts der Software und ihrer Abhängigkeiten, sind geistiges Eigentum von Fernando Nillsson Cidade. Der Urheberrechtsschutz umfasst, ist aber nicht beschränkt auf, den Quellcode des Programms, die grafische Benutzeroberfläche, die Texte, die Handbücher und die Projektbeschreibung.
+
+Der Name "Linceu Lighthouse" ist ein Markenzeichen von Fernando Nillsson Cidade. Die unbefugte Verwendung des Namens, des Logos oder jeglichen unverwechselbaren Materials, das mit dem Projekt in Verbindung steht, ist strengstens untersagt.

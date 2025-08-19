@@ -1,0 +1,49 @@
+CONTRATO DE LICENCIA DE USUARIO FINAL - Linceu Lighthouse
+Versión 0.0.2.0, 17 de agosto de 2025
+
+Copyright (c) 2025 Fernando Nillsson Cidade. Todos los derechos reservados.
+
+Al instalar, copiar o utilizar de cualquier otro modo el Software, usted acepta regirse por los términos de esta Licencia. Si no está de acuerdo con los términos de esta Licencia, no instale ni utilice el Software.
+
+TÉRMINOS Y CONDICIONES DE USO, REPRODUCCIÓN Y DISTRIBUCIÓN:
+
+1. DEFINICIONES
+   "Licenciante" se refiere a Fernando Nillsson Cidade, el propietario de los derechos de autor del Software.
+   "Software" se refiere al programa Linceu Lighthouse y toda su documentación asociada.
+   "Licenciatario" o "usted" se refiere a la persona física o jurídica que utiliza el Software.
+
+2. CONCESIÓN DE LICENCIA
+   Sujeto a los términos y condiciones de esta Licencia, el Licenciante concede al Licenciatario una licencia no exclusiva, intransferible y revocable para usar el Software.
+
+3. RESTRICCIONES
+   El Licenciatario no podrá:
+   a) Copiar, modificar, adaptar o crear obras derivadas del Software, excepto cuando se permita expresamente;
+   b) Aplicar ingeniería inversa, descompilar o desensamblar el Software, excepto y solo en la medida en que la ley aplicable lo permita expresamente, a pesar de esta limitación;
+   c) Eliminar o alterar cualquier aviso de derechos de autor o marcas registradas;
+   d) Alquilar, arrendar, prestar, sublicenciar o transferir el Software;
+   e) Usar el Software de una manera que viole las leyes o regulaciones aplicables.
+
+4. PROPIEDAD INTELECTUAL
+   El Software se licencia, no se vende. Está protegido por leyes de derechos de autor y tratados internacionales. Todos los títulos, derechos de autor y otros derechos de propiedad intelectual sobre el Software pertenecen exclusivamente al Licenciante.
+
+5. ACTUALIZACIONES Y SOPORTE
+   El Licenciante puede, a su discreción, proporcionar actualizaciones o mejoras para el Software. El soporte técnico, si está disponible, se proporciona de acuerdo con el modelo de licencia adquirido (ya sea gratuito o comercial). Para más detalles sobre el soporte comercial, consulte el Contrato de Licencia Comercial.
+
+6. VIGENCIA Y RESCISIÓN
+   Esta Licencia permanecerá en vigor hasta que sea rescindida. El Licenciante puede rescindir esta Licencia si el Licenciatario viola cualquiera de sus términos. Tras la rescisión, el Licenciatario debe cesar todo uso del Software y destruir todas las copias en su posesión.
+
+7. GARANTÍA LIMITADA
+   El Software se proporciona "TAL CUAL", "CON TODOS LOS FALLOS" y "SEGÚN DISPONIBILIDAD". Usted asume todo el riesgo en cuanto a su calidad, seguridad y rendimiento. Si resultara defectuoso, usted asume el costo total de cualquier servicio o reparación necesarios.
+
+8. LIMITACIÓN Y EXCLUSIÓN DE RECURSOS Y DAÑOS
+   En la medida en que no lo prohíba la ley, si usted tiene alguna base para recuperar daños, solo puede recuperar del Licenciante los daños directos hasta la cantidad que pagó por la aplicación o R$ 5,00 (cinco reales brasileños), la que sea mayor. Usted no intentará, y renuncia a cualquier derecho de, buscar la recuperación de cualquier otro daño, incluyendo lucro cesante y daños consecuentes, especiales, directos, indirectos o incidentales del Licenciante.
+
+9. RESTRICCIONES DE TECNOLOGÍA Y EXPORTACIÓN
+   El Software puede estar sujeto a leyes y regulaciones de control de tecnología o de exportación de los Estados Unidos o internacionales. Usted debe cumplir con todas las leyes y regulaciones de exportación nacionales e internacionales que se aplican a la tecnología utilizada o soportada por el Software.
+
+10. LEY APLICABLE
+    a. Si adquirió la aplicación en los Estados Unidos o Canadá, las leyes del estado o provincia donde vive (o, si es una empresa, donde se encuentra su sede principal de negocios) rigen la interpretación de estos términos.
+    b. Si adquirió la aplicación en cualquier otro país, se aplican las leyes de ese país.
+
+11. ACUERDO COMPLETO
+    Esta Licencia, junto con la Política de Privacidad, constituye el acuerdo completo entre las partes con respecto al objeto del presente y reemplaza todos los entendimientos, acuerdos o representaciones anteriores.

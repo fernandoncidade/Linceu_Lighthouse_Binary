@@ -1,0 +1,153 @@
+Progetto: LINCEU LIGHTHOUSE
+Versione: 0.0.2.0
+Autori: Fernando Nillsson Cidade
+
+Descrizione: Visibilità e Controllo sui Tuoi File
+
+Linceu Lighthouse è uno strumento di monitoraggio che applica i principi del Monitoraggio dell'Integrità dei File (File Integrity Monitoring - FIM) per fornire un registro dettagliato e trasparente di tutte le attività nelle tue directory più importanti.
+
+Invece di interpretare l'intento dietro un cambiamento, il suo obiettivo è registrare fattualmente ogni operazione—creazione, modifica, cancellazione e ridenominazione—dandoti il controllo totale e la conoscenza di ciò che accade ai tuoi dati. È lo strumento ideale per chiunque abbia bisogno di una cronologia chiara e verificabile delle attività nelle cartelle di progetto, nei server o nei file personali.
+
+Casi d'Uso Principali
+
+Linceu Lighthouse offre la visibilità necessaria per vari scenari pratici:
+
+- Audit delle Attività nelle Cartelle: Ideale per ambienti in cui più utenti o processi accedono alle stesse directory. Scopri esattamente quando un file è stato modificato, chi lo ha rinominato o perché un documento è stato cancellato.
+- Controllo di Versioni e Progetti: Monitora le cartelle di progetto per comprendere il flusso di lavoro. Visualizza la cronologia delle modifiche nei codici sorgente, nei documenti di progettazione o in altri materiali, aiutando a prevenire perdite accidentali e a comprendere l'evoluzione del lavoro.
+- Organizzazione e Pulizia dei File: Identifica file temporanei, duplicati o non modificati da molto tempo. Utilizza i report per prendere decisioni informate su cosa archiviare, spostare o eliminare, mantenendo le tue directory organizzate.
+- Indagine su Eventi Specifici: Se un file importante scompare o un progetto smette di funzionare, Linceu Lighthouse fornisce la cronologia degli eventi per aiutarti a rintracciare la causa principale del problema.
+
+Come Funziona Linceu Lighthouse?
+
+Il processo è diretto e focalizzato sulla fornitura di dati chiari per la tua analisi:
+
+1.  Stabilimento della Linea di Base (Baseline): Quando si avvia il monitoraggio di una directory, Linceu Lighthouse esegue una scansione completa per creare un "istantanea" iniziale, o linea di base, dello stato di tutti i file e le cartelle.
+2.  Monitoraggio Continuo: Dalla linea di base, lo strumento monitora in tempo reale e registra ogni evento di creazione, modifica, cancellazione, spostamento o ridenominazione che si verifica nella directory.
+3.  Analisi e Report: Qualsiasi deviazione dalla linea di base viene immediatamente elencata nell'interfaccia grafica. Da lì, hai il pieno potere di analizzare ciò che è accaduto, utilizzando gli strumenti offerti dal software.
+
+Strumenti di Analisi a Tua Disposizione
+
+Per trasformare il grande volume di dati di monitoraggio in informazioni utili, Linceu Lighthouse offre:
+
+- Filtri Avanzati: Non perderti tra migliaia di eventi. Isola rapidamente ciò che conta filtrando per tipo di operazione (es: visualizza solo i file cancellati), per data, per estensione (.docx, .jpg) o cercando un nome di file specifico.
+- Visualizzazione delle Statistiche: Trasforma i dati grezzi in insight visivi. Con grafici intuitivi, puoi comprendere i modelli di attività, come gli orari di punta delle modifiche, i tipi di file più frequentemente modificati e la frequenza di ogni operazione, aiutando a ottimizzare il tuo flusso di lavoro.
+- Esportazione Flessibile dei Dati: Crea un registro permanente e verificabile. Esporta i log di monitoraggio in vari formati (Excel, CSV, JSON, XML), sia per l'archiviazione, la condivisione con il tuo team o l'importazione in altri strumenti di analisi.
+
+---
+
+MANUALE DI USO RAPIDO:
+
+Come usare:
+1. Esegui l'applicazione per avviare l'interfaccia grafica.
+2. Seleziona una directory da monitorare.
+3. Utilizza i pulsanti e i menu per avviare/interrompere il monitoraggio, applicare filtri, esportare dati e visualizzare statistiche.
+
+MANUALE D'USO DETTAGLIATO:
+
+Requisiti di Sistema:
+    - Sistema Operativo: Windows 10 o superiore.
+
+Installazione:
+    - Installa il file eseguibile del programma, segui le istruzioni del programma di installazione ed esegui il programma.
+
+Configurazione Iniziale:
+    - L'interfaccia verrà visualizzata con una tabella di monitoraggio vuota.
+    - La lingua predefinita verrà selezionata in base alle impostazioni di sistema.
+    - Osserva la barra laterale sinistra per accedere alle funzioni principali.
+
+Monitoraggio delle Directory:
+    1. Seleziona una Directory:
+       - Fai clic sul pulsante "Seleziona Directory" o seleziona "File → Seleziona Directory"
+       - Il percorso della directory selezionata verrà visualizzato sopra la tabella
+
+    2. Avvia/Interrompi Monitoraggio:
+       - Fai clic sul pulsante "Avvia/Interrompi" o seleziona "File → Avvia/Interrompi"
+       - Verrà eseguita una scansione iniziale della directory con una barra di avanzamento
+       - Per interrompere il monitoraggio, fai di nuovo clic sullo stesso pulsante
+
+Interfaccia Principale:
+    - Barra dei Menu: Accesso a tutte le funzioni del programma
+    - Barra Laterale: Pulsanti di azione rapida
+    - Etichetta Directory: Visualizza la directory monitorata
+    - Etichetta Risultato: Mostra lo stato corrente dell'operazione
+    - Tabella Dati: Visualizza tutti gli eventi di monitoraggio
+    - Barra di Avanzamento: Visibile durante le operazioni di lunga durata
+
+    Campi predefiniti della tabella:
+    - Tipo di Operazione: Aggiunto, Cancellato, Modificato, Rinominato o Spostato
+    - Nome: Nome del file
+    - Directory Precedente: Posizione originale del file (se applicabile)
+    - Directory Attuale: Posizione attuale del file
+    - Data di Creazione: Data di creazione del file
+    - Data di Modifica: Data dell'ultima modifica
+    - Tipo: Tipo/estensione del file
+
+Filtri e Ricerca:
+    1. Filtri Rapidi:
+       - Nel menu "Impostazioni → Filtri", seleziona/deseleziona i tipi di operazioni
+         (Spostato, Rinominato, Aggiunto, Cancellato, Modificato)
+
+    2. Filtri Avanzati:
+       - Accedi a "Impostazioni → Filtri → Filtri Avanzati"
+       - Filtro Operazione: Seleziona i tipi di operazioni da visualizzare
+       - Ricerca: Cerca testo nei nomi e nelle directory
+       - Filtro per Estensione: Filtra per tipi di file specifici
+       - Filtro Data: Definisci il periodo per gli eventi
+       - Usa il pulsante del calendario per la selezione della data
+       - "Pulisci Filtri" ripristina tutte le impostazioni
+
+Visualizzazione delle Statistiche:
+    - Accedi tramite il pulsante "Statistiche" o "File → Statistiche"
+    - Grafici disponibili:
+      * Distribuzione delle Operazioni: Proporzione di ogni tipo di operazione
+      * Top 10 Tipi di File: Tipi di file più comuni
+      * Cronologia delle Operazioni: Cronologia degli eventi
+      * Mappa ad Albero: Visualizzazione delle dimensioni per tipi
+      * Distribuzione per Ora: Orari con il maggior numero di operazioni
+      * Analisi di Pareto: Frequenza e percentuale cumulata
+      * Operazioni per Giorno: Operazioni raggruppate per data
+    - Salva grafici: Fai clic su "Salva Tutto" e seleziona una destinazione
+
+Esportazione Dati:
+    - Fai clic su "Salva come" o "File → Salva come"
+    - Formati disponibili:
+      * Excel (.xlsx)
+      * CSV (.csv)
+      * Testo (.txt)
+      * JSON (.json)
+      * XML (.xml)
+      * Database (.db)
+    - Per esportazioni future dello stesso set, usa "File → Salva"
+
+Configurazione Colonne:
+    - Accedi a "Impostazioni → Configura Colonne"
+    - Seleziona/deseleziona le colonne desiderate nella tabella:
+      (Tipo di Operazione, Nome, Directory Precedente, Directory Attuale, ecc.)
+    - Le modifiche vengono applicate immediatamente
+    - Ripristino predefinito: "Impostazioni → Configura Colonne → Ripristina Colonne"
+
+Cambio Lingua:
+    - Accedi a "Opzioni → Lingua" e seleziona la lingua desiderata
+    - Il programma si riavvierà con la nuova lingua dopo la conferma
+
+Risoluzione dei Problemi:
+    1. Il monitoraggio non si avvia:
+       - Controlla i permessi di accesso alla directory
+       - Assicurati che nessun altro programma stia monitorando la stessa directory
+       - Riavvia l'applicazione
+
+    2. Gli eventi non compaiono:
+       - Controlla se il monitoraggio è attivo
+       - Controlla se i filtri non nascondono gli eventi
+       - Prova a modificare manualmente un file
+
+    3. Alto consumo di risorse:
+       - Evita di monitorare le directory di sistema o quelle con migliaia di file
+       - Monitora sottodirectory specifiche invece delle directory principali
+
+    4. Errori nelle statistiche:
+       - Assicurati che ci siano abbastanza eventi per generare i grafici
+       - Controlla che tutte le librerie siano installate correttamente
+
+Autori:
+- Fernando Nillsson Cidade

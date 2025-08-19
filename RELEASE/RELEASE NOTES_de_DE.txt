@@ -1,0 +1,50 @@
+RELEASE NOTES: Version 0.0.2.0
+
+In dieser neuen Version wurden folgende Verbesserungen und Funktionen implementiert:
+
+Komplette Überarbeitung des Internationalisierungssystems:
+- Das Sprach- und Übersetzungssystem wurde vollständig neu geschrieben und verwendet jetzt die nativen Ressourcen des PySide6-Frameworks und der Qt-Bibliothek. Diese Änderung führte zu einer deutlich höheren Reaktionsfähigkeit und Leistung.
+- In ersten Tests wurde ein deutlicher Performancegewinn bei der Übersetzung von Tabellen mit bis zu 2.000 Ereignissen festgestellt. Bei größeren Datenmengen wirkt sich der Neuzeichnungsprozess der Oberfläche (Repaint) auf die Leistung aus und kann vorübergehende GUI-Blockierungen bis zum Abschluss der Arbeitslast verursachen.
+- Wichtige Empfehlung: Um Datenverlust oder ein unerwartetes Schließen der Anwendung zu vermeiden, sollte die Sprache VOR Beginn der Überwachung festgelegt werden, insbesondere bei großen Datenmengen. Ein Sprachwechsel sollte nur bei pausierter Überwachung erfolgen. NIEMALS die Sprache während einer aktiven Überwachungssitzung ändern.
+
+Hinweisfenster für Sprachwechsel:
+- Es wurde ein zweisprachiges Dialogfenster implementiert, das den Benutzer bei jedem Wechsel zwischen den unterstützten Sprachen benachrichtigt.
+
+Erweiterung und Granularität der Datenspalten:
+- Die Spalten "Größe", "Dekomprimiert" und "Binär" wurden aufgeteilt. Jede hat zu 5 neuen Spalten geführt (insgesamt 15), was eine präzisere und granularere Filterung und Analyse der Datei- und Verzeichnisgrößen ermöglicht.
+
+Neugestaltung des Statistikmoduls:
+- Die statistische Datenanalyse wurde umstrukturiert, um mit den neuen Metadatenspalten kompatibel zu sein. Dies führte zu qualitativ hochwertigeren Analysen mit besser definierten Skalen und einer robusteren Datenverarbeitung.
+
+Verbesserung der Dateiüberwachung:
+- Die Genauigkeit der Überwachung wurde verbessert, mit detaillierterer Identifikation von Dateitypen anhand ihrer Erweiterungen.
+
+Neugestaltung der Menüoberfläche:
+- Das Design des Menüsystems wurde verbessert, um alle überwachten Metadaten klarer und intuitiver zu organisieren und anzuzeigen.
+
+Nicht-modale Sekundärfenster:
+- Sekundäre Schnittstellen (interaktive Dialoge) blockieren nicht mehr die Interaktion mit dem Hauptfenster der Anwendung, was einen flüssigeren Arbeitsablauf ermöglicht.
+
+Internationalisierung des Datumsfilters:
+- Das System zur Zeitraumauswahl wurde verbessert. Die Kalenderkomponente zur Datumsauswahl ist jetzt mit dem Übersetzungssystem kompatibel und zeigt Monats- und Tagesnamen in der gewählten Sprache an.
+
+
+Zusammenfassung:
+
+Neuerungen in Version 0.0.2.0:
+
+- Natives Übersetzungssystem (Qt/PySide6): Das Sprachsystem wurde komplett neu geschrieben, um die nativen Ressourcen von Qt zu nutzen, was zu höherer Leistung und Reaktionsfähigkeit führt.
+    - Hinweis: Es wird empfohlen, die Sprache vor Beginn der Überwachung festzulegen, um Blockierungen oder Datenverlust bei großen Datenmengen zu vermeiden.
+
+- Verbesserungen der Benutzeroberfläche (UI/UX):
+    - Hinzufügen eines Bestätigungsdialogs beim Sprachwechsel.
+    - Sekundärfenster blockieren die Hauptoberfläche nicht mehr.
+    - Menüs wurden neu gestaltet, um die Metadaten besser zu organisieren.
+    - Der Kalender des Datumsfilters wird jetzt in der gewählten Sprache angezeigt.
+
+- Leistungsfähigere Datenanalyse:
+    - Die Dateigrößenspalten ("Größe", "Dekomprimiert", "Binär") wurden auf 15 neue Spalten erweitert, was viel präzisere Filter ermöglicht.
+    - Das Statistikmodul wurde aktualisiert, um die neuen Spalten zu unterstützen und detailliertere und genauere Berichte zu erstellen.
+
+- Verbesserte Überwachung:
+    - Verbesserte Erkennung von Dateitypen anhand der Erweiterung.

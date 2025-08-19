@@ -1,0 +1,153 @@
+Projet : LINCEU LIGHTHOUSE
+Version : 0.0.2.0
+Auteurs : Fernando Nillsson Cidade
+
+Description : Visibilité et Contrôle sur Vos Fichiers
+
+Linceu Lighthouse est un outil de surveillance qui applique les principes de la Surveillance de l'Intégrité des Fichiers (File Integrity Monitoring - FIM) pour fournir un journal détaillé et transparent de toutes les activités dans vos répertoires les plus importants.
+
+Plutôt que d'interpréter l'intention derrière un changement, son objectif est d'enregistrer factuellement chaque opération — création, modification, suppression et renommage — vous donnant un contrôle et une connaissance totale de ce qui arrive à vos données. C'est l'outil idéal pour quiconque a besoin d'un historique clair et auditable des activités dans les dossiers de projet, les serveurs ou les fichiers personnels.
+
+Principaux Cas d'Utilisation
+
+Linceu Lighthouse offre la visibilité nécessaire pour divers scénarios pratiques :
+
+- Audit des Activités dans les Dossiers : Idéal pour les environnements où plusieurs utilisateurs ou processus accèdent aux mêmes répertoires. Sachez exactement quand un fichier a été modifié, qui l'a renommé ou pourquoi un document a été supprimé.
+- Contrôle de Versions et de Projets : Surveillez les dossiers de projet pour comprendre le flux de travail. Consultez l'historique des modifications des codes sources, des documents de conception ou d'autres matériaux, ce qui aide à prévenir les pertes accidentelles et à comprendre l'évolution du travail.
+- Organisation et Nettoyage de Fichiers : Identifiez les fichiers temporaires, les doublons ou ceux qui n'ont pas été modifiés depuis longtemps. Utilisez les rapports pour prendre des décisions éclairées sur ce qu'il faut archiver, déplacer ou supprimer, en gardant vos répertoires organisés.
+- Enquête sur des Événements Spécifiques : Si un fichier important disparaît ou qu'un projet cesse de fonctionner, Linceu Lighthouse fournit l'historique chronologique des événements pour vous aider à trouver la cause première du problème.
+
+Comment Fonctionne Linceu Lighthouse ?
+
+Le processus est direct et axé sur la fourniture de données claires pour votre analyse :
+
+1.  Établissement de la Ligne de Base (Baseline) : En commençant la surveillance d'un répertoire, Linceu Lighthouse effectue une analyse complète pour créer un « instantané » initial, ou ligne de base, de l'état de tous les fichiers et dossiers.
+2.  Surveillance Continue : À partir de la ligne de base, l'outil surveille en temps réel et enregistre chaque événement de création, modification, suppression, déplacement ou renommage qui se produit dans le répertoire.
+3.  Analyse et Rapport : Tout écart par rapport à la ligne de base est immédiatement listé dans l'interface graphique. À partir de là, vous avez tout le pouvoir d'analyser ce qui s'est passé, en utilisant les outils offerts par le logiciel.
+
+Outils d'Analyse à Votre Disposition
+
+Pour transformer le grand volume de données de surveillance en informations utiles, Linceu Lighthouse propose :
+
+- Filtres Avancés : Ne vous perdez pas parmi des milliers d'événements. Isolez rapidement ce qui est important en filtrant par type d'opération (ex : voir uniquement les fichiers supprimés), par date, par extension (.docx, .jpg) ou en recherchant un nom de fichier spécifique.
+- Visualisation de Statistiques : Transformez les données brutes en informations visuelles. Avec des graphiques intuitifs, vous pouvez comprendre les modèles d'activité, comme les heures de pointe des modifications, les types de fichiers les plus fréquemment modifiés et la fréquence de chaque opération, ce qui aide à optimiser votre flux de travail.
+- Exportation Flexible de Données : Créez un enregistrement permanent et auditable. Exportez les journaux de surveillance vers divers formats (Excel, CSV, JSON, XML), que ce soit pour l'archivage, le partage avec votre équipe ou l'importation dans d'autres outils d'analyse.
+
+---
+
+MANUEL D'UTILISATION RAPIDE :
+
+Comment utiliser :
+1. Exécutez l'application pour lancer l'interface graphique.
+2. Sélectionnez un répertoire à surveiller.
+3. Utilisez les boutons et les menus pour démarrer/arrêter la surveillance, appliquer des filtres, exporter des données et afficher des statistiques.
+
+MANUEL D'UTILISATION DÉTAILLÉ :
+
+Configuration Requise :
+    - Système d'exploitation : Windows 10 ou supérieur.
+
+Installation :
+    - Installez le fichier exécutable du programme, suivez les instructions de l'installateur et exécutez le programme.
+
+Configuration Initiale :
+    - L'interface s'affichera avec un tableau de surveillance vide.
+    - La langue par défaut sera sélectionnée en fonction des paramètres du système.
+    - Observez la barre latérale gauche pour accéder aux fonctions principales.
+
+Surveillance des Répertoires :
+    1. Sélectionner un Répertoire :
+       - Cliquez sur le bouton "Sélectionner un répertoire" ou sélectionnez "Fichier → Sélectionner un répertoire"
+       - Le chemin du répertoire sélectionné s'affichera au-dessus du tableau
+
+    2. Démarrer/Arrêter la Surveillance :
+       - Cliquez sur le bouton "Démarrer/Arrêter" ou sélectionnez "Fichier → Démarrer/Arrêter"
+       - Une analyse initiale du répertoire sera effectuée avec une barre de progression
+       - Pour arrêter la surveillance, cliquez à nouveau sur le même bouton
+
+Interface Principale :
+    - Barre de Menus : Accès à toutes les fonctions du programme
+    - Barre Latérale : Boutons d'action rapide
+    - Étiquette de Répertoire : Affiche le répertoire surveillé
+    - Étiquette de Résultat : Affiche l'état actuel de l'opération
+    - Tableau de Données : Affiche tous les événements de surveillance
+    - Barre de Progression : Visible lors des opérations de longue durée
+
+    Champs par défaut du tableau :
+    - Type d'Opération : Ajouté, Supprimé, Modifié, Renommé ou Déplacé
+    - Nom : Nom du fichier
+    - Répertoire Précédent : Emplacement d'origine du fichier (le cas échéant)
+    - Répertoire Actuel : Emplacement actuel du fichier
+    - Date de Création : Date de création du fichier
+    - Date de Modification : Date de la dernière modification
+    - Type : Type/extension du fichier
+
+Filtres et Recherche :
+    1. Filtres Rapides :
+       - Dans le menu "Paramètres → Filtres", cochez/décochez les types d'opérations
+         (Déplacé, Renommé, Ajouté, Supprimé, Modifié)
+
+    2. Filtres Avancés :
+       - Accédez à "Paramètres → Filtres → Filtres avancés"
+       - Filtre d'Opération : Sélectionnez les types d'opérations à afficher
+       - Recherche : Recherche de texte dans les noms et les répertoires
+       - Filtre par Extension : Filtrez par types de fichiers spécifiques
+       - Filtre par Date : Définissez la période pour les événements
+       - Utilisez le bouton du calendrier pour la sélection des dates
+       - "Effacer les filtres" réinitialise tous les paramètres
+
+Visualisation des Statistiques :
+    - Accédez via le bouton "Statistiques" ou "Fichier → Statistiques"
+    - Graphiques disponibles :
+      * Répartition des Opérations : Proportion de chaque type d'opération
+      * Top 10 des Types de Fichiers : Types de fichiers les plus courants
+      * Chronologie des Opérations : Chronologie des événements
+      * Carte d'Arbre : Visualisation de la taille par types
+      * Répartition par Heure : Heures avec le plus d'opérations
+      * Analyse de Pareto : Fréquence et pourcentage cumulé
+      * Opérations par Jour : Opérations groupées par date
+    - Enregistrer les graphiques : Cliquez sur "Tout enregistrer" et sélectionnez une destination
+
+Exportation de Données :
+    - Cliquez sur "Enregistrer sous" ou "Fichier → Enregistrer sous"
+    - Formats disponibles :
+      * Excel (.xlsx)
+      * CSV (.csv)
+      * Texte (.txt)
+      * JSON (.json)
+      * XML (.xml)
+      * Base de Données (.db)
+    - Pour de futures exportations du même ensemble, utilisez "Fichier → Enregistrer"
+
+Configuration des Colonnes :
+    - Accédez à "Paramètres → Configurer les colonnes"
+    - Cochez/décochez les colonnes souhaitées dans le tableau :
+      (Type d'Opération, Nom, Répertoire Précédent, Répertoire Actuel, etc.)
+    - Les modifications sont appliquées immédiatement
+    - Restauration par défaut : "Paramètres → Configurer les colonnes → Réinitialiser les colonnes"
+
+Changement de Langue :
+    - Accédez à "Options → Langue" et sélectionnez la langue souhaitée
+    - Le programme redémarrera avec la nouvelle langue après confirmation
+
+Dépannage :
+    1. La surveillance ne démarre pas :
+       - Vérifiez les autorisations d'accès au répertoire
+       - Assurez-vous qu'aucun autre programme ne surveille le même répertoire
+       - Redémarrez l'application
+
+    2. Les événements n'apparaissent pas :
+       - Vérifiez si la surveillance est active
+       - Vérifiez si les filtres ne masquent pas les événements
+       - Testez en modifiant manuellement un fichier
+
+    3. Consommation élevée de ressources :
+       - Évitez de surveiller les répertoires système ou ceux contenant des milliers de fichiers
+       - Surveillez des sous-répertoires spécifiques plutôt que des répertoires racine
+
+    4. Erreurs dans les statistiques :
+       - Assurez-vous qu'il y a suffisamment d'événements pour générer des graphiques
+       - Vérifiez que toutes les bibliothèques sont correctement installées
+
+Auteurs :
+- Fernando Nillsson Cidade

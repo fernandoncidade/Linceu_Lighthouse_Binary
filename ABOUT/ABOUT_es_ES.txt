@@ -1,0 +1,153 @@
+Proyecto: LINCEU LIGHTHOUSE
+Versión: 0.0.2.0
+Autores: Fernando Nillsson Cidade
+
+Descripción: Visibilidad y Control sobre Sus Archivos
+
+Linceu Lighthouse es una herramienta de monitoreo que aplica los principios de Monitoreo de Integridad de Archivos (File Integrity Monitoring - FIM) para proporcionar un registro detallado y transparente de todas las actividades en sus directorios más importantes.
+
+En lugar de interpretar la intención detrás de un cambio, su enfoque es registrar objetivamente cada operación—creación, modificación, eliminación y renombrado—, dándole control y conocimiento total sobre lo que sucede con sus datos. Es la herramienta ideal para quien necesita un historial claro y auditable de las actividades en carpetas de proyectos, servidores o archivos personales.
+
+Principales Casos de Uso
+
+Linceu Lighthouse ofrece la visibilidad necesaria para diversos escenarios prácticos:
+
+- Auditoría de Actividades en Carpetas: Ideal para entornos donde múltiples usuarios o procesos acceden a los mismos directorios. Sepa exactamente cuándo se modificó un archivo, quién lo renombró o por qué se eliminó un documento.
+- Control de Versiones y Proyectos: Monitoree carpetas de proyectos para entender el flujo de trabajo. Vea el historial de cambios en códigos fuente, documentos de diseño u otros materiales, ayudando a evitar pérdidas accidentales y a comprender la evolución del trabajo.
+- Organización y Limpieza de Archivos: Identifique archivos temporales, duplicados o que no se han modificado en mucho tiempo. Utilice los informes para tomar decisiones informadas sobre qué archivar, mover o eliminar, manteniendo sus directorios organizados.
+- Investigación de Eventos Específicos: Si un archivo importante desaparece o un proyecto deja de funcionar, Linceu Lighthouse proporciona el historial cronológico de eventos para ayudarle a rastrear la causa raíz del problema.
+
+¿Cómo Funciona Linceu Lighthouse?
+
+El proceso es directo y se centra en proporcionar datos claros para su análisis:
+
+1.  Establecimiento de la Línea Base (Baseline): Al iniciar el monitoreo de un directorio, Linceu Lighthouse realiza un escaneo completo para crear una "instantánea" inicial, o línea base, del estado de todos los archivos y carpetas.
+2.  Monitoreo Continuo: A partir de la línea base, la herramienta monitorea en tiempo real y registra cada evento de creación, modificación, eliminación, movimiento o renombrado que ocurre en el directorio.
+3.  Análisis e Informe: Cualquier desviación de la línea base se lista inmediatamente en la interfaz gráfica. A partir de ahí, usted tiene todo el poder para analizar lo que sucedió, utilizando las herramientas que ofrece el software.
+
+Herramientas de Análisis a su Disposición
+
+Para transformar el gran volumen de datos de monitoreo en información útil, Linceu Lighthouse ofrece:
+
+- Filtros Avanzados: No se pierda entre miles de eventos. Aísle rápidamente lo que importa filtrando por tipo de operación (ej: ver solo archivos eliminados), por fecha, por extensión (.docx, .jpg) o buscando un nombre de archivo específico.
+- Visualización de Estadísticas: Convierta datos brutos en insights visuales. Con gráficos intuitivos, puede comprender patrones de actividad, como las horas pico de modificaciones, los tipos de archivo más alterados y la frecuencia de cada operación, ayudando a optimizar su flujo de trabajo.
+- Exportación Flexible de Datos: Cree un registro permanente y auditable. Exporte los registros de monitoreo a diversos formatos (Excel, CSV, JSON, XML), ya sea para archivar, compartir con su equipo o importar en otras herramientas de análisis.
+
+---
+
+MANUAL DE USO RÁPIDO:
+
+Cómo usar:
+1. Ejecute la aplicación para iniciar la interfaz gráfica.
+2. Seleccione un directorio para monitorear.
+3. Utilice los botones y menús para iniciar/detener el monitoreo, aplicar filtros, exportar datos y ver estadísticas.
+
+MANUAL DE USO DETALLADO:
+
+Requisitos del Sistema:
+    - Sistema Operativo: Windows 10 o superior.
+
+Instalación:
+    - Instale el archivo ejecutable del programa, siga las instrucciones del instalador y ejecute el programa.
+
+Configuración Inicial:
+    - La interfaz se mostrará con la tabla de monitoreo vacía.
+    - El idioma predeterminado se seleccionará según la configuración del sistema.
+    - Observe la barra lateral izquierda para acceder a las funciones principales.
+
+Monitoreo de Directorios:
+    1. Seleccionar un Directorio:
+       - Haga clic en el botón "Seleccionar Directorio" o seleccione "Archivo → Seleccionar Directorio"
+       - La ruta del directorio seleccionado se mostrará encima de la tabla
+
+    2. Iniciar/Detener Monitoreo:
+       - Haga clic en el botón "Iniciar/Detener" o seleccione "Archivo → Iniciar/Detener"
+       - Se realizará un escaneo inicial del directorio con una barra de progreso
+       - Para detener el monitoreo, haga clic nuevamente en el mismo botón
+
+Interfaz Principal:
+    - Barra de Menú: Acceso a todas las funciones del programa
+    - Barra Lateral: Botones de acción rápida
+    - Etiqueta de Directorio: Muestra el directorio monitoreado
+    - Etiqueta de Resultado: Muestra el estado actual de la operación
+    - Tabla de Datos: Muestra todos los eventos de monitoreo
+    - Barra de Progreso: Visible durante operaciones de larga duración
+
+    Campos predeterminados de la tabla:
+    - Tipo de Operación: Agregado, Eliminado, Modificado, Renombrado o Movido
+    - Nombre: Nombre del archivo
+    - Directorio Anterior: Ubicación original del archivo (cuando corresponda)
+    - Directorio Actual: Ubicación actual del archivo
+    - Fecha de Creación: Fecha en que se creó el archivo
+    - Fecha de Modificación: Fecha de la última modificación
+    - Tipo: Tipo/extensión del archivo
+
+Filtros y Búsqueda:
+    1. Filtros Rápidos:
+       - En el menú "Configuración → Filtros", marque/desmarque tipos de operaciones
+         (Movido, Renombrado, Agregado, Eliminado, Modificado)
+
+    2. Filtros Avanzados:
+       - Acceda a "Configuración → Filtros → Filtros Avanzados"
+       - Filtro de Operación: Seleccione tipos de operaciones a visualizar
+       - Búsqueda: Busca texto en nombres y directorios
+       - Filtro por Extensión: Filtre por tipos de archivo específicos
+       - Filtro de Fecha: Defina el período para los eventos
+       - Use el botón de calendario para la selección de fechas
+       - "Limpiar Filtros" restablece todas las configuraciones
+
+Visualización de Estadísticas:
+    - Acceda mediante el botón "Estadísticas" o "Archivo → Estadísticas"
+    - Gráficos disponibles:
+      * Distribución de Operaciones: Proporción de cada tipo de operación
+      * Top 10 Tipos de Archivo: Tipos de archivo más comunes
+      * Línea de Tiempo de Operaciones: Cronología de eventos
+      * Mapa de Árbol: Visualización de tamaño por tipos
+      * Distribución por Hora: Horas con más operaciones
+      * Análisis de Pareto: Frecuencia y porcentaje acumulado
+      * Operaciones por Día: Operaciones agrupadas por fecha
+    - Guardar gráficos: Haga clic en "Guardar Todos" y seleccione un destino
+
+Exportación de Datos:
+    - Haga clic en "Guardar Como" o "Archivo → Guardar Como"
+    - Formatos disponibles:
+      * Excel (.xlsx)
+      * CSV (.csv)
+      * Texto (.txt)
+      * JSON (.json)
+      * XML (.xml)
+      * Base de Datos (.db)
+    - Para futuras exportaciones del mismo conjunto, use "Archivo → Guardar"
+
+Configuración de Columnas:
+    - Acceda a "Configuración → Configurar Columnas"
+    - Marque/desmarque las columnas deseadas en la tabla:
+      (Tipo de Operación, Nombre, Directorio Anterior, Directorio Actual, etc.)
+    - Los cambios se aplican de inmediato
+    - Restauración predeterminada: "Configuración → Configurar Columnas → Restablecer Columnas"
+
+Cambio de Idioma:
+    - Acceda a "Opciones → Idioma" y seleccione el idioma deseado
+    - El programa se reiniciará con el nuevo idioma después de la confirmación
+
+Solución de Problemas:
+    1. El monitoreo no se inicia:
+       - Verifique los permisos de acceso al directorio
+       - Asegúrese de que ningún otro programa esté monitoreando el mismo directorio
+       - Reinicie la aplicación
+
+    2. Los eventos no aparecen:
+       - Verifique si el monitoreo está activo
+       - Verifique si los filtros no están ocultando eventos
+       - Pruebe modificando un archivo manualmente
+
+    3. Alto consumo de recursos:
+       - Evite monitorear directorios del sistema o con miles de archivos
+       - Monitoree subdirectorios específicos en lugar de directorios raíz
+
+    4. Errores en las estadísticas:
+       - Asegúrese de que haya suficientes eventos para generar gráficos
+       - Verifique si todas las bibliotecas están instaladas correctamente
+
+Autores:
+- Fernando Nillsson Cidade
