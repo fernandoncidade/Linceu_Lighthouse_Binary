@@ -1,0 +1,30 @@
+name: Atualiza versão do README.md após novo release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  update-readme-version:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Atualiza README.md com a nova versão
+        run: |
+          VERSION="${{ github.event.release.tag_name }}"
+          README="README.md"
+          # Atualiza todas as ocorrências multilíngues da versão no README.md
+          sed -i -E "s/(Versão: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
+          sed -i -E "s/(Version: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
+          sed -i -E "s/(Versión: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
+          sed -i -E "s/(Version : )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
+          sed -i -E "s/(Versione: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
+          sed -i -E "s/(Version: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
+
+      - name: Commit e push da atualização automática
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Atualização automática da versão do README.md para ${{ github.event.release.tag_name }}"
+          add: README.md
