@@ -12,9 +12,6 @@
 
 ---
 
-<!-- TOTAL_DOWNLOADS_AUTOMATED -->
-Total de downloads acumulados de todas as releases: **(em breve será preenchido automaticamente)**
-
 <h2 id="ptbr">🇧🇷 Português (BR)</h2>
 
 > **Observação:** Este repositório refere-se à versão **v0.0.2.0** do instalador (binário) do Linceu Lighthouse, disponível em formato de teste/degustação com duração de uma semana (7 dias). Ao final do período de teste, é necessário adquirir a versão paga através do link: [Instalar via Microsoft Store](https://apps.microsoft.com/detail/9NN8Z5Z700TM)
@@ -1086,5 +1083,45 @@ Fehlerbehebung:
 
 Autoren:
 - Fernando Nillsson Cidade
+
+</details>
+
+---
+
+<!-- Português (BR) -->
+<h2 id="ptbr">🇧🇷 Português (BR)</h2>
+
+**Total de downloads acumulados:**  
+![GitHub all releases](https://img.shields.io/github/downloads/fernandoncidade/Linceu_Lighthouse_Binary/total?label=Downloads%20totais%20(Linceu%20Lighthouse))
+
+<!-- English (US) -->
+<h2 id="enus">🇺🇸 English (US)</h2>
+
+**Total cumulative downloads:**  
+![GitHub all releases](https://img.shields.io/github/downloads/fernandoncidade/Linceu_Lighthouse_Binary/total?label=Total%20Downloads%20(Linceu%20Lighthouse))
+
+<!-- Español (ES) -->
+<h2 id="eses">🇪🇸 Español (ES)</h2>
+
+**Descargas acumuladas totales:**  
+![GitHub all releases](https://img.shields.io/github/downloads/fernandoncidade/Linceu_Lighthouse_Binary/total?label=Descargas%20totales%20(Linceu%20Lighthouse))
+
+<!-- Français (FR) -->
+<h2 id="frfr">🇫🇷 Français (FR)</h2>
+
+**Nombre total de téléchargements cumulés :**  
+![GitHub all releases](https://img.shields.io/github/downloads/fernandoncidade/Linceu_Lighthouse_Binary/total?label=Total%20t%C3%A9l%C3%A9chargements%20(Linceu%20Lighthouse))
+
+<!-- Italiano (IT) -->
+<h2 id="itit">🇮🇹 Italiano (IT)</h2>
+
+**Download totali cumulativi:**  
+![GitHub all releases](https://img.shields.io/github/downloads/fernandoncidade/Linceu_Lighthouse_Binary/total?label=Download%20totali%20(Linceu%20Lighthouse))
+
+<!-- Deutsch (DE) -->
+<h2 id="dede">🇩🇪 Deutsch (DE)</h2>
+
+**Gesamte kumulierte Downloads:**  
+![GitHub all releases](https://img.shields.io/github/downloads/fernandoncidade/Linceu_Lighthouse_Binary/total?label=Gesamte%20Downloads%20(Linceu%20Lighthouse))
 
 </details>
