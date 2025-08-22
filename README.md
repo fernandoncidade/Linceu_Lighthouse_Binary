@@ -12,6 +12,9 @@
 
 ---
 
+<!-- TOTAL_DOWNLOADS_AUTOMATED -->
+Total de downloads acumulados de todas as releases: **(em breve será preenchido automaticamente)**
+
 <h2 id="ptbr">🇧🇷 Português (BR)</h2>
 
 > **Observação:** Este repositório refere-se à versão **v0.0.2.0** do instalador (binário) do Linceu Lighthouse, disponível em formato de teste/degustação com duração de uma semana (7 dias). Ao final do período de teste, é necessário adquirir a versão paga através do link: [Instalar via Microsoft Store](https://apps.microsoft.com/detail/9NN8Z5Z700TM)
