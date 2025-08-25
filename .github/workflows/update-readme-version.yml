@@ -1,21 +1,37 @@
-name: Atualiza versão do README.md após novo release
+name: Atualiza quantidade de downloads no README.md após novo release
 
 on:
   release:
     types: [published]
 
 jobs:
-  update-readme-version:
+  update-readme-downloads:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout do código
         uses: actions/checkout@v4
 
-      - name: Atualiza README.md com a nova versão
+      - name: Busca e soma downloads dos assets do release
+        id: downloads
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          VERSION="${{ github.event.release.tag_name }}"
+          RELEASE_ID="${{ github.event.release.id }}"
+          REPO="${{ github.repository }}"
+          # Busca todos os assets do release
+          ASSETS_JSON=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$REPO/releases/$RELEASE_ID/assets")
+          # Soma os downloads
+          TOTAL_DOWNLOADS=$(echo "$ASSETS_JSON" | jq '[.[].download_count] | add')
+          echo "Total downloads: $TOTAL_DOWNLOADS"
+          # Gera arquivo temporário para uso no próximo passo
+          echo "DOWNLOADS=$TOTAL_DOWNLOADS" >> $GITHUB_ENV
+
+      - name: Atualiza README.md com o total de downloads
+        run: |
           README="README.md"
-          # Atualiza todas as ocorrências multilíngues da versão no README.md
+          DOWNLOADS="${DOWNLOADS}"
+          # Atualiza todas as ocorrências multilíngues do número de downloads no README.md
           sed -i -E "s/(Versão: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
           sed -i -E "s/(Version: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
           sed -i -E "s/(Versión: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
@@ -26,5 +42,5 @@ jobs:
       - name: Commit e push da atualização automática
         uses: EndBug/add-and-commit@v9
         with:
-          message: "Atualização automática da versão do README.md para ${{ github.event.release.tag_name }}"
+          message: "Atualização automática dos downloads do README.md para ${{ env.DOWNLOADS }}"
           add: README.md
