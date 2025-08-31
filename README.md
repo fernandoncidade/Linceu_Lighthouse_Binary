@@ -29,7 +29,7 @@
 <summary>Clique para expandir o README em português</summary>
 
 Projeto: LINCEU LIGHTHOUSE  
-Versão: 0.0.2.0  
+Versão: 0.0.0.0  
 Autores: Fernando Nillsson Cidade  
 
 Descrição: Visibilidade e Controle sobre Seus Arquivos
@@ -203,7 +203,7 @@ Autores:
 <summary>Click to expand the README in English</summary>
 
 Project: LINCEU LIGHTHOUSE  
-Version: 0.0.2.0  
+Version: 0.0.0.0  
 Authors: Fernando Nillsson Cidade  
 
 Description: Visibility and Control Over Your Files
@@ -377,7 +377,7 @@ Authors:
 <summary>Haz clic para expandir el README en español</summary>
 
 Proyecto: LINCEU LIGHTHOUSE  
-Versión: 0.0.2.0  
+Versión: 0.0.0.0  
 Autores: Fernando Nillsson Cidade  
 
 Descripción: Visibilidad y Control sobre Sus Archivos
@@ -551,7 +551,7 @@ Autores:
 <summary>Cliquez pour afficher le README en français</summary>
 
 Projet : LINCEU LIGHTHOUSE  
-Version : 0.0.2.0  
+Version : 0.0.0.0  
 Auteurs : Fernando Nillsson Cidade  
 
 Description : Visibilité et Contrôle sur Vos Fichiers
@@ -757,7 +757,7 @@ C'est votre gardien numérique, qui voit tout et illumine tout, offrant une surv
 <summary>Fai clic per espandere il README in italiano</summary>
 
 Progetto: LINCEU LIGHTHOUSE  
-Versione: 0.0.2.0  
+Versione: 0.0.0.0  
 Autori: Fernando Nillsson Cidade  
 
 Descrizione: Visibilità e Controllo sui Tuoi File
@@ -931,7 +931,7 @@ Autori:
 <summary>Klicken Sie hier, um das README auf Deutsch anzuzeigen</summary>
 
 Projekt: LINCEU LIGHTHOUSE  
-Version: 0.0.2.0  
+Version: 0.0.0.0  
 Autoren: Fernando Nillsson Cidade  
 
 Beschreibung: Sichtbarkeit und Kontrolle über Ihre Dateien
