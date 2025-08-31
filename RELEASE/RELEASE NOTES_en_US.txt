@@ -1,3 +1,41 @@
+RELEASE NOTES: Version 0.0.3.0
+
+In this new release, the following improvements and features have been implemented:
+
+Improved Robustness and Stability:
+- Existence checks were added before accessing object methods and properties, making the system more robust and preventing unexpected errors during initialization.
+- The method _invalidar_cache_cores_ is now called only if it actually exists, preventing exceptions from invalid calls.
+- The attribute _cor_selecao_future_, which was undefined, was removed, eliminating unnecessary error messages and providing a smoother experience.
+
+Optimization of Processes and Interface:
+- The control of calls for retranslation of data was optimized: when changing the language, the system performs only the essential operations, avoiding unnecessary processing and increasing agility in language switching.
+- The methods for updating headers, data and column visibility were refactored with exception handling and clarity improvements, reflecting changes in the interface more accurately and quickly.
+- Column index management was adjusted to ensure consistency and avoid errors, allowing manipulation of columns without sorting or display issues.
+- Integration between data update, headers and visibility was improved, ensuring that all changes are correctly reflected in the interface.
+
+General Fixes and Improvements:
+- Several adjustments were made in processing methods, resulting in greater stability and performance, with fewer interruptions for the user.
+
+Summary:
+
+What's New in Version 0.0.3.0:
+
+- Robustness and Stability:
+    - Existence checks for attributes and methods to avoid unexpected errors.
+    - Removal of undefined attributes and invalid calls.
+
+- Interface and Process Optimization:
+    - Efficient control of retranslation when switching languages.
+    - Refactoring of interface update methods.
+    - Adjustment and integration in column management.
+
+- General Improvements:
+    - Minor fixes and enhancements in processing methods, increasing the system's stability and performance.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Version 0.0.2.0
 
 In this new version, the following improvements and features have been implemented:

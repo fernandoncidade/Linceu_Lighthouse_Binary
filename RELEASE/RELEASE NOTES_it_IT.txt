@@ -1,3 +1,41 @@
+RELEASE NOTES: Versione 0.0.3.0
+
+In questa nuova versione sono state implementate le seguenti migliorie e funzionalità:
+
+Aumento della Robustezza e Stabilità:
+- Sono stati aggiunti controlli di esistenza prima di accedere ai metodi e alle proprietà degli oggetti, rendendo il sistema più robusto e prevenendo errori inattesi durante l'inizializzazione.
+- Il metodo _invalidar_cache_cores_ viene ora chiamato solo se esiste effettivamente, evitando eccezioni da chiamate non valide.
+- L'attributo _cor_selecao_future_, che non era definito, è stato rimosso, eliminando messaggi di errore inutili e offrendo un'esperienza più fluida.
+
+Ottimizzazione dei Processi e dell'Interfaccia:
+- Il controllo delle chiamate per la retraduzione dei dati è stato ottimizzato: cambiando lingua, il sistema esegue solo le operazioni essenziali, evitando elaborazioni non necessarie e aumentando l'agilità nel cambio lingua.
+- I metodi di aggiornamento di intestazioni, dati e visibilità delle colonne sono stati rifattorizzati con gestione delle eccezioni e miglioramenti di chiarezza, riflettendo le modifiche nell'interfaccia in modo più preciso e rapido.
+- La gestione degli indici delle colonne è stata regolata per garantire coerenza ed evitare errori, permettendo la manipolazione delle colonne senza problemi di ordinamento o visualizzazione.
+- L'integrazione tra aggiornamento dei dati, intestazioni e visibilità è stata migliorata, garantendo che tutte le modifiche siano correttamente riflesse nell'interfaccia.
+
+Correzioni e Miglioramenti Generali:
+- Sono stati effettuati diversi aggiustamenti nei metodi di elaborazione, risultando in maggiore stabilità e prestazioni, con minori interruzioni per l'utente.
+
+Riepilogo:
+
+Novità della Versione 0.0.3.0:
+
+- Robustezza e Stabilità:
+    - Controlli di esistenza per attributi e metodi per evitare errori inattesi.
+    - Rimozione di attributi non definiti e chiamate non valide.
+
+- Ottimizzazione di Interfaccia e Processi:
+    - Controllo efficiente della retraduzione al cambio lingua.
+    - Rifattorizzazione dei metodi di aggiornamento dell'interfaccia.
+    - Regolazione e integrazione nella gestione delle colonne.
+
+- Miglioramenti Generali:
+    - Piccole correzioni e miglioramenti nei metodi di elaborazione, aumentando la stabilità e le prestazioni del sistema.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Versione 0.0.2.0
 
 In questa nuova versione sono state implementate le seguenti migliorie e funzionalità:

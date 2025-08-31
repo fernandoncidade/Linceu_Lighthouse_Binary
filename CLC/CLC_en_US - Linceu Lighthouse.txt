@@ -1,5 +1,5 @@
 COMMERCIAL LICENSING AGREEMENT - Linceu Lighthouse
-Version 0.0.2.0, August 17, 2025
+Version 0.0.3.0, August 24, 2025
 
 This Licensing Agreement ("Agreement") is entered into between:
 
@@ -60,7 +60,7 @@ This Agreement supplements the terms of the Linceu Lighthouse End-User License A
 
 And being in agreement, the parties execute this Agreement.
 
-Brazil, Paraná, São José dos Pinhais, August 2, 2025
+Brazil, Paraná, São José dos Pinhais, August 24, 2025
 
 Fernando Nillsson Cidade
 ______________________________

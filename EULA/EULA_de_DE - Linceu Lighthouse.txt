@@ -1,5 +1,5 @@
 ENDBENUTZER-LIZENZVERTRAG - Linceu Lighthouse
-Version 0.0.2.0, 17. August 2025
+Version 0.0.3.0, 24. August 2025
 
 Copyright (c) 2025 Fernando Nillsson Cidade. Alle Rechte vorbehalten.
 

@@ -1,3 +1,41 @@
+RELEASE NOTES: Versão 0.0.3.0:
+
+Nesta nova versão, foram implementadas as seguintes melhorias e funcionalidades:
+
+Aprimoramento da Robustez e Estabilidade:
+- Foram adicionadas verificações de existência antes de acessar métodos e propriedades dos objetos, tornando o sistema mais robusto e prevenindo erros inesperados durante a inicialização.
+- O método _invalidar_cache_cores_ agora é chamado apenas se realmente existir, evitando exceções por chamadas inválidas.
+- O atributo _cor_selecao_future_, que não era definido, foi removido, eliminando mensagens de erro desnecessárias e proporcionando uma experiência mais fluida.
+
+Otimização de Processos e Interface:
+- O controle de chamadas para retradução de dados foi otimizado: ao alterar o idioma, o sistema realiza apenas as operações essenciais, evitando processamento desnecessário e aumentando a agilidade na troca de idioma.
+- Os métodos de atualização de cabeçalhos, dados e visibilidade de colunas foram refatorados, com tratamento de exceções e melhorias de clareza, refletindo as alterações na interface de forma mais precisa e rápida.
+- O gerenciamento de índices de colunas foi ajustado para garantir consistência e evitar erros, permitindo manipulação das colunas sem problemas de ordenação ou exibição.
+- A integração entre atualização de dados, cabeçalhos e visibilidade foi aprimorada, garantindo que todas as alterações sejam corretamente refletidas na interface.
+
+Correções e Melhorias Gerais:
+- Diversos ajustes foram realizados nos métodos de processamento, resultando em maior estabilidade e desempenho, com menos interrupções para o usuário.
+
+Resumo:
+
+Novidades da Versão 0.0.3.0:
+
+- Robustez e Estabilidade:
+	- Verificações de existência de atributos e métodos para evitar erros inesperados.
+	- Remoção de atributos indefinidos e chamadas inválidas.
+
+- Otimização de Interface e Processos:
+	- Controle eficiente de retradução ao trocar idioma.
+	- Refatoração dos métodos de atualização da interface.
+	- Ajuste e integração no gerenciamento de colunas.
+
+- Melhorias Gerais:
+	- Pequenas correções e aprimoramentos nos métodos de processamento, aumentando a estabilidade e o desempenho do sistema.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Versão 0.0.2.0:
 
 Nesta nova versão, foram implementadas as seguintes melhorias e funcionalidades:

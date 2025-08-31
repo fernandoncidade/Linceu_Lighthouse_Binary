@@ -1,5 +1,5 @@
 CONTRATO DE LICENCIA DE USUARIO FINAL - Linceu Lighthouse
-Versión 0.0.2.0, 17 de agosto de 2025
+Versión 0.0.3.0, 24 de agosto de 2025
 
 Copyright (c) 2025 Fernando Nillsson Cidade. Todos los derechos reservados.
 

@@ -1,3 +1,41 @@
+RELEASE NOTES: Version 0.0.3.0
+
+In dieser neuen Version wurden die folgenden Verbesserungen und Funktionen implementiert:
+
+Verbesserte Robustheit und Stabilität:
+- Vor dem Zugriff auf Methoden und Eigenschaften von Objekten wurden Existenzprüfungen hinzugefügt, wodurch das System robuster wird und unerwartete Fehler während der Initialisierung vermieden werden.
+- Die Methode _invalidar_cache_cores_ wird jetzt nur noch aufgerufen, wenn sie tatsächlich existiert, wodurch Ausnahmen durch ungültige Aufrufe vermieden werden.
+- Das Attribut _cor_selecao_future_, das nicht definiert war, wurde entfernt, wodurch unnötige Fehlermeldungen eliminiert und ein reibungsloseres Erlebnis ermöglicht werden.
+
+Optimierung von Prozessen und Oberfläche:
+- Die Steuerung der Aufrufe zur Neübersetzung von Daten wurde optimiert: Beim Wechsel der Sprache führt das System nur die wesentlichen Operationen aus, vermeidet unnötige Verarbeitung und erhöht somit die Agilität beim Sprachwechsel.
+- Die Methoden zum Aktualisieren von Überschriften, Daten und Spaltensichtbarkeit wurden refaktoriert und mit Ausnahmebehandlung sowie Klarheitsverbesserungen versehen, sodass Änderungen in der Oberfläche genauer und schneller widerspiegelt werden.
+- Die Verwaltung von Spaltenindices wurde angepasst, um Konsistenz zu gewährleisten und Fehler zu vermeiden, sodass die Manipulation von Spalten ohne Sortier- oder Anzeigeprobleme möglich ist.
+- Die Integration zwischen Datenaktualisierung, Überschriften und Sichtbarkeit wurde verbessert, sodass alle Änderungen korrekt in der Oberfläche widergespiegelt werden.
+
+Allgemeine Korrekturen und Verbesserungen:
+- In den Verarbeitungsmethoden wurden mehrere Anpassungen vorgenommen, was zu höherer Stabilität und Leistung führt und weniger Unterbrechungen für den Benutzer verursacht.
+
+Zusammenfassung:
+
+Neuerungen in Version 0.0.3.0:
+
+- Robustheit und Stabilität:
+    - Existenzprüfungen für Attribute und Methoden, um unerwartete Fehler zu vermeiden.
+    - Entfernung undefinierter Attribute und ungültiger Aufrufe.
+
+- Optimierung von Oberfläche und Prozessen:
+    - Effiziente Steuerung der Neübersetzung beim Sprachwechsel.
+    - Refaktorierung der Methoden zur Aktualisierung der Oberfläche.
+    - Anpassung und Integration im Spaltenmanagement.
+
+- Allgemeine Verbesserungen:
+    - Kleine Korrekturen und Verbesserungen in den Verarbeitungsmethoden, die die Stabilität und Leistung des Systems erhöhen.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Version 0.0.2.0
 
 In dieser neuen Version wurden folgende Verbesserungen und Funktionen implementiert:

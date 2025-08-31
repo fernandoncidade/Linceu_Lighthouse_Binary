@@ -1,3 +1,41 @@
+RELEASE NOTES : Version 0.0.3.0
+
+Dans cette nouvelle version, les améliorations et fonctionnalités suivantes ont été mises en œuvre :
+
+Robustesse et stabilité améliorées :
+- Des vérifications d'existence ont été ajoutées avant d'accéder aux méthodes et aux propriétés des objets, rendant le système plus robuste et évitant des erreurs inattendues lors de l'initialisation.
+- La méthode _invalidar_cache_cores_ n'est désormais appelée que si elle existe réellement, évitant les exceptions dues à des appels invalides.
+- L'attribut _cor_selecao_future_, qui n'était pas défini, a été supprimé, éliminant les messages d'erreur inutiles et offrant une expérience plus fluide.
+
+Optimisation des processus et de l'interface :
+- Le contrôle des appels de retraduction des données a été optimisé : lors du changement de langue, le système effectue uniquement les opérations essentielles, évitant un traitement inutile et augmentant l'agilité du changement de langue.
+- Les méthodes de mise à jour des en-têtes, des données et de la visibilité des colonnes ont été refactorisées avec gestion des exceptions et améliorations de la clarté, reflétant les modifications de l'interface de manière plus précise et rapide.
+- La gestion des indices de colonnes a été ajustée pour garantir la cohérence et éviter les erreurs, permettant la manipulation des colonnes sans problèmes de tri ou d'affichage.
+- L'intégration entre la mise à jour des données, des en-têtes et de la visibilité a été améliorée, garantissant que toutes les modifications sont correctement reflétées dans l'interface.
+
+Corrections et améliorations générales :
+- Plusieurs ajustements ont été apportés aux méthodes de traitement, entraînant une plus grande stabilité et des performances accrues, avec moins d'interruptions pour l'utilisateur.
+
+Résumé :
+
+Nouveautés de la Version 0.0.3.0 :
+
+- Robustesse et stabilité :
+    - Vérifications d'existence des attributs et des méthodes pour éviter des erreurs inattendues.
+    - Suppression des attributs non définis et des appels invalides.
+
+- Optimisation de l'interface et des processus :
+    - Contrôle efficace de la retraduction lors du changement de langue.
+    - Refactorisation des méthodes de mise à jour de l'interface.
+    - Ajustement et intégration dans la gestion des colonnes.
+
+- Améliorations générales :
+    - Petites corrections et améliorations des méthodes de traitement, augmentant la stabilité et les performances du système.
+
+
+_________________________________________________
+
+
 RELEASE NOTES : Version 0.0.2.0
 
 Dans cette nouvelle version, les améliorations et fonctionnalités suivantes ont été mises en œuvre :
