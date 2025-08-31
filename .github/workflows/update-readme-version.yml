@@ -39,7 +39,7 @@ jobs:
           README="README.md"
           VERSION="${{ env.VERSION }}"
           # Substitui apenas trechos vX.X.X.X por v$VERSION
-          sed -i -E "s/v[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/v$VERSION/g" $README
+          sed -i -E "s/v[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/$VERSION/g" $README
 
       - name: Commit e push da atualização automática
         uses: EndBug/add-and-commit@v9
