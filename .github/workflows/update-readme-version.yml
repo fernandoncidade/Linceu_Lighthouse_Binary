@@ -31,17 +31,14 @@ jobs:
           fi
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
-      - name: Atualiza README.md com a nova versão
+      - name: Atualiza README.md com a nova versão do release
         run: |
           README="README.md"
           VERSION="${{ env.VERSION }}"
           # Atualiza todas as ocorrências multilíngues da versão no README.md
-          sed -i -E "s/(Versão: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
-          sed -i -E "s/(Version: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
-          sed -i -E "s/(Versión: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
-          sed -i -E "s/(Version : )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
-          sed -i -E "s/(Versione: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
-          sed -i -E "s/(Version: )[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
+          # Substitui "v0.0.2.0", "vX.X.X.X", "0.0.0.0", "X.X.X.X", etc.
+          sed -i -E "s/v[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/v$VERSION/g" $README
+          sed -i -E "s/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/$VERSION/g" $README
 
       - name: Commit e push da atualização automática
         uses: EndBug/add-and-commit@v9
