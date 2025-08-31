@@ -38,8 +38,8 @@ jobs:
         run: |
           README="README.md"
           VERSION="${{ env.VERSION }}"
-          # Substitui vX.X.X.X e X.X.X.X sem duplicar o "v"
-          sed -i -E "s/v[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/v$VERSION/g;s/([^v])[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/\1$VERSION/g" $README
+          # Substitui apenas trechos vX.X.X.X por v$VERSION
+          sed -i -E "s/v[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/v$VERSION/g" $README
 
       - name: Commit e push da atualização automática
         uses: EndBug/add-and-commit@v9
