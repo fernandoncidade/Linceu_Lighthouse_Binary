@@ -15,19 +15,25 @@ jobs:
       - name: Checkout do código
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # Garante que todo o histórico seja baixado
-          ref: main       # Troque para sua branch padrão se não for "main"
+          fetch-depth: 0
+          ref: main
 
       - name: Garante que está na branch principal
-        run: git checkout main  # Troque "main" para sua branch padrão se necessário
+        run: git checkout main
 
-      - name: Define a versão manualmente caso em execução manual
+      - name: Descobre a versão correta do release
+        id: get_version
         run: |
-          if [ -z "${{ github.event.release.tag_name }}" ]; then
-            # Se rodar manualmente, defina a versão como input ou padrão
-            VERSION="${{ inputs.versao || '0.0.0.0' }}"
-          else
+          # Se estiver rodando via release, usa a tag do evento
+          if [ -n "${{ github.event.release.tag_name }}" ]; then
             VERSION="${{ github.event.release.tag_name }}"
+          else
+            # Para execução manual, busca a tag mais recente do repositório
+            VERSION=$(git tag --list --sort=-creatordate | head -n 1)
+            # Se não houver tag, usa input manual ou padrão
+            if [ -z "$VERSION" ]; then
+              VERSION="${{ inputs.versao || '0.0.0.0' }}"
+            fi
           fi
           echo "VERSION=$VERSION" >> $GITHUB_ENV
 
@@ -36,7 +42,6 @@ jobs:
           README="README.md"
           VERSION="${{ env.VERSION }}"
           # Atualiza todas as ocorrências multilíngues da versão no README.md
-          # Substitui "v0.0.2.0", "vX.X.X.X", "0.0.0.0", "X.X.X.X", etc.
           sed -i -E "s/v[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/v$VERSION/g" $README
           sed -i -E "s/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/$VERSION/g" $README
 
@@ -47,4 +52,4 @@ jobs:
           add: README.md
           default_author: github_actions
           push: true
-          branch: main  # Troque para sua branch padrão se necessário
+          branch: main
