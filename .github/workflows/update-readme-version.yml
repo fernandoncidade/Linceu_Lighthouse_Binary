@@ -10,6 +10,12 @@ jobs:
     steps:
       - name: Checkout do código
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Garante que todo o histórico seja baixado
+          ref: main       # Troque para sua branch padrão se não for "main"
+
+      - name: Garante que está na branch principal
+        run: git checkout main  # Troque "main" para sua branch padrão se necessário
 
       - name: Atualiza README.md com a nova versão
         run: |
@@ -28,3 +34,7 @@ jobs:
         with:
           message: "Atualização automática da versão do README.md para ${{ github.event.release.tag_name }}"
           add: README.md
+          default_author: github_actions
+          # Se necessário, especifique a branch explicitamente
+          push: true
+          branch: main  # Troque para sua branch padrão se necessário
