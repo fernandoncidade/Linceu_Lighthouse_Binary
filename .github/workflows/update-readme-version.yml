@@ -5,6 +5,9 @@ on:
     types: [published]
   workflow_dispatch: # Permite execução manual do workflow
 
+permissions:
+  contents: write
+
 jobs:
   update-readme-version:
     runs-on: ubuntu-latest
