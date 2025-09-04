@@ -1,3 +1,17 @@
+RELEASE NOTES: Version 0.0.4.0
+
+In this new version, the following improvements and features have been implemented:
+
+Bug Fixes:
+- An error related to the start/stop analysis command has been fixed:
+    - The issue occurred when the process was stopped during scanning, the initial stage of monitoring. Now, the system correctly handles this situation, preventing unexpected failures.
+
+- Fixed an issue when opening the "Advanced Color Selector" in the settings menu. Clicking the corresponding button did not open the dialog window with the advanced color settings, which was an error.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Version 0.0.3.0
 
 In this new release, the following improvements and features have been implemented:

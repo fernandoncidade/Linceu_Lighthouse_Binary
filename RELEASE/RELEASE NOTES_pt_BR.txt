@@ -1,3 +1,17 @@
+RELEASE NOTES: Versão 0.0.4.0:
+
+Nesta nova versão, foram implementadas as seguintes melhorias e funcionalidades:
+
+Correções de Bugs:
+- Um erro relacionado ao comando de iniciar/parar análise foi corrigido:
+	- O problema ocorria quando era parado durante o escaneamento, estágio inicial do monitoramento. Agora, o sistema lida corretamente com essa situação, evitando falhas inesperadas.
+
+- Corrigido um problema ao abrir o “Seletor de Cores Avançado” no menu de configurações. Ao clicar no botão correspondente, o executável não abre a janela de diálogo com as configurações avançadas de cores, o que caracteriza um erro. 
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Versão 0.0.3.0:
 
 Nesta nova versão, foram implementadas as seguintes melhorias e funcionalidades:

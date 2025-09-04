@@ -1,3 +1,17 @@
+RELEASE NOTES: Versión 0.0.4.0
+
+En esta nueva versión, se implementaron las siguientes mejoras y funcionalidades:
+
+Corrección de errores:
+- Se corrigió un error relacionado con el comando de iniciar/detener análisis:
+    - El problema ocurría cuando se detenía durante el escaneo, etapa inicial del monitoreo. Ahora, el sistema maneja correctamente esta situación, evitando fallos inesperados.
+
+- Corregido un problema al abrir el "Selector de Colores Avanzado" en el menú de configuración. Al hacer clic en el botón correspondiente, el ejecutable no abría la ventana de diálogo con las configuraciones avanzadas de color, lo que constituía un error.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Versión 0.0.3.0
 
 En esta nueva versión, se implementaron las siguientes mejoras y funcionalidades:

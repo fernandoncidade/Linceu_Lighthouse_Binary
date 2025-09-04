@@ -1,3 +1,17 @@
+RELEASE NOTES : Version 0.0.4.0
+
+Dans cette nouvelle version, les améliorations et fonctionnalités suivantes ont été mises en œuvre :
+
+Corrections de bugs :
+- Un bug lié à la commande de démarrage/arrêt de l'analyse a été corrigé :
+    - Le problème survenait lorsqu'on arrêtait pendant la phase de scan, étape initiale de la surveillance. Désormais, le système gère correctement cette situation, évitant des défaillances inattendues.
+
+- Correction d'un problème lors de l'ouverture du "Sélecteur de Couleurs Avancé" dans le menu des paramètres. En cliquant sur le bouton correspondant, l'exécutable n'ouvrait pas la fenêtre de dialogue des paramètres de couleur avancés, ce qui constituait une erreur.
+
+
+_________________________________________________
+
+
 RELEASE NOTES : Version 0.0.3.0
 
 Dans cette nouvelle version, les améliorations et fonctionnalités suivantes ont été mises en œuvre :

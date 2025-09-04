@@ -1,5 +1,5 @@
 CONTRATO DE LICENCIAMENTO COMERCIAL - Linceu Lighthouse
-Versão 0.0.3.0, 24 de Agosto de 2025
+Versão 0.0.4.0, 02 de Setembro de 2025
 
 Este Contrato de Licenciamento ("Contrato") é celebrado entre:
 
@@ -60,7 +60,7 @@ Este Contrato complementa os termos da Licença de Uso de Usuário Final (EULA) 
 
 E por estarem justas e contratadas, as partes celebram o presente Contrato.
 
-Brasil, Paraná, São José dos Pinhais, 24 de Agosto de 2025
+Brasil, Paraná, São José dos Pinhais, 02 de Setembro de 2025
 
 Fernando Nillsson Cidade
 ______________________________

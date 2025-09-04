@@ -1,3 +1,17 @@
+RELEASE NOTES: Version 0.0.4.0
+
+In dieser neuen Version wurden die folgenden Verbesserungen und Funktionen implementiert:
+
+Fehlerbehebungen:
+- Ein Fehler im Zusammenhang mit dem Start/Stopp-Befehl für die Analyse wurde behoben:
+    - Das Problem trat auf, wenn während des Scannens, der Anfangsphase der Überwachung, gestoppt wurde. Jetzt behandelt das System diese Situation korrekt und verhindert unerwartete Fehler.
+
+- Ein Problem beim Öffnen des "Erweiterten Farbselektors" im Einstellungsmenü wurde behoben. Beim Klicken auf die entsprechende Schaltfläche öffnete die ausführbare Datei das Dialogfenster für erweiterte Farbeinstellungen nicht, was einen Fehler darstellte.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Version 0.0.3.0
 
 In dieser neuen Version wurden die folgenden Verbesserungen und Funktionen implementiert:

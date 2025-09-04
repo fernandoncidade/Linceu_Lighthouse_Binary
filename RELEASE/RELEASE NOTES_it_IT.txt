@@ -1,3 +1,17 @@
+RELEASE NOTES: Versione 0.0.4.0
+
+In questa nuova versione sono state implementate le seguenti migliorie e funzionalità:
+
+Correzioni di bug:
+- È stato corretto un errore relativo al comando di avvio/arresto dell'analisi:
+    - Il problema si verificava quando veniva interrotto durante la scansione, fase iniziale del monitoraggio. Ora il sistema gestisce correttamente questa situazione, evitando errori imprevisti.
+
+- Corretta un'anomalia nell'apertura del "Selettore Colori Avanzato" nel menu delle impostazioni. Cliccando il pulsante corrispondente, l'eseguibile non apriva la finestra di dialogo con le impostazioni avanzate dei colori, il che costituiva un errore.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Versione 0.0.3.0
 
 In questa nuova versione sono state implementate le seguenti migliorie e funzionalità:
