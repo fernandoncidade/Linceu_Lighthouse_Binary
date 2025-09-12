@@ -819,8 +819,7 @@
       function setVersionBadge3() {
         const v1 = document.getElementById('version-badge');
         if (v1 && v1.innerText && v1.innerText.startsWith('v')) {
-          var vb3s = document.querySelectorAll('#version-badge3');
-          vb3s.forEach(function(span){ span.innerText = v1.innerText; });
+          document.getElementById('version-badge3').innerText = v1.innerText;
         } else {
           setTimeout(setVersionBadge3, 500);
         }
