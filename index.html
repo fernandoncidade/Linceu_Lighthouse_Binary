@@ -759,74 +759,76 @@
       setTimeout(setVersionBadges, 1000);
     </script>
   </div>
-  <div class="footer" id="footer">
-    <span id="footer-main">
-      Feito por Fernando Nillsson Cidade • 
-      <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Veja no GitHub</a> • 
-      <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>
-    </span>
-    <br>
-    <span id="footer-auto" style="font-size:0.93em;">
-      Atualizado automaticamente após novo release (integração com workflow do GitHub Actions).<br>
-      Última versão sincronizada: <span id="version-badge3">...</span>
-    </span>
-    <script>
-      // Traduções do rodapé
-      const FOOTER_TRANSLATIONS = {
-        ptbr: {
-          main: 'Feito por Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Veja no GitHub</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
-          auto: 'Atualizado automaticamente após novo release (integração com workflow do GitHub Actions).<br>Última versão sincronizada: <span id="version-badge3">...</span>'
-        },
-        enus: {
-          main: 'Made by Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">See on GitHub</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
-          auto: 'Automatically updated after new release (GitHub Actions workflow integration).<br>Latest synchronized version: <span id="version-badge3">...</span>'
-        },
-        eses: {
-          main: 'Hecho por Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Ver en GitHub</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
-          auto: 'Actualizado automáticamente tras nuevo release (integración con GitHub Actions).<br>Última versión sincronizada: <span id="version-badge3">...</span>'
-        },
-        frfr: {
-          main: 'Réalisé par Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Voir sur GitHub</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
-          auto: 'Mis à jour automatiquement après une nouvelle release (intégration GitHub Actions).<br>Dernière version synchronisée : <span id="version-badge3">...</span>'
-        },
-        itit: {
-          main: 'Realizzato da Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Vedi su GitHub</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
-          auto: 'Aggiornato automaticamente dopo ogni release (integrazione con GitHub Actions).<br>Ultima versione sincronizzata: <span id="version-badge3">...</span>'
-        },
-        dede: {
-          main: 'Erstellt von Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Auf GitHub ansehen</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
-          auto: 'Automatisch aktualisiert nach neuem Release (GitHub Actions-Integration).<br>Letzte synchronisierte Version: <span id="version-badge3">...</span>'
-        }
-      };
-      function updateFooterTranslation() {
-        var lang = typeof CURRENT_LANG === "string" ? CURRENT_LANG : "ptbr";
-        var t = FOOTER_TRANSLATIONS[lang] || FOOTER_TRANSLATIONS.ptbr;
-        document.getElementById('footer-main').innerHTML = t.main;
-        document.getElementById('footer-auto').innerHTML = t.auto;
-      }
-      // Atualiza rodapé ao trocar idioma
-      window.addEventListener('DOMContentLoaded', () => {
-        updateFooterTranslation();
-        document.addEventListener('click', function(e) {
-          if (e.target && e.target.closest('.languages button')) {
-            setTimeout(updateFooterTranslation, 80);
+    <div class="footer" id="footer">
+      <span id="footer-main">
+        Feito por Fernando Nillsson Cidade • 
+        <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Veja no GitHub</a> • 
+        <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>
+      </span>
+      <br>
+      <span id="footer-auto" style="font-size:0.93em;">
+        Atualizado automaticamente após novo release (integração com workflow do GitHub Actions).<br>
+        Última versão sincronizada: <span id="version-badge3">...</span>
+      </span>
+      <script>
+        // Traduções do rodapé
+        const FOOTER_TRANSLATIONS = {
+          ptbr: {
+            main: 'Feito por Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Veja no GitHub</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
+            auto: 'Atualizado automaticamente após novo release (integração com workflow do GitHub Actions).<br>Última versão sincronizada: <span id="version-badge3">...</span>'
+          },
+          enus: {
+            main: 'Made by Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">See on GitHub</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
+            auto: 'Automatically updated after new release (GitHub Actions workflow integration).<br>Latest synchronized version: <span id="version-badge3">...</span>'
+          },
+          eses: {
+            main: 'Hecho por Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Ver en GitHub</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
+            auto: 'Actualizado automáticamente tras nuevo release (integración con GitHub Actions).<br>Última versión sincronizada: <span id="version-badge3">...</span>'
+          },
+          frfr: {
+            main: 'Réalisé par Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Voir sur GitHub</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
+            auto: 'Mis à jour automatiquement après une nouvelle release (intégration GitHub Actions).<br>Dernière version synchronisée : <span id="version-badge3">...</span>'
+          },
+          itit: {
+            main: 'Realizzato da Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Vedi su GitHub</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
+            auto: 'Aggiornato automaticamente dopo ogni release (integrazione con GitHub Actions).<br>Ultima versione sincronizzata: <span id="version-badge3">...</span>'
+          },
+          dede: {
+            main: 'Erstellt von Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary" id="footer-github-link">Auf GitHub ansehen</a> • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" id="footer-readme-link">README.md</a>',
+            auto: 'Automatisch aktualisiert nach neuem Release (GitHub Actions-Integration).<br>Letzte synchronisierte Version: <span id="version-badge3">...</span>'
           }
-        });
-      });
-    </script>
-    <script>
-      // Atualiza badge do rodapé com a versão detectada
-      function setVersionBadge3() {
-        const v1 = document.getElementById('version-badge');
-        if (v1 && v1.innerText && v1.innerText.startsWith('v')) {
-          var vb3s = document.querySelectorAll('#version-badge3');
-          vb3s.forEach(function(span){ span.innerText = v1.innerText; });
-        } else {
-          setTimeout(setVersionBadge3, 500);
+        };
+        function updateFooterTranslation() {
+          var lang = typeof CURRENT_LANG === "string" ? CURRENT_LANG : "ptbr";
+          var t = FOOTER_TRANSLATIONS[lang] || FOOTER_TRANSLATIONS.ptbr;
+          document.getElementById('footer-main').innerHTML = t.main;
+          document.getElementById('footer-auto').innerHTML = t.auto;
+          setTimeout(setVersionBadge3, 50); // Corrige badge após trocar idioma
         }
-      }
-      setTimeout(setVersionBadge3, 1000);
-    </script>
-  </div>
+        // Atualiza rodapé ao trocar idioma
+        window.addEventListener('DOMContentLoaded', () => {
+          updateFooterTranslation();
+          document.addEventListener('click', function(e) {
+            if (e.target && e.target.closest('.languages button')) {
+              setTimeout(updateFooterTranslation, 80);
+            }
+          });
+        });
+      </script>
+      <script>
+        // Atualiza badge do rodapé com a versão detectada mesmo após troca do idioma
+        function setVersionBadge3() {
+          const v1 = document.getElementById('version-badge');
+          if (v1 && v1.innerText && v1.innerText.startsWith('v')) {
+            // Pode haver múltiplos spans após trocar idioma, atualize todos
+            var vb3s = document.querySelectorAll('#version-badge3');
+            vb3s.forEach(function(span){ span.innerText = v1.innerText; });
+          } else {
+            setTimeout(setVersionBadge3, 500);
+          }
+        }
+        setTimeout(setVersionBadge3, 1000);
+      </script>
+    </div>
 </body>
 </html>
