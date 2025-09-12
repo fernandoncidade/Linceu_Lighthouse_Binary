@@ -157,21 +157,71 @@
   <script>
     // Idiomas suportados
     const LANGS = [
-      { btn: "btn-ptbr", section: "sec-ptbr" },
-      { btn: "btn-enus", section: "sec-enus" },
-      { btn: "btn-eses", section: "sec-eses" },
-      { btn: "btn-frfr", section: "sec-frfr" },
-      { btn: "btn-itit", section: "sec-itit" },
-      { btn: "btn-dede", section: "sec-dede" }
+      { btn: "btn-ptbr", section: "sec-ptbr", code: "ptbr" },
+      { btn: "btn-enus", section: "sec-enus", code: "enus" },
+      { btn: "btn-eses", section: "sec-eses", code: "eses" },
+      { btn: "btn-frfr", section: "sec-frfr", code: "frfr" },
+      { btn: "btn-itit", section: "sec-itit", code: "itit" },
+      { btn: "btn-dede", section: "sec-dede", code: "dede" }
     ];
-    function activateLang(id) {
+    // Traduções dos dois blocos
+    const TRANSLATIONS = {
+      ptbr: {
+        download: assetName => `Download automático mais recente (${assetName})`,
+        slogan: `<div class="slogan-text">Visibilidade e Controle de Arquivos <br>Simples, Visual e Multilíngue</div><p>Monitoramento de Integridade de Arquivos (FIM)</p>`
+      },
+      enus: {
+        download: assetName => `Latest automatic download (${assetName})`,
+        slogan: `<div class="slogan-text">Visibility & File Control <br>Simple, Visual & Multilingual</div><p>File Integrity Monitoring (FIM)</p>`
+      },
+      eses: {
+        download: assetName => `Descarga automática más reciente (${assetName})`,
+        slogan: `<div class="slogan-text">Visibilidad y Control de Archivos <br>Sencillo, Visual y Multilingüe</div><p>Monitoreo de Integridad de Archivos (FIM)</p>`
+      },
+      frfr: {
+        download: assetName => `Téléchargement automatique le plus récent (${assetName})`,
+        slogan: `<div class="slogan-text">Visibilité et Contrôle des Fichiers <br>Simple, Visuel et Multilingue</div><p>Surveillance de l’Intégrité des Fichiers (FIM)</p>`
+      },
+      itit: {
+        download: assetName => `Download automatico più recente (${assetName})`,
+        slogan: `<div class="slogan-text">Visibilità e Controllo dei File <br>Semplice, Visivo e Multilingue</div><p>Monitoraggio dell’Integrità dei File (FIM)</p>`
+      },
+      dede: {
+        download: assetName => `Neuester automatischer Download (${assetName})`,
+        slogan: `<div class="slogan-text">Sichtbarkeit & Dateikontrolle <br>Einfach, Visuell & Mehrsprachig</div><p>Datei-Integritätsüberwachung (FIM)</p>`
+      }
+    };
+    let CURRENT_LANG = LANGS[0].code;
+    function activateLang(idObj) {
       LANGS.forEach(l => {
         document.getElementById(l.section).classList.remove('active');
         document.getElementById(l.btn).classList.remove('active');
       });
-      document.getElementById(id.section).classList.add('active');
-      document.getElementById(id.btn).classList.add('active');
+      document.getElementById(idObj.section).classList.add('active');
+      document.getElementById(idObj.btn).classList.add('active');
+      CURRENT_LANG = idObj.code;
+      // Atualiza slogan ao trocar idioma
+      updateSlogan();
+      // Atualiza botão de download ao trocar idioma
+      updateDownloadButtonText();
       window.scrollTo({top: document.querySelector('.languages').offsetTop-25, behavior:'smooth'});
+    }
+    function updateSlogan() {
+      const sloganBox = document.getElementById('dynamic-slogan');
+      if (sloganBox && TRANSLATIONS[CURRENT_LANG]) {
+        sloganBox.innerHTML = TRANSLATIONS[CURRENT_LANG].slogan;
+      }
+    }
+    function updateDownloadButtonText(assetName) {
+      const btn = document.getElementById('latest-download-btn');
+      if (!btn) return;
+      if (!assetName) {
+        // tenta pegar do atributo data-assetname
+        assetName = btn.getAttribute('data-assetname') || "";
+      }
+      if (btn.href && btn.href !== "#" && assetName && TRANSLATIONS[CURRENT_LANG]) {
+        btn.innerText = TRANSLATIONS[CURRENT_LANG].download(assetName);
+      }
     }
     window.addEventListener('DOMContentLoaded', () => {
       // Ativa ptbr como default
@@ -213,7 +263,13 @@
           // Busca o primeiro asset executável (.exe) ou o primeiro asset, se não houver .exe
           let asset = data.assets.find(a => a.name.endsWith('.exe')) || data.assets[0];
           btn.href = asset.browser_download_url;
-          btn.innerText = "Download automático mais recente ("+asset.name+")";
+          btn.setAttribute('data-assetname', asset.name);
+          // Tradução do texto do botão conforme idioma
+          if (typeof TRANSLATIONS !== "undefined" && TRANSLATIONS[CURRENT_LANG]) {
+            btn.innerText = TRANSLATIONS[CURRENT_LANG].download(asset.name);
+          } else {
+            btn.innerText = "Download automático mais recente ("+asset.name+")";
+          }
           btn.removeAttribute("disabled");
           info.innerText = "Release: " + data.name + " (" + data.tag_name + ")";
         } else {
@@ -229,6 +285,17 @@
       }
     }
     window.addEventListener('DOMContentLoaded', setLatestReleaseDownload);
+    // Atualiza texto do botão de download ao trocar de idioma
+    window.addEventListener('DOMContentLoaded', () => {
+      document.addEventListener('click', function(e) {
+        if (e.target && e.target.closest('.languages button')) {
+          // Espera atualização do botão
+          setTimeout(() => {
+            updateDownloadButtonText();
+          },120);
+        }
+      });
+    });
   </script>
 </head>
 <body>
@@ -238,13 +305,7 @@
       <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/icones/file_manager3.png" alt="Gestão de arquivos" title="Gestão de arquivos">
       <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/icones/file_manager4.png" alt="Gestão de arquivos 2" title="Gestão de arquivos 2">
     </div>
-    <div class="slogan-text">
-      Visibilidade e Controle de Arquivos <br>
-      Simples, Visual e Multilíngue
-    </div>
-    <p>
-      Monitoramento de Integridade de Arquivos (FIM)
-    </p>
+    <div id="dynamic-slogan"><!-- Slogan será injetado por JS no idioma certo --></div>
   </div>
   <div class="container">
     <div class="languages">
