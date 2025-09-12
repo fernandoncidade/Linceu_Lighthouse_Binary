@@ -317,10 +317,60 @@
       <button id="btn-itit">🇮🇹 Italiano (IT)</button>
       <button id="btn-dede">🇩🇪 Deutsch (DE)</button>
     </div>
+<!-- ...restante do arquivo HTML permanece igual até a linha da badge-row... -->
     <div class="badge-row">
       <span id="version-badge" style="background:#eee;padding:0.3em 1.1em;border-radius:1em;font-size:1.05em;color:#222;margin-right:0.4em;"></span>
-      <img src="https://img.shields.io/github/downloads/fernandoncidade/Linceu_Lighthouse_Binary/total?label=Downloads%20totais%20(Linceu%20Lighthouse)" alt="Total Downloads">
+      <img id="badge-downloads"
+        src="https://img.shields.io/github/downloads/fernandoncidade/Linceu_Lighthouse_Binary/total?label=Downloads%20totais%20(Linceu%20Lighthouse)"
+        alt="Total Downloads">
     </div>
+<script>
+  // Traduções para o badge de downloads (label e alt)
+  const BADGE_DOWNLOADS = {
+    ptbr: {
+      label: "Downloads%20totais%20(Linceu%20Lighthouse)",
+      alt: "Total de Downloads"
+    },
+    enus: {
+      label: "Total%20Downloads%20(Linceu%20Lighthouse)",
+      alt: "Total Downloads"
+    },
+    eses: {
+      label: "Descargas%20totales%20(Linceu%20Lighthouse)",
+      alt: "Descargas totales"
+    },
+    frfr: {
+      label: "Total%20t%C3%A9l%C3%A9chargements%20(Linceu%20Lighthouse)",
+      alt: "Nombre total de téléchargements"
+    },
+    itit: {
+      label: "Download%20totali%20(Linceu%20Lighthouse)",
+      alt: "Download totali"
+    },
+    dede: {
+      label: "Gesamte%20Downloads%20(Linceu%20Lighthouse)",
+      alt: "Gesamte Downloads"
+    }
+  };
+  function updateBadgeDownloads() {
+    var lang = CURRENT_LANG || "ptbr";
+    var badge = document.getElementById('badge-downloads');
+    if (!badge) return;
+    var info = BADGE_DOWNLOADS[lang] || BADGE_DOWNLOADS.ptbr;
+    badge.src = "https://img.shields.io/github/downloads/fernandoncidade/Linceu_Lighthouse_Binary/total?label=" + info.label;
+    badge.alt = info.alt;
+  }
+  // Atualiza badge ao mudar idioma
+  window.addEventListener('DOMContentLoaded', () => {
+    updateBadgeDownloads();
+    document.addEventListener('click', function(e) {
+      if (e.target && e.target.closest('.languages button')) {
+        setTimeout(updateBadgeDownloads, 80);
+      }
+    });
+  });
+</script>
+<!-- ...restante do arquivo HTML permanece igual... -->
 
     <!-- Download automático do release mais recente -->
     <div class="download-info" id="latest-download-info"></div>
