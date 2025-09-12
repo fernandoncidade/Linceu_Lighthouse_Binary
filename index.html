@@ -5,7 +5,7 @@
   <title>Linceu Lighthouse</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Favicon opcional -->
-  <link rel="icon" type="image/png" href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/raw/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20040204.png">
+  <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/icones/lighthouse.png">
   <style>
     :root {
       --main-bg: #f8f9fa;
@@ -23,14 +23,36 @@
     .header {
       background: var(--header-bg);
       color: var(--header-fg);
-      padding: 2rem 1rem 1rem 1rem;
+      padding: 2rem 1rem 1.2rem 1rem;
       text-align: center;
+      position: relative;
     }
     .header h1 { margin: 0 0 0.5rem 0; font-size: 2.2rem; letter-spacing: 1px; }
-    .header p { margin: 0; font-size: 1.1rem; color: #bbb; }
-
+    .header p { margin: 0; font-size: 1.16rem; color: #bafcea; }
+    .slogan-icons {
+      margin: 1.2rem auto 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .slogan-icons img {
+      width: 46px; height: 46px;
+      vertical-align: middle;
+      filter: drop-shadow(0 2px 6px #1113);
+      background: #fff; border-radius: 10px;
+      padding: 4px;
+    }
+    .slogan-text {
+      margin-top: 1rem;
+      color: #8fe7d2;
+      font-size: 1.07em;
+      font-weight: bold;
+      letter-spacing: .2px;
+    }
     .container {
-      max-width: 950px;
+      max-width: 980px;
       margin: 2rem auto;
       background: var(--container-bg);
       border-radius: var(--radius);
@@ -38,7 +60,6 @@
       padding: 2.2rem 1.5rem 2rem 1.5rem;
       min-height: 65vh;
     }
-
     .languages { margin-bottom: 2rem; text-align: center; }
     .languages b { font-weight: 500; }
     .languages a {
@@ -57,8 +78,9 @@
     h3 { margin-top: 1.6rem; margin-bottom: 0.5rem; font-size: 1.22rem;}
     ul, ol { line-height: 1.7; }
     li { margin-bottom: 0.3em; }
-    .screenshots { text-align: center; }
-    .screenshots img { max-width: 290px; border-radius: 6px; margin: 0.7rem 0.65rem 0.7rem 0; box-shadow: 0 0 8px #eee;}
+    .screenshots { text-align: center; margin-top: 1.5em; }
+    .screenshots img { max-width: 330px; border-radius: 6px; margin: 0.7rem 1.2rem 1.7rem 0; box-shadow: 0 0 8px #eee;}
+    .screenshots img:last-child { margin-right: 0;}
     .note, .sysreq { background: #eaf6ff; border-left: 5px solid var(--accent); padding: 0.8rem 1rem; border-radius: 6px; margin: 1.2em 0 1.2em 0;}
     .sysreq { background: #f5ffea; border-color: #7ed957; }
     .download-btn {
@@ -85,9 +107,17 @@
       padding-bottom: 1.2em;
     }
     /* Responsivo */
-    @media (max-width: 700px) {
+    @media (max-width: 1200px) {
+      .screenshots img { max-width: 260px; margin-right: 1rem;}
+    }
+    @media (max-width: 900px) {
       .container { padding: 1rem 0.3rem;}
-      .screenshots img { max-width: 99vw; margin: 0.7rem 0 0.7rem 0; }
+      .screenshots img { max-width: 45vw; margin: 0.7rem 0.2rem 1.2rem 0;}
+    }
+    @media (max-width: 600px) {
+      .screenshots { display:block;}
+      .screenshots img { max-width: 98vw; margin: 0.6rem 0 0.6rem 0;}
+      .slogan-icons img { width: 35px; height: 35px;}
     }
   </style>
   <!-- INTEGRAÇÃO COM WORKFLOW: Carrega versão do README dinamicamente -->
@@ -112,10 +142,18 @@
 <body>
   <div class="header">
     <h1>Linceu Lighthouse</h1>
-    <p>Visibilidade e controle sobre seus arquivos<br>
-      <span style="font-size:0.92em;color:#8fe7d2;">
-        Monitoramento de Integridade de Arquivos (FIM) simples, visual e multilíngue
-      </span>
+    <div class="slogan-icons">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/icones/lighthouse.png" alt="Lighthouse" title="Visibilidade">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/icones/eye.png" alt="Visão" title="Monitoramento">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/icones/lock.png" alt="Segurança" title="Segurança">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/icones/checklist.png" alt="Controle" title="Controle">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/icones/globe.png" alt="Multilíngue" title="Multilíngue">
+    </div>
+    <div class="slogan-text">
+      Visibilidade, Monitoramento, Segurança, Controle e Multilíngue
+    </div>
+    <p>
+      Monitoramento de Integridade de Arquivos (FIM) simples, visual e multilíngue
     </p>
   </div>
   <div class="container">
@@ -154,10 +192,12 @@
       O <b>Linceu Lighthouse</b> é uma ferramenta de monitoramento que aplica os princípios de <b>Integridade de Arquivos (File Integrity Monitoring - FIM)</b> para fornecer um registro detalhado e transparente de todas as atividades em seus diretórios mais importantes. Ideal para auditoria, controle de versões, organização e investigação de eventos em arquivos.
     </p>
     <div class="screenshots">
-      <img src="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20040204.png" alt="Tela 1">
-      <img src="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20040254.png" alt="Tela 2">
-      <img src="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20042554.png" alt="Tela 3">
-      <img src="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20042731.png" alt="Tela 4">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20040204.png" alt="Tela 1">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20040254.png" alt="Tela 2">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20042554.png" alt="Tela 3">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20042731.png" alt="Tela 4">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20042821.png" alt="Tela 5">
+      <img src="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20042900.png" alt="Tela 6">
     </div>
     <h3>Principais Funcionalidades</h3>
     <ul>
