@@ -4,53 +4,236 @@
   <meta charset="UTF-8">
   <title>Linceu Lighthouse</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Favicon opcional -->
+  <link rel="icon" type="image/png" href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/raw/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20040204.png">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; background: #f8f9fa; }
-    .header { background: #222; color: #fff; padding: 2rem; text-align: center; }
-    .container { max-width: 900px; margin: 2rem auto; background: #fff; border-radius: 10px; box-shadow: 0 2px 10px #ddd; padding: 2rem; }
-    img { max-width: 100%; border-radius: 6px; margin: 1rem 0; }
+    :root {
+      --main-bg: #f8f9fa;
+      --container-bg: #fff;
+      --primary: #2c3e50;
+      --header-bg: #222;
+      --header-fg: #fff;
+      --accent: #1abc9c;
+      --border: #ddd;
+      --radius: 10px;
+      --shadow: 0 2px 10px #ddd;
+    }
+    html, body { margin: 0; padding: 0; background: var(--main-bg); }
+    body { font-family: Arial, sans-serif; }
+    .header {
+      background: var(--header-bg);
+      color: var(--header-fg);
+      padding: 2rem 1rem 1rem 1rem;
+      text-align: center;
+    }
+    .header h1 { margin: 0 0 0.5rem 0; font-size: 2.2rem; letter-spacing: 1px; }
+    .header p { margin: 0; font-size: 1.1rem; color: #bbb; }
+
+    .container {
+      max-width: 950px;
+      margin: 2rem auto;
+      background: var(--container-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 2.2rem 1.5rem 2rem 1.5rem;
+      min-height: 65vh;
+    }
+
     .languages { margin-bottom: 2rem; text-align: center; }
-    .languages a { margin: 0 0.5rem; font-size: 1.2em; text-decoration: none; }
-    h1, h2, h3 { color: #2c3e50; }
-    ul { line-height: 1.7; }
-    .footer { text-align: center; margin: 2rem 0 0 0; color: #888; font-size: 0.95em; }
+    .languages b { font-weight: 500; }
+    .languages a {
+      margin: 0 0.4rem;
+      font-size: 1.3em;
+      text-decoration: none;
+      transition: transform 0.1s;
+    }
+    .languages a:hover { transform: scale(1.2); }
+
+    .badge-row { text-align: center; margin-bottom: 1.5rem; }
+    .badge-row img { vertical-align: middle; margin: 0 0.25em; }
+
+    h1, h2, h3, h4 { color: var(--primary); }
+    h2 { margin-top: 2.2rem; margin-bottom: 0.6rem; font-size: 1.55rem;}
+    h3 { margin-top: 1.6rem; margin-bottom: 0.5rem; font-size: 1.22rem;}
+    ul, ol { line-height: 1.7; }
+    li { margin-bottom: 0.3em; }
+    .screenshots { text-align: center; }
+    .screenshots img { max-width: 290px; border-radius: 6px; margin: 0.7rem 0.65rem 0.7rem 0; box-shadow: 0 0 8px #eee;}
+    .note, .sysreq { background: #eaf6ff; border-left: 5px solid var(--accent); padding: 0.8rem 1rem; border-radius: 6px; margin: 1.2em 0 1.2em 0;}
+    .sysreq { background: #f5ffea; border-color: #7ed957; }
+    .download-btn {
+      display: inline-block;
+      color: #fff;
+      background: var(--accent);
+      border: none;
+      border-radius: 4px;
+      padding: 0.65em 1.5em;
+      font-size: 1.08rem;
+      font-weight: 600;
+      margin: 1.2rem 0 1.2rem 0;
+      text-decoration: none;
+      letter-spacing: 0.5px;
+      transition: background 0.2s;
+      box-shadow: 0 1px 5px #ddd;
+    }
+    .download-btn:hover { background: #159c85; }
+    .footer {
+      text-align: center;
+      margin: 2.5rem 0 0 0;
+      color: #888;
+      font-size: 0.99em;
+      padding-bottom: 1.2em;
+    }
+    /* Responsivo */
+    @media (max-width: 700px) {
+      .container { padding: 1rem 0.3rem;}
+      .screenshots img { max-width: 99vw; margin: 0.7rem 0 0.7rem 0; }
+    }
   </style>
+  <!-- INTEGRAÇÃO COM WORKFLOW: Carrega versão do README dinamicamente -->
+  <script>
+    // Busca a versão do README.md e insere na página
+    async function fetchReadmeVersion() {
+      try {
+        const req = await fetch('https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/README.md');
+        const txt = await req.text();
+        // Regex: captura a versão no formato vX.X.X.X (aparece na linha do README)
+        const reVersion = /v(\d+\.\d+\.\d+\.\d+)/i;
+        const match = txt.match(reVersion);
+        const version = match ? match[0] : 'v0.0.0.0';
+        document.getElementById('version-badge').innerText = version;
+      } catch {
+        document.getElementById('version-badge').innerText = "v0.0.0.0";
+      }
+    }
+    window.addEventListener('DOMContentLoaded', fetchReadmeVersion);
+  </script>
 </head>
 <body>
   <div class="header">
     <h1>Linceu Lighthouse</h1>
-    <p>Visibilidade e controle sobre seus arquivos</p>
+    <p>Visibilidade e controle sobre seus arquivos<br>
+      <span style="font-size:0.92em;color:#8fe7d2;">
+        Monitoramento de Integridade de Arquivos (FIM) simples, visual e multilíngue
+      </span>
+    </p>
   </div>
   <div class="container">
     <div class="languages">
-      <b>Selecione o idioma:</b>
-      <a href="#ptbr">🇧🇷</a>
-      <a href="#enus">🇺🇸</a>
-      <a href="#eses">🇪🇸</a>
-      <a href="#frfr">🇫🇷</a>
-      <a href="#itit">🇮🇹</a>
-      <a href="#dede">🇩🇪</a>
+      <b>Selecione o idioma / Select language / Selecciona idioma / Sélectionnez la langue / Seleziona la lingua / Sprache auswählen:</b><br>
+      <a href="#ptbr" title="Português">🇧🇷</a>
+      <a href="#enus" title="English">🇺🇸</a>
+      <a href="#eses" title="Español">🇪🇸</a>
+      <a href="#frfr" title="Français">🇫🇷</a>
+      <a href="#itit" title="Italiano">🇮🇹</a>
+      <a href="#dede" title="Deutsch">🇩🇪</a>
     </div>
-    <h2 id="ptbr">O que é o Linceu Lighthouse?</h2>
-    <p>Linceu Lighthouse é uma ferramenta de monitoramento de integridade de arquivos (FIM), que oferece relatórios detalhados e transparentes de todas as alterações em diretórios importantes do seu sistema.</p>
-    <img src="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20040204.png" alt="Exemplo Linceu Lighthouse">
+    <div class="badge-row">
+      <span id="version-badge" style="background:#eee;padding:0.3em 1.1em;border-radius:1em;font-size:1.05em;color:#222;margin-right:0.4em;"></span>
+      <img src="https://img.shields.io/github/downloads/fernandoncidade/Linceu_Lighthouse_Binary/total?label=Downloads%20totais%20(Linceu%20Lighthouse)" alt="Total Downloads">
+    </div>
+    <div class="note">
+      <b>Observação:</b> Este repositório refere-se à versão <span id="version-badge2">...</span> (binário) do Linceu Lighthouse, disponível para teste gratuito de 7 dias.<br>
+      Ao final do período de teste, adquira a versão paga:<br>
+      <a class="download-btn" href="https://apps.microsoft.com/detail/9NN8Z5Z700TM" target="_blank">Instalar via Microsoft Store</a>
+    </div>
+    <script>
+      // Para badge duplicado (observação)
+      function setVersionBadge2() {
+        const v1 = document.getElementById('version-badge');
+        if (v1 && v1.innerText && v1.innerText.startsWith('v')) {
+          document.getElementById('version-badge2').innerText = v1.innerText;
+        } else {
+          setTimeout(setVersionBadge2, 500);
+        }
+      }
+      setTimeout(setVersionBadge2, 800);
+    </script>
+    <h2 id="ptbr">🇧🇷 O que é o Linceu Lighthouse?</h2>
+    <p>
+      O <b>Linceu Lighthouse</b> é uma ferramenta de monitoramento que aplica os princípios de <b>Integridade de Arquivos (File Integrity Monitoring - FIM)</b> para fornecer um registro detalhado e transparente de todas as atividades em seus diretórios mais importantes. Ideal para auditoria, controle de versões, organização e investigação de eventos em arquivos.
+    </p>
+    <div class="screenshots">
+      <img src="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20040204.png" alt="Tela 1">
+      <img src="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20040254.png" alt="Tela 2">
+      <img src="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20042554.png" alt="Tela 3">
+      <img src="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/LISTAGEM/Portugues/Captura%20de%20tela%202025-08-04%20042731.png" alt="Tela 4">
+    </div>
     <h3>Principais Funcionalidades</h3>
     <ul>
-      <li>Auditoria de atividades em pastas</li>
-      <li>Controle de versões e projetos</li>
-      <li>Organização e limpeza de arquivos</li>
-      <li>Investigação de eventos específicos</li>
+      <li>Auditoria de atividades em pastas com registros detalhados</li>
+      <li>Controle de versões e projetos (histórico de alterações)</li>
+      <li>Organização e limpeza inteligente de arquivos (identifique duplicados, temporários, etc.)</li>
+      <li>Investigação de eventos específicos (descubra o que aconteceu e quando)</li>
+      <li>Filtros avançados, pesquisa e visualização estatística dos eventos</li>
+      <li>Exportação flexível dos logs para Excel, CSV, JSON, XML, etc.</li>
+      <li>Interface multilíngue: Português, Inglês, Espanhol, Francês, Italiano, Alemão</li>
     </ul>
-    <h3>Como usar</h3>
+    <h3>Como funciona?</h3>
     <ol>
-      <li>Execute o aplicativo para iniciar a interface gráfica.</li>
+      <li><b>Linha de Base:</b> Ao iniciar o monitoramento, a ferramenta faz um escaneamento inicial ("snapshot") dos arquivos e pastas.</li>
+      <li><b>Monitoramento Contínuo:</b> Registra em tempo real todos os eventos de criação, modificação, exclusão, movimentação ou renomeação.</li>
+      <li><b>Análise e Relatório:</b> Toda alteração é listada na interface, com poderosos filtros para busca, análise e exportação.</li>
+    </ol>
+    <div class="sysreq">
+      <b>Requisitos do sistema:</b> Windows 10 ou superior.  
+      <br>
+      <b>Instalação:</b> Baixe e instale o executável. Após o período de degustação, compre na Microsoft Store.
+    </div>
+    <h3>Manual rápido de uso</h3>
+    <ol>
+      <li>Execute o aplicativo para abrir a interface gráfica.</li>
       <li>Selecione um diretório para monitorar.</li>
       <li>Use os botões e menus para iniciar/parar monitoramento, aplicar filtros, exportar dados e visualizar estatísticas.</li>
     </ol>
-    <p>Para detalhes, veja o <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md">README completo</a>.</p>
+    <h3>Recursos Avançados</h3>
+    <ul>
+      <li><b>Filtros Avançados:</b> Por operação, data, extensão, usuário, etc.</li>
+      <li><b>Visualização de Estatísticas:</b> Gráficos de distribuição, timeline, Pareto, tipos de arquivo e mais.</li>
+      <li><b>Configuração de Colunas:</b> Customize as colunas exibidas na tabela.</li>
+      <li><b>Alteração de Idioma:</b> Acesse “Opções → Idioma” na interface para mudar o idioma.</li>
+    </ul>
+    <h3>Resolução de Problemas</h3>
+    <ul>
+      <li><b>Monitoramento não inicia:</b> Verifique permissões e se outro programa não está monitorando o diretório.</li>
+      <li><b>Eventos não aparecem:</b> Certifique-se que o monitoramento está ativo e os filtros não ocultam eventos.</li>
+      <li><b>Alto consumo de recursos:</b> Evite monitorar diretórios muito grandes ou de sistema.</li>
+      <li><b>Erros nas estatísticas:</b> Confirme que há eventos suficientes e todas as bibliotecas estão corretas.</li>
+    </ul>
+    <p style="margin-top:1.5em;">Para instruções detalhadas e manuais em outros idiomas, consulte o <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md" target="_blank">README.md</a> no GitHub.</p>
+    <hr style="margin:2.5em 0 2em 0;">
+    <div style="font-size:1.1em;">
+      <b>🌐 Outras línguas:</b>  
+      <ul>
+        <li><a href="#enus">English (US)</a> – <i>See usage guide, screenshots and features in English.</i></li>
+        <li><a href="#eses">Español (ES)</a> – <i>Guía de uso y características en español.</i></li>
+        <li><a href="#frfr">Français (FR)</a> – <i>Guide d'utilisation et fonctionnalités en français.</i></li>
+        <li><a href="#itit">Italiano (IT)</a> – <i>Guida e funzioni in italiano.</i></li>
+        <li><a href="#dede">Deutsch (DE)</a> – <i>Handbuch und Funktionen auf Deutsch.</i></li>
+      </ul>
+    </div>
   </div>
   <div class="footer">
-    Feito por Fernando Nillsson Cidade • <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary">Veja no GitHub</a>
+    Feito por Fernando Nillsson Cidade • 
+    <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary">Veja no GitHub</a> • 
+    <a href="https://github.com/fernandoncidade/Linceu_Lighthouse_Binary/blob/main/README.md">README.md</a>
+    <br>
+    <span style="font-size:0.93em;">
+      Atualizado automaticamente após novo release (integração com workflow do GitHub Actions).<br>
+      Última versão sincronizada: <span id="version-badge3">...</span>
+    </span>
+    <script>
+      // Atualiza badge do rodapé com a versão detectada
+      function setVersionBadge3() {
+        const v1 = document.getElementById('version-badge');
+        if (v1 && v1.innerText && v1.innerText.startsWith('v')) {
+          document.getElementById('version-badge3').innerText = v1.innerText;
+        } else {
+          setTimeout(setVersionBadge3, 500);
+        }
+      }
+      setTimeout(setVersionBadge3, 1000);
+    </script>
   </div>
 </body>
 </html>
