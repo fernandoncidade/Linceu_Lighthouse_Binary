@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Linceu Lighthouse</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Favicon opcional -->
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/fernandoncidade/Linceu_Lighthouse_Binary/main/icones/file_manager3.png">
   <style>
     :root {
@@ -83,7 +83,7 @@
     .screenshots img:last-child { margin-right: 0;}
     .note, .sysreq { background: #eaf6ff; border-left: 5px solid var(--accent); padding: 0.8rem 1rem; border-radius: 6px; margin: 1.2em 0 1.2em 0;}
     .sysreq { background: #f5ffea; border-color: #7ed957; }
-    .download-btn {
+    .download-btn, .download-btn-auto {
       display: inline-block;
       color: #fff;
       background: var(--accent);
@@ -97,8 +97,16 @@
       letter-spacing: 0.5px;
       transition: background 0.2s;
       box-shadow: 0 1px 5px #ddd;
+      cursor: pointer;
     }
-    .download-btn:hover { background: #159c85; }
+    .download-btn:hover, .download-btn-auto:hover { background: #159c85; }
+    .download-btn-auto[disabled] {
+      background: #aaa;
+      color: #eee;
+      cursor: not-allowed;
+      pointer-events: none;
+    }
+    .download-info { color: #555; font-size: 0.98em; margin-bottom: 0.5em; }
     .footer {
       text-align: center;
       margin: 2.5rem 0 0 0;
@@ -138,6 +146,37 @@
     }
     window.addEventListener('DOMContentLoaded', fetchReadmeVersion);
   </script>
+  <script>
+    // Busca automático do link do último release
+    async function setLatestReleaseDownload() {
+      const btn = document.getElementById('latest-download-btn');
+      const info = document.getElementById('latest-download-info');
+      try {
+        // GitHub API releases endpoint
+        const res = await fetch('https://api.github.com/repos/fernandoncidade/Linceu_Lighthouse_Binary/releases/latest');
+        if (!res.ok) throw new Error("API error");
+        const data = await res.json();
+        if (data && data.assets && data.assets.length > 0) {
+          // Busca o primeiro asset executável (.exe) ou o primeiro asset, se não houver .exe
+          let asset = data.assets.find(a => a.name.endsWith('.exe')) || data.assets[0];
+          btn.href = asset.browser_download_url;
+          btn.innerText = "Download automático mais recente ("+asset.name+")";
+          btn.removeAttribute("disabled");
+          info.innerText = "Release: " + data.name + " (" + data.tag_name + ")";
+        } else {
+          // Nenhum asset encontrado
+          btn.innerText = "Sem arquivo para download no último release";
+          btn.setAttribute("disabled", "true");
+          info.innerText = "";
+        }
+      } catch (e) {
+        btn.innerText = "Erro ao buscar release";
+        btn.setAttribute("disabled", "true");
+        info.innerText = "";
+      }
+    }
+    window.addEventListener('DOMContentLoaded', setLatestReleaseDownload);
+  </script>
 </head>
 <body>
   <div class="header">
@@ -173,6 +212,9 @@
       Ao final do período de teste, adquira a versão paga:<br>
       <a class="download-btn" href="https://apps.microsoft.com/detail/9NN8Z5Z700TM" target="_blank">Instalar via Microsoft Store</a>
     </div>
+    <!-- Download automático do release mais recente -->
+    <div class="download-info" id="latest-download-info"></div>
+    <a class="download-btn-auto" id="latest-download-btn" href="#" disabled>Buscando release...</a>
     <script>
       // Para badge duplicado (observação)
       function setVersionBadge2() {
