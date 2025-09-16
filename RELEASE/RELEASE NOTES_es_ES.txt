@@ -1,3 +1,16 @@
+RELEASE NOTES: Versión 0.0.5.0:
+
+En esta nueva versión, se implementaron las siguientes mejoras y funcionalidades:
+
+Mejora de la Experiencia del Usuario:
+- Ahora es posible pausar cualquier etapa del monitoreo.
+    - Durante la pausa, el sistema interrumpe temporalmente la recopilación de datos, permitiendo al usuario realizar ajustes o cambios sin que se procesen nuevos datos.
+    - La funcionalidad de pausa puede activarse o desactivarse en cualquier momento, proporcionando mayor control sobre el monitoreo.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Versión 0.0.4.0
 
 En esta nueva versión, se implementaron las siguientes mejoras y funcionalidades:
@@ -12,7 +25,7 @@ Corrección de errores:
 _________________________________________________
 
 
-RELEASE NOTES: Versión 0.0.3.0
+RELEASE NOTES: Versión 0.0.3.0:
 
 En esta nueva versión, se implementaron las siguientes mejoras y funcionalidades:
 
@@ -50,7 +63,7 @@ Novedades de la Versión 0.0.3.0:
 _________________________________________________
 
 
-RELEASE NOTES: Versión 0.0.2.0
+RELEASE NOTES: Versión 0.0.2.0:
 
 En esta nueva versión, se han implementado las siguientes mejoras y funcionalidades:
 

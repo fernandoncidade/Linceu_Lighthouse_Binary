@@ -1,3 +1,16 @@
+RELEASE NOTES: Version 0.0.5.0:
+
+In dieser neuen Version wurden die folgenden Verbesserungen und Funktionen implementiert:
+
+Verbesserung der Benutzererfahrung:
+- Es ist jetzt möglich, jede Phase der Überwachung zu pausieren.
+    - Während der Pause stoppt das System vorübergehend die Datenerfassung, sodass der Benutzer Anpassungen oder Änderungen vornehmen kann, ohne dass neue Daten verarbeitet werden.
+    - Die Pausenfunktion kann jederzeit aktiviert oder deaktiviert werden, was eine bessere Kontrolle über die Überwachung ermöglicht.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Version 0.0.4.0
 
 In dieser neuen Version wurden die folgenden Verbesserungen und Funktionen implementiert:
@@ -12,7 +25,7 @@ Fehlerbehebungen:
 _________________________________________________
 
 
-RELEASE NOTES: Version 0.0.3.0
+RELEASE NOTES: Version 0.0.3.0:
 
 In dieser neuen Version wurden die folgenden Verbesserungen und Funktionen implementiert:
 
@@ -50,7 +63,7 @@ Neuerungen in Version 0.0.3.0:
 _________________________________________________
 
 
-RELEASE NOTES: Version 0.0.2.0
+RELEASE NOTES: Version 0.0.2.0:
 
 In dieser neuen Version wurden folgende Verbesserungen und Funktionen implementiert:
 

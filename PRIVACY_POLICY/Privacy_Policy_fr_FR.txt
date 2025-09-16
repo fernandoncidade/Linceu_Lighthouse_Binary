@@ -1,6 +1,6 @@
 Politique de Confidentialité de Linceu Lighthouse
-Dernière mise à jour : 02 Septembre 2025
-Version 0.0.4.0
+Dernière mise à jour : 16 Septembre 2025
+Version 0.0.5.0
 
 Votre vie privée est fondamentale pour nous. Cette Politique de Confidentialité explique quelles informations Linceu Lighthouse ("Logiciel") utilise et, plus important encore, comment elles restent sous votre contrôle.
 

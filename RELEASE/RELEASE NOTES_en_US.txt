@@ -1,3 +1,16 @@
+RELEASE NOTES: Version 0.0.5.0:
+
+In this new version, the following improvements and features have been implemented:
+
+User Experience Enhancement:
+- It is now possible to pause any stage of monitoring.
+    - During the pause, the system temporarily stops data collection, allowing the user to make adjustments or changes without new data being processed.
+    - The pause functionality can be activated or deactivated at any time, providing greater control over monitoring.
+
+
+_________________________________________________
+
+
 RELEASE NOTES: Version 0.0.4.0
 
 In this new version, the following improvements and features have been implemented:
@@ -12,7 +25,7 @@ Bug Fixes:
 _________________________________________________
 
 
-RELEASE NOTES: Version 0.0.3.0
+RELEASE NOTES: Version 0.0.3.0:
 
 In this new release, the following improvements and features have been implemented:
 
@@ -50,7 +63,7 @@ What's New in Version 0.0.3.0:
 _________________________________________________
 
 
-RELEASE NOTES: Version 0.0.2.0
+RELEASE NOTES: Version 0.0.2.0:
 
 In this new version, the following improvements and features have been implemented:
 

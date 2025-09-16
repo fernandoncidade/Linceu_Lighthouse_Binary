@@ -1,5 +1,5 @@
 END-USER LICENSE AGREEMENT - Linceu Lighthouse
-Version 0.0.4.0, September 02, 2025
+Version 0.0.5.0, September 16, 2025
 
 Copyright (c) 2025 Fernando Nillsson Cidade. All rights reserved.
 

@@ -1,3 +1,16 @@
+RELEASE NOTES : Version 0.0.5.0:
+
+Dans cette nouvelle version, les améliorations et fonctionnalités suivantes ont été mises en œuvre :
+
+Amélioration de l'expérience utilisateur :
+- Il est désormais possible de mettre en pause n'importe quelle étape de la surveillance.
+    - Pendant la pause, le système interrompt temporairement la collecte de données, permettant à l'utilisateur d'effectuer des ajustements ou des modifications sans que de nouvelles données soient traitées.
+    - La fonctionnalité de pause peut être activée ou désactivée à tout moment, offrant un meilleur contrôle sur la surveillance.
+
+
+_________________________________________________
+
+
 RELEASE NOTES : Version 0.0.4.0
 
 Dans cette nouvelle version, les améliorations et fonctionnalités suivantes ont été mises en œuvre :
@@ -12,7 +25,7 @@ Corrections de bugs :
 _________________________________________________
 
 
-RELEASE NOTES : Version 0.0.3.0
+RELEASE NOTES : Version 0.0.3.0:
 
 Dans cette nouvelle version, les améliorations et fonctionnalités suivantes ont été mises en œuvre :
 
@@ -32,7 +45,7 @@ Corrections et améliorations générales :
 
 Résumé :
 
-Nouveautés de la Version 0.0.3.0 :
+Nouveautés de la Version 0.0.3.0:
 
 - Robustesse et stabilité :
     - Vérifications d'existence des attributs et des méthodes pour éviter des erreurs inattendues.
@@ -50,7 +63,7 @@ Nouveautés de la Version 0.0.3.0 :
 _________________________________________________
 
 
-RELEASE NOTES : Version 0.0.2.0
+RELEASE NOTES : Version 0.0.2.0:
 
 Dans cette nouvelle version, les améliorations et fonctionnalités suivantes ont été mises en œuvre :
 
@@ -83,7 +96,7 @@ Internationalisation du filtre de date :
 
 Résumé :
 
-Nouveautés de la Version 0.0.2.0 :
+Nouveautés de la Version 0.0.2.0:
 
 - Système de traduction natif (Qt/PySide6) : Le système de langue a été entièrement réécrit pour utiliser les ressources natives de Qt, offrant de meilleures performances et une plus grande réactivité.
     - Avertissement : Il est recommandé de définir la langue avant de démarrer la surveillance pour éviter les blocages ou la perte de données en cas de gros volume.

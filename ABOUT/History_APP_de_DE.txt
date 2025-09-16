@@ -1,4 +1,3 @@
-
 Begründung des Namens: Linceu Lighthouse
 
 Der Name Linceu Lighthouse (Leuchtturm des Lynkeus) wurde nicht zufällig gewählt. Er verkörpert die Verschmelzung zweier mächtiger Konzepte der Überwachung und Orientierung und spiegelt präzise das Wesen und die Funktionalität unserer Software zur Überwachung der Dateiintegrität wider.

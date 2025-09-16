@@ -1,6 +1,6 @@
 Datenschutzrichtlinie für Linceu Lighthouse
-Letzte Aktualisierung: 02. September 2025
-Version 0.0.4.0
+Letzte Aktualisierung: 16. September 2025
+Version 0.0.5.0
 
 Ihre Privatsphäre ist für uns von grundlegender Bedeutung. Diese Datenschutzrichtlinie erklärt, welche Informationen Linceu Lighthouse ("Software") verwendet und, was noch wichtiger ist, wie diese unter Ihrer Kontrolle bleiben.
 

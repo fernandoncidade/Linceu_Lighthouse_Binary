@@ -1,5 +1,5 @@
 LICENÇA DE USO DE USUÁRIO FINAL - Linceu Lighthouse
-Versão 0.0.4.0, 02 de Setembro de 2025
+Versão 0.0.5.0, 16 de Setembro de 2025
 
 Copyright (c) 2025 Fernando Nillsson Cidade. Todos os direitos reservados.
 
